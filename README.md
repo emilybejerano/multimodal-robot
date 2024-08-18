@@ -2,6 +2,11 @@
 Docker Images in Dockerhub https://hub.docker.com/repository/docker/eg3205/mobilesensing/general
 eg3205/mobilesensing:both_images_d435ilocal_with_radar
 
+Master container (central control) -- ROS
+One docker container for vlm that goes to another for sensing modality then have one more
+Separate docker containers for different sensing modalities 
+
+
 
 ```
 xhost +local:docker
