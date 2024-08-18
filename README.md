@@ -62,3 +62,8 @@ project_directory/
     └── src/
         ├── control_node.py
         └── setup.py
+
+Start whole thing with 
+```
+docker-compose up --build
+```
