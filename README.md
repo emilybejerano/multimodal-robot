@@ -62,5 +62,3 @@ project_directory/
     └── src/
         ├── control_node.py
         └── setup.py
-
-
