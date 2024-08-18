@@ -1,0 +1,57 @@
+version: '3'
+services:
+  master_control:
+    build: ./master_control
+    command: ros2 launch master_control master_control_launch.py
+    networks:
+      - ros-net
+    ports:
+      - "11311:11311"
+
+  vlm_container:
+    build: ./vlm_container
+    depends_on:
+      - master_control
+    networks:
+      - ros-net
+    environment:
+      - ROS_DOMAIN_ID=0
+
+  lidar_container:
+    build: ./lidar_container
+    depends_on:
+      - master_control
+    networks:
+      - ros-net
+    environment:
+      - ROS_DOMAIN_ID=0
+
+  rgbd_container:
+    build: ./rgbd_container
+    depends_on:
+      - master_control
+    networks:
+      - ros-net
+    environment:
+      - ROS_DOMAIN_ID=0
+
+  mmwave_container:
+    build: ./mmwave_container
+    depends_on:
+      - master_control
+    networks:
+      - ros-net
+    environment:
+      - ROS_DOMAIN_ID=0
+
+  control_container:
+    build: ./control_container
+    depends_on:
+      - master_control
+    networks:
+      - ros-net
+    environment:
+      - ROS_DOMAIN_ID=0
+
+networks:
+  ros-net:
