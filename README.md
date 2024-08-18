@@ -28,3 +28,39 @@ source /opt/ros/galactic/setup.bash
 ```
 sudo docker run -it --rm   --runtime nvidia   --network host   --device=/dev/video0   --device=/dev/video1   --device=/dev/video2   --device=/dev/video3   --device=/dev/video4   --device=/dev/video5   --device=/dev/video6   --device=/dev/video7   --device=/dev/video8   --device=/dev/video9   --device=/dev/video10   --device=/dev/video11   --device=/dev/video12   --device=/dev/video13   --device=/dev/ttyUSB0   --device=/dev/ttyUSB1   -e DISPLAY=$DISPLAY   -v /tmp/.X11-unix:/tmp/.X11-unix   -v $HOME/docker-workspace:/docker-workspace   -v /path/to/local/model/files:/data/models   dustynv/nano_llm:r36.2.0   python3 -m nano_llm.chat --api=mlc     --model Efficient-Large-Model/VILA1.5-3b     --max-context-len 256     --max-new-tokens 32
 ```
+
+
+project_directory/
+│
+├── docker-compose.yml
+├── master_control/
+│   ├── Dockerfile
+│   └── launch/
+│       └── master_control_launch.py
+├── vlm_container/
+│   ├── Dockerfile
+│   └── src/
+│       ├── vlm_node.py
+│       └── setup.py
+├── lidar_container/
+│   ├── Dockerfile
+│   └── src/
+│       ├── lidar_node.py
+│       └── setup.py
+├── rgbd_container/
+│   ├── Dockerfile
+│   └── src/
+│       ├── rgbd_node.py
+│       └── setup.py
+├── mmwave_container/
+│   ├── Dockerfile
+│   └── src/
+│       ├── mmwave_node.py
+│       └── setup.py
+└── control_container/
+    ├── Dockerfile
+    └── src/
+        ├── control_node.py
+        └── setup.py
+
+
