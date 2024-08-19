@@ -70,9 +70,8 @@ Start whole thing with
 ```
 docker-compose up --build
 ```
-
-```
 this one will automatically start d435i sensing
+```
 docker run -it --rm --gpus all --network host \
   --device=/dev/video0 \
   --device=/dev/video1 \
