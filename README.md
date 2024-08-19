@@ -93,5 +93,5 @@ see the stream here on chrome: http://192.168.52.65:8080/video_feed
 swap with what ever ip address of orin is
 
 
-
+Next tasks: Get VLM Control node working and use to run containers for sensors. Figure out smoke scenario with mmw 
 
