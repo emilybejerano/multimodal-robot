@@ -89,6 +89,9 @@ docker exec -it <container-id> /bin/bash
 python3 person_follower8.py
 ```
 
+see the stream here on chrome: http://192.168.52.65:8080/video_feed 
+swap with what ever ip address of orin is
+
 
 
 
