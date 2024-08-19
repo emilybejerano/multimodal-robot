@@ -95,3 +95,5 @@ swap with what ever ip address of orin is
 
 Next tasks: Get VLM Control node working and use to run containers for sensors. Figure out smoke scenario with mmw 
 
+Theres a lot of documentation and python scripts for nvidias vila
+
