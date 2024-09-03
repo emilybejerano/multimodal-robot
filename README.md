@@ -97,3 +97,7 @@ Next tasks: Get VLM Control node working and use to run containers for sensors. 
 
 Theres a lot of documentation and python scripts for nvidias vila
 
+Use this to run ViLA:
+```
+px4@ubuntu:~/jetson-containers$ jetson-containers run $(autotag nano_llm)   python3 -m nano_llm.agents.video_query --api=mlc   --model Efficient-Large-Model/VILA-2.7b   --max-context-len 256   --max-new-tokens 32   --video-input /dev/video4   --video-output webrtc://@:8554/output 
+```
