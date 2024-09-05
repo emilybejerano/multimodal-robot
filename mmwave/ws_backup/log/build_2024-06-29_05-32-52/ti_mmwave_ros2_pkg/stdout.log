@@ -1,0 +1,221 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/install/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/install/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/install/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/galactic/install/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 9.2.2 (/opt/ros/galactic/install/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/install/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/install/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found rclcpp_components: 9.2.2 (/opt/ros/galactic/install/share/rclcpp_components/cmake)
+-- Found composition: 0.14.4 (/opt/ros/galactic/install/share/composition/cmake)
+-- Found pcl_conversions: 2.3.2 (/opt/ros/galactic/install/share/pcl_conversions/cmake)
+-- Found visualization_msgs: 2.2.4 (/opt/ros/galactic/install/share/visualization_msgs/cmake)
+-- Found ti_mmwave_ros2_interfaces: 0.0.0 (/ws/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/cmake)
+-- Found serial: 1.2.1 (/ws/src/install/serial/share/serial/cmake)
+-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.65.1") found components: system filesystem 
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.3.7
+-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+-- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+-- Checking for module 'flann'
+--   Found flann, version 1.9.1
+-- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  
+-- The imported target "vtkParseOGLExt" references the file
+   "/usr/bin/vtkParseOGLExt-7.1"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/aarch64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "pvtk" references the file
+   "/usr/bin/pvtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.23
+-- Found USB_10: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  
+-- Found OpenNI: /usr/lib/libOpenNI.so  
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- Found OpenNI2: /usr/lib/libOpenNI2.so  
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+-- Found libusb-1.0: /usr/include  
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+-- Found Qhull: optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so  
+-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so)
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- looking for PCL_COMMON
+-- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+-- looking for PCL_KDTREE
+-- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  
+-- looking for PCL_OCTREE
+-- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  
+-- looking for PCL_SEARCH
+-- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  
+-- looking for PCL_SAMPLE_CONSENSUS
+-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  
+-- looking for PCL_FILTERS
+-- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  
+-- looking for PCL_2D
+-- Found PCL_2D: /usr/include/pcl-1.10  
+-- looking for PCL_GEOMETRY
+-- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+-- looking for PCL_IO
+-- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  
+-- looking for PCL_FEATURES
+-- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  
+-- looking for PCL_ML
+-- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  
+-- looking for PCL_SEGMENTATION
+-- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  
+-- looking for PCL_VISUALIZATION
+-- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  
+-- looking for PCL_SURFACE
+-- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  
+-- looking for PCL_REGISTRATION
+-- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  
+-- looking for PCL_KEYPOINTS
+-- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  
+-- looking for PCL_TRACKING
+-- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  
+-- looking for PCL_RECOGNITION
+-- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  
+-- looking for PCL_STEREO
+-- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  
+-- looking for PCL_APPS
+-- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  
+-- looking for PCL_IN_HAND_SCANNER
+-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+-- looking for PCL_POINT_CLOUD_EDITOR
+-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+-- looking for PCL_OUTOFCORE
+-- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  
+-- looking for PCL_PEOPLE
+-- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  
+-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0;/usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0;/usr/lib/aarch64-linux-gnu/libboost_date_time.so;/usr/lib/aarch64-linux-gnu/libboost_iostreams.so;/usr/lib/aarch64-linux-gnu/libboost_regex.so;optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/aarch64-linux-gnu/libfreetype.so;/usr/lib/aarch64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/aarch64-linux-gnu/libjpeg.so;/usr/lib/aarch64-linux-gnu/libpng.so;/usr/lib/aarch64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/aarch64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN (Required is at least version "1.7.2") 
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/install/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /ws/src/mmwave_ti_ros/ti_mmwave_ros2_pkg/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (8.6s)
+-- Generating done (0.1s)
+-- Build files have been written to: /ws/build/ti_mmwave_ros2_pkg
+[  8%] [32mBuilding CXX object CMakeFiles/mmwave_comm_srv_node.dir/src/mmWaveCommSrvNode.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/mmwave.dir/src/mmWaveDataHdl.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/mmwave.dir/src/DataHandlerClass.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/mmwave.dir/src/mmWaveCommSrv.cpp.o[0m
+[ 41%] [32m[1mLinking CXX executable mmwave_comm_srv_node[0m
+[ 41%] Built target mmwave_comm_srv_node
+[ 58%] [32mBuilding CXX object CMakeFiles/mmwave.dir/src/ParameterParser.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/mmwave.dir/src/mmWaveQuickConfig.cpp.o[0m
+[ 66%] [32m[1mLinking CXX shared library libmmwave.so[0m
+[ 66%] Built target mmwave
+[ 75%] [32mBuilding CXX object CMakeFiles/mmWaveQuickConfig.dir/src/mmWaveQuickConfig.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/ti_mmwave_ros2_pkg.dir/src/mmWaveLoader.cpp.o[0m
+[ 91%] [32m[1mLinking CXX executable mmWaveQuickConfig[0m
+[ 91%] Built target mmWaveQuickConfig
+[100%] [32m[1mLinking CXX executable ti_mmwave_ros2_pkg[0m
+[100%] Built target ti_mmwave_ros2_pkg
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /ws/install/ti_mmwave_ros2_pkg/lib/libmmwave.so
+-- Symlinking: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/launch/eloquent_composition.launch.py
+-- Symlinking: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/launch/eloquent_multi0_composition.launch.py
+-- Symlinking: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/launch/eloquent_multi1_composition.launch.py
+-- Symlinking: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/launch/eloquent_multi_only_rviz.py
+-- Symlinking: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/launch/eloquent_only_config.launch.py
+-- Symlinking: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/rviz/mmwave_3d_view.rviz
+-- Symlinking: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/rviz/mmwave_3d_view_multi.rviz
+-- Symlinking: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/1443_2d.cfg
+-- Symlinking: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/1443_3d.cfg
+-- Symlinking: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/1642_2d.cfg
+-- Symlinking: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/1843_2d.cfg
+-- Symlinking: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/1843_3d.cfg
+-- Symlinking: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/1843_3d_hw_trig.cfg
+-- Symlinking: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/6843AOP_2d.cfg
+-- Symlinking: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/6843AOP_3d.cfg
+-- Symlinking: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/6843ISK_3d.cfg
+-- Symlinking: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/6843ISK_3d_editted.cfg
+-- Symlinking: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/6843_2d.cfg
+-- Symlinking: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/6843_3d.cfg
+-- Symlinking: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/logitech_1080.ini
+-- Symlinking: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/logitech_1080.yaml
+-- Symlinking: /ws/install/ti_mmwave_ros2_pkg/lib/ti_mmwave_ros2_pkg/ti_mmwave_ros2_pkg
+-- Symlinking: /ws/install/ti_mmwave_ros2_pkg/lib/ti_mmwave_ros2_pkg/mmWaveQuickConfig
+-- Symlinking: /ws/install/ti_mmwave_ros2_pkg/lib/ti_mmwave_ros2_pkg/mmwave_comm_srv_node
+-- Symlinking: /ws/install/ti_mmwave_ros2_pkg/share/ament_index/resource_index/package_run_dependencies/ti_mmwave_ros2_pkg
+-- Symlinking: /ws/install/ti_mmwave_ros2_pkg/share/ament_index/resource_index/parent_prefix_path/ti_mmwave_ros2_pkg
+-- Symlinking: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/environment/ament_prefix_path.sh
+-- Symlinking: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/environment/ament_prefix_path.dsv
+-- Symlinking: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/environment/path.sh
+-- Symlinking: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/environment/path.dsv
+-- Symlinking: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/local_setup.bash
+-- Symlinking: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/local_setup.sh
+-- Symlinking: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/local_setup.zsh
+-- Symlinking: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/local_setup.dsv
+-- Symlinking: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/package.dsv
+-- Symlinking: /ws/install/ti_mmwave_ros2_pkg/share/ament_index/resource_index/packages/ti_mmwave_ros2_pkg
+-- Symlinking: /ws/install/ti_mmwave_ros2_pkg/share/ament_index/resource_index/rclcpp_components/ti_mmwave_ros2_pkg
+-- Symlinking: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cmake/ti_mmwave_ros2_pkgConfig.cmake
+-- Symlinking: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cmake/ti_mmwave_ros2_pkgConfig-version.cmake
+-- Symlinking: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/package.xml

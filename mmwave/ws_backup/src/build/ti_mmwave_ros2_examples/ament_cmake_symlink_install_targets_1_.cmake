@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/ws/src/build/ti_mmwave_ros2_examples/libpointcloud_to_laserscan.so" "TARGETS" "pointcloud_to_laserscan" "RUNTIME_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "ARCHIVE_DESTINATION" "lib")

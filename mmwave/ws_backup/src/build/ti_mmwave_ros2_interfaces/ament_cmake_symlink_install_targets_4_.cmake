@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/ws/src/build/ti_mmwave_ros2_interfaces/rosidl_generator_py/ti_mmwave_ros2_interfaces/ti_mmwave_ros2_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" "TARGETS" "ti_mmwave_ros2_interfaces__rosidl_typesupport_c__pyext" "DESTINATION" "lib/python3.8/site-packages/ti_mmwave_ros2_interfaces")

@@ -1,0 +1,7 @@
+{
+  "package_name": "ti_mmwave_ros2_interfaces",
+  "non_idl_tuples": [
+    "/ws/src/mmwave_ti_ros/ti_mmwave_ros2_interfaces:msg/RadarScan.msg",
+    "/ws/src/mmwave_ti_ros/ti_mmwave_ros2_interfaces:srv/MMWaveCLI.srv"
+  ]
+}

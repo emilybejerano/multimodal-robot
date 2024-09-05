@@ -1,0 +1,4 @@
+Invoking command in '/ws/build/serial': /usr/local/bin/cmake --build /ws/build/serial -- -j4 -l4
+Invoked command in '/ws/build/serial' returned '0': /usr/local/bin/cmake --build /ws/build/serial -- -j4 -l4
+Invoking command in '/ws/build/serial': /usr/local/bin/cmake --install /ws/build/serial
+Invoked command in '/ws/build/serial' returned '0': /usr/local/bin/cmake --install /ws/build/serial

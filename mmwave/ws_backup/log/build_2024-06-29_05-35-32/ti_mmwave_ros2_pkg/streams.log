@@ -1,0 +1,51 @@
+[0.061s] Invoking command in '/ws/build/ti_mmwave_ros2_pkg': CMAKE_PREFIX_PATH=/ws/install/ti_mmwave_ros2_interfaces:/ws/install/ti_mmwave_ros2_pkg:/ws/install/ti_mmwave_ros2_examples:/ws/install/serial:/ws/src/install/ti_mmwave_ros2_pkg:/ws/src/install/ti_mmwave_ros2_interfaces:/ws/src/install/ti_mmwave_ros2_examples:/ws/src/install/serial:/opt/ros/galactic/install LD_LIBRARY_PATH=/ws/install/ti_mmwave_ros2_interfaces/lib:/ws/install/ti_mmwave_ros2_pkg/lib:/ws/install/ti_mmwave_ros2_examples/lib:/ws/install/serial/lib:/ws/src/install/ti_mmwave_ros2_pkg/lib:/ws/src/install/ti_mmwave_ros2_interfaces/lib:/ws/src/install/ti_mmwave_ros2_examples/lib:/ws/src/install/serial/lib:/opt/ros/galactic/install/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/install/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/install/lib:/usr/local/cuda/lib64 /usr/local/bin/cmake --build /ws/build/ti_mmwave_ros2_pkg -- -j4 -l4
+[0.259s] [ 16%] Built target mmwave_comm_srv_node
+[0.378s] [ 66%] Built target mmwave
+[0.437s] [ 83%] Built target mmWaveQuickConfig
+[0.501s] [100%] Built target ti_mmwave_ros2_pkg
+[0.526s] Invoked command in '/ws/build/ti_mmwave_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=/ws/install/ti_mmwave_ros2_interfaces:/ws/install/ti_mmwave_ros2_pkg:/ws/install/ti_mmwave_ros2_examples:/ws/install/serial:/ws/src/install/ti_mmwave_ros2_pkg:/ws/src/install/ti_mmwave_ros2_interfaces:/ws/src/install/ti_mmwave_ros2_examples:/ws/src/install/serial:/opt/ros/galactic/install LD_LIBRARY_PATH=/ws/install/ti_mmwave_ros2_interfaces/lib:/ws/install/ti_mmwave_ros2_pkg/lib:/ws/install/ti_mmwave_ros2_examples/lib:/ws/install/serial/lib:/ws/src/install/ti_mmwave_ros2_pkg/lib:/ws/src/install/ti_mmwave_ros2_interfaces/lib:/ws/src/install/ti_mmwave_ros2_examples/lib:/ws/src/install/serial/lib:/opt/ros/galactic/install/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/install/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/install/lib:/usr/local/cuda/lib64 /usr/local/bin/cmake --build /ws/build/ti_mmwave_ros2_pkg -- -j4 -l4
+[0.760s] Invoking command in '/ws/build/ti_mmwave_ros2_pkg': CMAKE_PREFIX_PATH=/ws/install/ti_mmwave_ros2_interfaces:/ws/install/ti_mmwave_ros2_pkg:/ws/install/ti_mmwave_ros2_examples:/ws/install/serial:/ws/src/install/ti_mmwave_ros2_pkg:/ws/src/install/ti_mmwave_ros2_interfaces:/ws/src/install/ti_mmwave_ros2_examples:/ws/src/install/serial:/opt/ros/galactic/install LD_LIBRARY_PATH=/ws/install/ti_mmwave_ros2_interfaces/lib:/ws/install/ti_mmwave_ros2_pkg/lib:/ws/install/ti_mmwave_ros2_examples/lib:/ws/install/serial/lib:/ws/src/install/ti_mmwave_ros2_pkg/lib:/ws/src/install/ti_mmwave_ros2_interfaces/lib:/ws/src/install/ti_mmwave_ros2_examples/lib:/ws/src/install/serial/lib:/opt/ros/galactic/install/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/install/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/install/lib:/usr/local/cuda/lib64 /usr/local/bin/cmake --install /ws/build/ti_mmwave_ros2_pkg
+[0.855s] -- Install configuration: ""
+[0.856s] -- Execute custom install script
+[0.857s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_pkg/lib/libmmwave.so
+[0.858s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/launch/eloquent_composition.launch.py
+[0.859s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/launch/eloquent_multi0_composition.launch.py
+[0.859s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/launch/eloquent_multi1_composition.launch.py
+[0.860s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/launch/eloquent_multi_only_rviz.py
+[0.860s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/launch/eloquent_only_config.launch.py
+[0.861s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/rviz/mmwave_3d_view.rviz
+[0.861s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/rviz/mmwave_3d_view_multi.rviz
+[0.862s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/1443_2d.cfg
+[0.863s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/1443_3d.cfg
+[0.863s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/1642_2d.cfg
+[0.864s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/1843_2d.cfg
+[0.864s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/1843_3d.cfg
+[0.865s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/1843_3d_hw_trig.cfg
+[0.868s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/6843AOP_2d.cfg
+[0.868s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/6843AOP_3d.cfg
+[0.869s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/6843ISK_3d.cfg
+[0.870s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/6843ISK_3d_editted.cfg
+[0.870s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/6843_2d.cfg
+[0.871s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/6843_3d.cfg
+[0.871s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/logitech_1080.ini
+[0.871s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/logitech_1080.yaml
+[0.872s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_pkg/lib/ti_mmwave_ros2_pkg/ti_mmwave_ros2_pkg
+[0.872s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_pkg/lib/ti_mmwave_ros2_pkg/mmWaveQuickConfig
+[0.873s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_pkg/lib/ti_mmwave_ros2_pkg/mmwave_comm_srv_node
+[0.874s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_pkg/share/ament_index/resource_index/package_run_dependencies/ti_mmwave_ros2_pkg
+[0.874s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_pkg/share/ament_index/resource_index/parent_prefix_path/ti_mmwave_ros2_pkg
+[0.875s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/environment/ament_prefix_path.sh
+[0.876s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/environment/ament_prefix_path.dsv
+[0.877s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/environment/path.sh
+[0.877s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/environment/path.dsv
+[0.877s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/local_setup.bash
+[0.878s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/local_setup.sh
+[0.878s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/local_setup.zsh
+[0.879s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/local_setup.dsv
+[0.879s] -- Symlinking: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/package.dsv
+[0.891s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_pkg/share/ament_index/resource_index/packages/ti_mmwave_ros2_pkg
+[0.891s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_pkg/share/ament_index/resource_index/rclcpp_components/ti_mmwave_ros2_pkg
+[0.892s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cmake/ti_mmwave_ros2_pkgConfig.cmake
+[0.892s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cmake/ti_mmwave_ros2_pkgConfig-version.cmake
+[0.894s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/package.xml
+[0.911s] Invoked command in '/ws/build/ti_mmwave_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=/ws/install/ti_mmwave_ros2_interfaces:/ws/install/ti_mmwave_ros2_pkg:/ws/install/ti_mmwave_ros2_examples:/ws/install/serial:/ws/src/install/ti_mmwave_ros2_pkg:/ws/src/install/ti_mmwave_ros2_interfaces:/ws/src/install/ti_mmwave_ros2_examples:/ws/src/install/serial:/opt/ros/galactic/install LD_LIBRARY_PATH=/ws/install/ti_mmwave_ros2_interfaces/lib:/ws/install/ti_mmwave_ros2_pkg/lib:/ws/install/ti_mmwave_ros2_examples/lib:/ws/install/serial/lib:/ws/src/install/ti_mmwave_ros2_pkg/lib:/ws/src/install/ti_mmwave_ros2_interfaces/lib:/ws/src/install/ti_mmwave_ros2_examples/lib:/ws/src/install/serial/lib:/opt/ros/galactic/install/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/install/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/install/lib:/usr/local/cuda/lib64 /usr/local/bin/cmake --install /ws/build/ti_mmwave_ros2_pkg

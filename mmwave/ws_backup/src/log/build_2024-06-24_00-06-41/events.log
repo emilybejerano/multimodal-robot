@@ -1,0 +1,421 @@
+[0.000000] (-) TimerEvent: {}
+[0.000709] (-) JobUnselected: {'identifier': 'serial'}
+[0.000941] (-) JobUnselected: {'identifier': 'ti_mmwave_ros2_interfaces'}
+[0.001375] (-) JobUnselected: {'identifier': 'ti_mmwave_ros2_pkg'}
+[0.001664] (ti_mmwave_ros2_examples) JobQueued: {'identifier': 'ti_mmwave_ros2_examples', 'dependencies': OrderedDict()}
+[0.002189] (ti_mmwave_ros2_examples) JobStarted: {'identifier': 'ti_mmwave_ros2_examples'}
+[0.048457] (ti_mmwave_ros2_examples) JobProgress: {'identifier': 'ti_mmwave_ros2_examples', 'progress': 'cmake'}
+[0.049112] (ti_mmwave_ros2_examples) Command: {'cmd': ['/usr/local/bin/cmake', '/ws/src/mmwave_ti_ros/ti_mmwave_ros2_examples', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/ws/src/install/ti_mmwave_ros2_examples'], 'cwd': '/ws/src/build/ti_mmwave_ros2_examples', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ws/src/install/ti_mmwave_ros2_pkg/lib:/ws/src/install/ti_mmwave_ros2_interfaces/lib:/ws/src/install/serial/lib:/opt/ros/galactic/install/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/install/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/install/lib:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('OLDPWD', '/ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ws/src/install:/opt/ros/galactic/install'), ('ROS_DISTRO', 'galactic'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/galactic/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/galactic/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/galactic'), ('AMENT_PREFIX_PATH', '/ws/src/install/ti_mmwave_ros2_pkg:/ws/src/install/ti_mmwave_ros2_interfaces:/ws/src/install/serial:/opt/ros/galactic/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/ws/src/build/ti_mmwave_ros2_examples'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/ws/src/install/ti_mmwave_ros2_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/src/install/ti_mmwave_ros2_pkg:/ws/src/install/ti_mmwave_ros2_interfaces:/ws/src/install/serial:/opt/ros/galactic/install')]), 'shell': False}
+[0.099374] (-) TimerEvent: {}
+[0.200122] (-) TimerEvent: {}
+[0.211249] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.300299] (-) TimerEvent: {}
+[0.320894] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.360483] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400457] (-) TimerEvent: {}
+[0.494563] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.500552] (-) TimerEvent: {}
+[0.526451] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.527139] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.528095] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.556659] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600739] (-) TimerEvent: {}
+[0.701376] (-) TimerEvent: {}
+[0.707607] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.739110] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.739974] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.741127] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.747483] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/install/share/ament_cmake/cmake)\n'}
+[0.756697] (ti_mmwave_ros2_examples) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/galactic/install/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):\n'}
+[0.757153] (ti_mmwave_ros2_examples) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[0.757334] (ti_mmwave_ros2_examples) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[0.757483] (ti_mmwave_ros2_examples) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[0.757656] (ti_mmwave_ros2_examples) StderrLine: {'line': b'\n'}
+[0.757798] (ti_mmwave_ros2_examples) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.757931] (ti_mmwave_ros2_examples) StderrLine: {'line': b'  /opt/ros/galactic/install/share/ament_cmake_core/cmake/core/all.cmake:53 (include)\n'}
+[0.758058] (ti_mmwave_ros2_examples) StderrLine: {'line': b'  /opt/ros/galactic/install/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.758186] (ti_mmwave_ros2_examples) StderrLine: {'line': b'  /opt/ros/galactic/install/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.758311] (ti_mmwave_ros2_examples) StderrLine: {'line': b'  /opt/ros/galactic/install/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.758440] (ti_mmwave_ros2_examples) StderrLine: {'line': b'  /opt/ros/galactic/install/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.758593] (ti_mmwave_ros2_examples) StderrLine: {'line': b'  CMakeLists.txt:19 (find_package)\n'}
+[0.758748] (ti_mmwave_ros2_examples) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.758881] (ti_mmwave_ros2_examples) StderrLine: {'line': b'\x1b[0m\n'}
+[0.800484] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.800870] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.801419] (-) TimerEvent: {}
+[0.901830] (-) TimerEvent: {}
+[0.918649] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.977961] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Found laser_geometry: 2.2.1 (/opt/ros/galactic/install/share/laser_geometry/cmake)\n'}
+[0.999180] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Found message_filters: 3.2.6 (/opt/ros/galactic/install/share/message_filters/cmake)\n'}
+[1.001881] (-) TimerEvent: {}
+[1.102324] (-) TimerEvent: {}
+[1.114026] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.129613] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/install/share/rosidl_adapter/cmake)\n'}
+[1.202476] (-) TimerEvent: {}
+[1.303097] (-) TimerEvent: {}
+[1.316189] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.389093] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/install/include  \n'}
+[1.403171] (-) TimerEvent: {}
+[1.503676] (-) TimerEvent: {}
+[1.577335] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.603749] (-) TimerEvent: {}
+[1.704212] (-) TimerEvent: {}
+[1.704778] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/install/share/rmw_implementation_cmake/cmake)\n'}
+[1.711278] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/install/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.750312] (ti_mmwave_ros2_examples) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.752075] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.804381] (-) TimerEvent: {}
+[1.880182] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.880893] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.904541] (-) TimerEvent: {}
+[1.984517] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.985092] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[2.004699] (-) TimerEvent: {}
+[2.105402] (-) TimerEvent: {}
+[2.111310] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[2.115804] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.205558] (-) TimerEvent: {}
+[2.306180] (-) TimerEvent: {}
+[2.406816] (-) TimerEvent: {}
+[2.449272] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Found rclcpp_components: 9.2.2 (/opt/ros/galactic/install/share/rclcpp_components/cmake)\n'}
+[2.506889] (-) TimerEvent: {}
+[2.560421] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/install/share/sensor_msgs/cmake)\n'}
+[2.606976] (-) TimerEvent: {}
+[2.707386] (-) TimerEvent: {}
+[2.781873] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Found tf2: 0.17.5 (/opt/ros/galactic/install/share/tf2/cmake)\n'}
+[2.801789] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Found tf2_ros: 0.17.5 (/opt/ros/galactic/install/share/tf2_ros/cmake)\n'}
+[2.807455] (-) TimerEvent: {}
+[2.907836] (-) TimerEvent: {}
+[3.008296] (-) TimerEvent: {}
+[3.108733] (-) TimerEvent: {}
+[3.209173] (-) TimerEvent: {}
+[3.309640] (-) TimerEvent: {}
+[3.319694] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Found tf2_sensor_msgs: 0.17.5 (/opt/ros/galactic/install/share/tf2_sensor_msgs/cmake)\n'}
+[3.381588] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/install/share/ament_lint_auto/cmake)\n'}
+[3.409753] (-) TimerEvent: {}
+[3.510263] (-) TimerEvent: {}
+[3.550603] (ti_mmwave_ros2_examples) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.555342] (ti_mmwave_ros2_examples) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.555932] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /ws/src/mmwave_ti_ros/ti_mmwave_ros2_examples/include\n'}
+[3.556154] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.560069] (ti_mmwave_ros2_examples) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.560323] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.561496] (ti_mmwave_ros2_examples) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.563271] (ti_mmwave_ros2_examples) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.564663] (ti_mmwave_ros2_examples) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[3.568812] (ti_mmwave_ros2_examples) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.569029] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.570222] (ti_mmwave_ros2_examples) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.574116] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Configuring done (3.5s)\n'}
+[3.610362] (-) TimerEvent: {}
+[3.622943] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.627993] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Build files have been written to: /ws/src/build/ti_mmwave_ros2_examples\n'}
+[3.664123] (ti_mmwave_ros2_examples) CommandEnded: {'returncode': 0}
+[3.666180] (ti_mmwave_ros2_examples) JobProgress: {'identifier': 'ti_mmwave_ros2_examples', 'progress': 'build'}
+[3.668057] (ti_mmwave_ros2_examples) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/ws/src/build/ti_mmwave_ros2_examples', '--', '-j6', '-l6'], 'cwd': '/ws/src/build/ti_mmwave_ros2_examples', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ws/src/install/ti_mmwave_ros2_pkg/lib:/ws/src/install/ti_mmwave_ros2_interfaces/lib:/ws/src/install/serial/lib:/opt/ros/galactic/install/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/install/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/install/lib:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('OLDPWD', '/ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ws/src/install:/opt/ros/galactic/install'), ('ROS_DISTRO', 'galactic'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/galactic/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/galactic/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/galactic'), ('AMENT_PREFIX_PATH', '/ws/src/install/ti_mmwave_ros2_pkg:/ws/src/install/ti_mmwave_ros2_interfaces:/ws/src/install/serial:/opt/ros/galactic/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/ws/src/build/ti_mmwave_ros2_examples'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/ws/src/install/ti_mmwave_ros2_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/src/install/ti_mmwave_ros2_pkg:/ws/src/install/ti_mmwave_ros2_interfaces:/ws/src/install/serial:/opt/ros/galactic/install')]), 'shell': False}
+[3.710556] (-) TimerEvent: {}
+[3.779975] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan.dir/src/pointcloud_to_laserscan_node.cpp.o\x1b[0m\n'}
+[3.780956] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/dummy_pointcloud_publisher.dir/src/dummy_pointcloud_publisher.cpp.o\x1b[0m\n'}
+[3.781155] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan_node.dir/rclcpp_components/node_main_pointcloud_to_laserscan_node.cpp.o\x1b[0m\n'}
+[3.810691] (-) TimerEvent: {}
+[3.911443] (-) TimerEvent: {}
+[4.012334] (-) TimerEvent: {}
+[4.113013] (-) TimerEvent: {}
+[4.213856] (-) TimerEvent: {}
+[4.314625] (-) TimerEvent: {}
+[4.415326] (-) TimerEvent: {}
+[4.516037] (-) TimerEvent: {}
+[4.616726] (-) TimerEvent: {}
+[4.717435] (-) TimerEvent: {}
+[4.818141] (-) TimerEvent: {}
+[4.918865] (-) TimerEvent: {}
+[5.019555] (-) TimerEvent: {}
+[5.120276] (-) TimerEvent: {}
+[5.220991] (-) TimerEvent: {}
+[5.321737] (-) TimerEvent: {}
+[5.422577] (-) TimerEvent: {}
+[5.523279] (-) TimerEvent: {}
+[5.623998] (-) TimerEvent: {}
+[5.724700] (-) TimerEvent: {}
+[5.825431] (-) TimerEvent: {}
+[5.926126] (-) TimerEvent: {}
+[6.026855] (-) TimerEvent: {}
+[6.127560] (-) TimerEvent: {}
+[6.228279] (-) TimerEvent: {}
+[6.328999] (-) TimerEvent: {}
+[6.429725] (-) TimerEvent: {}
+[6.530438] (-) TimerEvent: {}
+[6.631351] (-) TimerEvent: {}
+[6.732271] (-) TimerEvent: {}
+[6.832972] (-) TimerEvent: {}
+[6.933810] (-) TimerEvent: {}
+[7.034903] (-) TimerEvent: {}
+[7.135887] (-) TimerEvent: {}
+[7.236786] (-) TimerEvent: {}
+[7.337507] (-) TimerEvent: {}
+[7.438205] (-) TimerEvent: {}
+[7.539118] (-) TimerEvent: {}
+[7.639828] (-) TimerEvent: {}
+[7.740550] (-) TimerEvent: {}
+[7.841291] (-) TimerEvent: {}
+[7.942002] (-) TimerEvent: {}
+[8.042713] (-) TimerEvent: {}
+[8.143557] (-) TimerEvent: {}
+[8.244263] (-) TimerEvent: {}
+[8.344972] (-) TimerEvent: {}
+[8.445700] (-) TimerEvent: {}
+[8.546397] (-) TimerEvent: {}
+[8.647153] (-) TimerEvent: {}
+[8.747863] (-) TimerEvent: {}
+[8.848577] (-) TimerEvent: {}
+[8.949286] (-) TimerEvent: {}
+[9.049999] (-) TimerEvent: {}
+[9.150703] (-) TimerEvent: {}
+[9.251406] (-) TimerEvent: {}
+[9.352112] (-) TimerEvent: {}
+[9.452831] (-) TimerEvent: {}
+[9.553530] (-) TimerEvent: {}
+[9.654206] (-) TimerEvent: {}
+[9.754899] (-) TimerEvent: {}
+[9.855575] (-) TimerEvent: {}
+[9.956257] (-) TimerEvent: {}
+[10.024209] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable pointcloud_to_laserscan_node\x1b[0m\n'}
+[10.056448] (-) TimerEvent: {}
+[10.157193] (-) TimerEvent: {}
+[10.257914] (-) TimerEvent: {}
+[10.272265] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'[ 66%] Built target pointcloud_to_laserscan_node\n'}
+[10.358106] (-) TimerEvent: {}
+[10.458861] (-) TimerEvent: {}
+[10.559531] (-) TimerEvent: {}
+[10.660218] (-) TimerEvent: {}
+[10.760884] (-) TimerEvent: {}
+[10.861557] (-) TimerEvent: {}
+[10.962243] (-) TimerEvent: {}
+[11.062944] (-) TimerEvent: {}
+[11.163620] (-) TimerEvent: {}
+[11.264299] (-) TimerEvent: {}
+[11.364978] (-) TimerEvent: {}
+[11.465637] (-) TimerEvent: {}
+[11.566306] (-) TimerEvent: {}
+[11.666985] (-) TimerEvent: {}
+[11.767643] (-) TimerEvent: {}
+[11.868304] (-) TimerEvent: {}
+[11.968980] (-) TimerEvent: {}
+[12.069640] (-) TimerEvent: {}
+[12.170322] (-) TimerEvent: {}
+[12.271018] (-) TimerEvent: {}
+[12.371699] (-) TimerEvent: {}
+[12.472384] (-) TimerEvent: {}
+[12.482355] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable dummy_pointcloud_publisher\x1b[0m\n'}
+[12.572582] (-) TimerEvent: {}
+[12.673328] (-) TimerEvent: {}
+[12.774067] (-) TimerEvent: {}
+[12.834068] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'[ 83%] Built target dummy_pointcloud_publisher\n'}
+[12.874163] (-) TimerEvent: {}
+[12.974769] (-) TimerEvent: {}
+[13.075429] (-) TimerEvent: {}
+[13.176088] (-) TimerEvent: {}
+[13.276748] (-) TimerEvent: {}
+[13.377424] (-) TimerEvent: {}
+[13.478318] (-) TimerEvent: {}
+[13.579034] (-) TimerEvent: {}
+[13.679726] (-) TimerEvent: {}
+[13.780406] (-) TimerEvent: {}
+[13.881081] (-) TimerEvent: {}
+[13.981743] (-) TimerEvent: {}
+[14.082412] (-) TimerEvent: {}
+[14.183091] (-) TimerEvent: {}
+[14.283763] (-) TimerEvent: {}
+[14.384437] (-) TimerEvent: {}
+[14.485119] (-) TimerEvent: {}
+[14.585799] (-) TimerEvent: {}
+[14.686461] (-) TimerEvent: {}
+[14.787147] (-) TimerEvent: {}
+[14.887818] (-) TimerEvent: {}
+[14.988485] (-) TimerEvent: {}
+[15.089153] (-) TimerEvent: {}
+[15.189787] (-) TimerEvent: {}
+[15.290440] (-) TimerEvent: {}
+[15.391117] (-) TimerEvent: {}
+[15.491753] (-) TimerEvent: {}
+[15.592417] (-) TimerEvent: {}
+[15.693087] (-) TimerEvent: {}
+[15.793760] (-) TimerEvent: {}
+[15.894413] (-) TimerEvent: {}
+[15.995094] (-) TimerEvent: {}
+[16.095774] (-) TimerEvent: {}
+[16.196461] (-) TimerEvent: {}
+[16.297143] (-) TimerEvent: {}
+[16.397800] (-) TimerEvent: {}
+[16.498443] (-) TimerEvent: {}
+[16.599106] (-) TimerEvent: {}
+[16.699774] (-) TimerEvent: {}
+[16.800450] (-) TimerEvent: {}
+[16.901123] (-) TimerEvent: {}
+[17.001810] (-) TimerEvent: {}
+[17.102485] (-) TimerEvent: {}
+[17.203151] (-) TimerEvent: {}
+[17.303812] (-) TimerEvent: {}
+[17.404505] (-) TimerEvent: {}
+[17.505185] (-) TimerEvent: {}
+[17.605850] (-) TimerEvent: {}
+[17.706504] (-) TimerEvent: {}
+[17.807183] (-) TimerEvent: {}
+[17.907871] (-) TimerEvent: {}
+[18.008550] (-) TimerEvent: {}
+[18.109225] (-) TimerEvent: {}
+[18.209929] (-) TimerEvent: {}
+[18.310600] (-) TimerEvent: {}
+[18.411252] (-) TimerEvent: {}
+[18.511929] (-) TimerEvent: {}
+[18.612646] (-) TimerEvent: {}
+[18.713365] (-) TimerEvent: {}
+[18.814032] (-) TimerEvent: {}
+[18.914701] (-) TimerEvent: {}
+[19.015357] (-) TimerEvent: {}
+[19.116060] (-) TimerEvent: {}
+[19.216716] (-) TimerEvent: {}
+[19.317370] (-) TimerEvent: {}
+[19.418017] (-) TimerEvent: {}
+[19.518672] (-) TimerEvent: {}
+[19.619327] (-) TimerEvent: {}
+[19.719971] (-) TimerEvent: {}
+[19.820609] (-) TimerEvent: {}
+[19.921233] (-) TimerEvent: {}
+[20.021878] (-) TimerEvent: {}
+[20.122571] (-) TimerEvent: {}
+[20.223203] (-) TimerEvent: {}
+[20.323838] (-) TimerEvent: {}
+[20.424465] (-) TimerEvent: {}
+[20.525123] (-) TimerEvent: {}
+[20.625724] (-) TimerEvent: {}
+[20.726365] (-) TimerEvent: {}
+[20.827047] (-) TimerEvent: {}
+[20.927680] (-) TimerEvent: {}
+[21.028305] (-) TimerEvent: {}
+[21.128975] (-) TimerEvent: {}
+[21.229615] (-) TimerEvent: {}
+[21.330284] (-) TimerEvent: {}
+[21.430936] (-) TimerEvent: {}
+[21.531563] (-) TimerEvent: {}
+[21.632225] (-) TimerEvent: {}
+[21.732916] (-) TimerEvent: {}
+[21.833586] (-) TimerEvent: {}
+[21.934296] (-) TimerEvent: {}
+[22.034983] (-) TimerEvent: {}
+[22.135643] (-) TimerEvent: {}
+[22.236310] (-) TimerEvent: {}
+[22.337006] (-) TimerEvent: {}
+[22.437675] (-) TimerEvent: {}
+[22.538394] (-) TimerEvent: {}
+[22.639114] (-) TimerEvent: {}
+[22.739806] (-) TimerEvent: {}
+[22.840469] (-) TimerEvent: {}
+[22.941124] (-) TimerEvent: {}
+[23.041774] (-) TimerEvent: {}
+[23.142452] (-) TimerEvent: {}
+[23.243137] (-) TimerEvent: {}
+[23.343790] (-) TimerEvent: {}
+[23.444432] (-) TimerEvent: {}
+[23.545087] (-) TimerEvent: {}
+[23.645744] (-) TimerEvent: {}
+[23.746391] (-) TimerEvent: {}
+[23.847052] (-) TimerEvent: {}
+[23.947720] (-) TimerEvent: {}
+[24.048348] (-) TimerEvent: {}
+[24.149201] (-) TimerEvent: {}
+[24.249869] (-) TimerEvent: {}
+[24.350549] (-) TimerEvent: {}
+[24.451198] (-) TimerEvent: {}
+[24.552075] (-) TimerEvent: {}
+[24.652928] (-) TimerEvent: {}
+[24.753611] (-) TimerEvent: {}
+[24.854481] (-) TimerEvent: {}
+[24.955156] (-) TimerEvent: {}
+[25.055788] (-) TimerEvent: {}
+[25.156401] (-) TimerEvent: {}
+[25.257035] (-) TimerEvent: {}
+[25.357675] (-) TimerEvent: {}
+[25.458327] (-) TimerEvent: {}
+[25.558979] (-) TimerEvent: {}
+[25.659615] (-) TimerEvent: {}
+[25.760254] (-) TimerEvent: {}
+[25.860906] (-) TimerEvent: {}
+[25.961607] (-) TimerEvent: {}
+[26.062275] (-) TimerEvent: {}
+[26.162941] (-) TimerEvent: {}
+[26.263595] (-) TimerEvent: {}
+[26.364257] (-) TimerEvent: {}
+[26.464914] (-) TimerEvent: {}
+[26.565537] (-) TimerEvent: {}
+[26.666167] (-) TimerEvent: {}
+[26.766855] (-) TimerEvent: {}
+[26.867547] (-) TimerEvent: {}
+[26.968270] (-) TimerEvent: {}
+[27.068981] (-) TimerEvent: {}
+[27.169700] (-) TimerEvent: {}
+[27.270429] (-) TimerEvent: {}
+[27.288131] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libpointcloud_to_laserscan.so\x1b[0m\n'}
+[27.370788] (-) TimerEvent: {}
+[27.471572] (-) TimerEvent: {}
+[27.572271] (-) TimerEvent: {}
+[27.672974] (-) TimerEvent: {}
+[27.773737] (-) TimerEvent: {}
+[27.874538] (-) TimerEvent: {}
+[27.975261] (-) TimerEvent: {}
+[28.076007] (-) TimerEvent: {}
+[28.176694] (-) TimerEvent: {}
+[28.277432] (-) TimerEvent: {}
+[28.281591] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'[100%] Built target pointcloud_to_laserscan\n'}
+[28.300425] (ti_mmwave_ros2_examples) CommandEnded: {'returncode': 0}
+[28.377621] (-) TimerEvent: {}
+[28.414880] (ti_mmwave_ros2_examples) JobProgress: {'identifier': 'ti_mmwave_ros2_examples', 'progress': 'install'}
+[28.477850] (-) TimerEvent: {}
+[28.491731] (ti_mmwave_ros2_examples) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/ws/src/build/ti_mmwave_ros2_examples'], 'cwd': '/ws/src/build/ti_mmwave_ros2_examples', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ws/src/install/ti_mmwave_ros2_pkg/lib:/ws/src/install/ti_mmwave_ros2_interfaces/lib:/ws/src/install/serial/lib:/opt/ros/galactic/install/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/install/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/install/lib:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('OLDPWD', '/ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ws/src/install:/opt/ros/galactic/install'), ('ROS_DISTRO', 'galactic'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/galactic/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/galactic/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/galactic'), ('AMENT_PREFIX_PATH', '/ws/src/install/ti_mmwave_ros2_pkg:/ws/src/install/ti_mmwave_ros2_interfaces:/ws/src/install/serial:/opt/ros/galactic/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/ws/src/build/ti_mmwave_ros2_examples'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/ws/src/install/ti_mmwave_ros2_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/src/install/ti_mmwave_ros2_pkg:/ws/src/install/ti_mmwave_ros2_interfaces:/ws/src/install/serial:/opt/ros/galactic/install')]), 'shell': False}
+[28.555162] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[28.555964] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[28.556797] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/ti_mmwave_ros2_examples/lib/ti_mmwave_ros2_examples/pointcloud_to_laserscan_node\n'}
+[28.562907] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/ti_mmwave_ros2_examples/lib/libpointcloud_to_laserscan.so\n'}
+[28.568382] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/ti_mmwave_ros2_examples/lib/ti_mmwave_ros2_examples/dummy_pointcloud_publisher\n'}
+[28.574528] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/launch/bringup_launch.py\n'}
+[28.577868] (-) TimerEvent: {}
+[28.579718] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/launch/fake_nav_launch.py\n'}
+[28.584942] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/launch/lidar_nav.launch.py\n'}
+[28.589995] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/launch/localization_launch.py\n'}
+[28.595060] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/launch/navigation_launch.py\n'}
+[28.600535] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/launch/pointcloud_to_laserscan.launch.py\n'}
+[28.605824] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/launch/rviz_view_launch.py\n'}
+[28.611862] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/param/go1_params.yaml\n'}
+[28.617344] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/param/navigate_w_replanning_and_recovery.xml\n'}
+[28.622612] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/param/neuronbot_params.yaml\n'}
+[28.628547] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/rviz/laser_scan.rviz\n'}
+[28.634282] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/rviz/nav2.rviz\n'}
+[28.641344] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/rviz/nav2_default_view.rviz\n'}
+[28.646839] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/rviz/nav2_namespaced_view.rviz\n'}
+[28.654270] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/map/hy_map_editted.pgm\n'}
+[28.660324] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/map/hy_map_editted.yaml\n'}
+[28.665560] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/map/mememan.pgm\n'}
+[28.671466] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/map/mememan.yaml\n'}
+[28.677977] (-) TimerEvent: {}
+[28.678624] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/ti_mmwave_ros2_examples/share/ament_index/resource_index/package_run_dependencies/ti_mmwave_ros2_examples\n'}
+[28.684687] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/ti_mmwave_ros2_examples/share/ament_index/resource_index/parent_prefix_path/ti_mmwave_ros2_examples\n'}
+[28.690384] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/environment/ament_prefix_path.sh\n'}
+[28.697000] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/environment/ament_prefix_path.dsv\n'}
+[28.703201] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/environment/path.sh\n'}
+[28.710155] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/environment/path.dsv\n'}
+[28.717390] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/local_setup.bash\n'}
+[28.723259] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/local_setup.sh\n'}
+[28.730269] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/local_setup.zsh\n'}
+[28.737006] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/local_setup.dsv\n'}
+[28.745569] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/package.dsv\n'}
+[28.752163] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/ti_mmwave_ros2_examples/share/ament_index/resource_index/packages/ti_mmwave_ros2_examples\n'}
+[28.758324] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/ti_mmwave_ros2_examples/share/ament_index/resource_index/rclcpp_components/ti_mmwave_ros2_examples\n'}
+[28.764159] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/cmake/ti_mmwave_ros2_examplesConfig.cmake\n'}
+[28.769467] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/cmake/ti_mmwave_ros2_examplesConfig-version.cmake\n'}
+[28.775053] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/package.xml\n'}
+[28.778048] (-) TimerEvent: {}
+[28.792118] (ti_mmwave_ros2_examples) CommandEnded: {'returncode': 0}
+[28.878248] (-) TimerEvent: {}
+[28.979442] (-) TimerEvent: {}
+[29.015837] (ti_mmwave_ros2_examples) JobEnded: {'identifier': 'ti_mmwave_ros2_examples', 'rc': 0}
+[29.017839] (-) EventReactorShutdown: {}

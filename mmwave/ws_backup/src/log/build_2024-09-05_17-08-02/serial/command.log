@@ -1,0 +1,6 @@
+Invoking command in '/ws/src/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/local/bin/cmake /ws/src/mmwave_ti_ros/serial-ros2 -DCMAKE_INSTALL_PREFIX=/ws/src/install/serial
+Invoked command in '/ws/src/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/local/bin/cmake /ws/src/mmwave_ti_ros/serial-ros2 -DCMAKE_INSTALL_PREFIX=/ws/src/install/serial
+Invoking command in '/ws/src/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/local/bin/cmake --build /ws/src/build/serial -- -j4 -l4
+Invoked command in '/ws/src/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/local/bin/cmake --build /ws/src/build/serial -- -j4 -l4
+Invoking command in '/ws/src/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/local/bin/cmake --install /ws/src/build/serial
+Invoked command in '/ws/src/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/local/bin/cmake --install /ws/src/build/serial

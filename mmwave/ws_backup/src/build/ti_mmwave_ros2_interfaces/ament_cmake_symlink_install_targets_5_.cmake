@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/ws/src/build/ti_mmwave_ros2_interfaces/rosidl_generator_py/ti_mmwave_ros2_interfaces/libti_mmwave_ros2_interfaces__python.so" "TARGETS" "ti_mmwave_ros2_interfaces__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

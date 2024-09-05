@@ -1,0 +1,46 @@
+[0.123s] Invoking command in '/ws/src/build/ti_mmwave_ros2_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/local/bin/cmake --build /ws/src/build/ti_mmwave_ros2_examples -- -j4 -l4
+[0.441s] [ 66%] Built target pointcloud_to_laserscan
+[0.441s] [ 66%] Built target pointcloud_to_laserscan_node
+[0.458s] [100%] Built target dummy_pointcloud_publisher
+[0.491s] Invoked command in '/ws/src/build/ti_mmwave_ros2_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/local/bin/cmake --build /ws/src/build/ti_mmwave_ros2_examples -- -j4 -l4
+[0.791s] Invoking command in '/ws/src/build/ti_mmwave_ros2_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/local/bin/cmake --install /ws/src/build/ti_mmwave_ros2_examples
+[0.906s] -- Install configuration: ""
+[0.907s] -- Execute custom install script
+[0.908s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/lib/ti_mmwave_ros2_examples/pointcloud_to_laserscan_node
+[0.909s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/lib/libpointcloud_to_laserscan.so
+[0.911s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/lib/ti_mmwave_ros2_examples/dummy_pointcloud_publisher
+[0.913s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/launch/bringup_launch.py
+[0.913s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/launch/fake_nav_launch.py
+[0.914s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/launch/lidar_nav.launch.py
+[0.914s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/launch/localization_launch.py
+[0.915s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/launch/navigation_launch.py
+[0.915s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/launch/pointcloud_to_laserscan.launch.py
+[0.916s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/launch/rviz_view_launch.py
+[0.917s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/param/go1_params.yaml
+[0.917s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/param/navigate_w_replanning_and_recovery.xml
+[0.918s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/param/neuronbot_params.yaml
+[0.918s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/rviz/laser_scan.rviz
+[0.918s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/rviz/nav2.rviz
+[0.919s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/rviz/nav2_default_view.rviz
+[0.919s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/rviz/nav2_namespaced_view.rviz
+[0.920s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/map/hy_map_editted.pgm
+[0.920s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/map/hy_map_editted.yaml
+[0.921s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/map/mememan.pgm
+[0.921s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/map/mememan.yaml
+[0.921s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ament_index/resource_index/package_run_dependencies/ti_mmwave_ros2_examples
+[0.922s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ament_index/resource_index/parent_prefix_path/ti_mmwave_ros2_examples
+[0.922s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/environment/ament_prefix_path.sh
+[0.923s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/environment/ament_prefix_path.dsv
+[0.923s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/environment/path.sh
+[0.924s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/environment/path.dsv
+[0.925s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/local_setup.bash
+[0.926s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/local_setup.sh
+[0.927s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/local_setup.zsh
+[0.928s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/local_setup.dsv
+[0.929s] -- Symlinking: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/package.dsv
+[0.937s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ament_index/resource_index/packages/ti_mmwave_ros2_examples
+[0.938s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ament_index/resource_index/rclcpp_components/ti_mmwave_ros2_examples
+[0.939s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/cmake/ti_mmwave_ros2_examplesConfig.cmake
+[0.939s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/cmake/ti_mmwave_ros2_examplesConfig-version.cmake
+[0.939s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/package.xml
+[1.003s] Invoked command in '/ws/src/build/ti_mmwave_ros2_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/local/bin/cmake --install /ws/src/build/ti_mmwave_ros2_examples

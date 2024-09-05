@@ -1,0 +1,676 @@
+[0.054s] Invoking command in '/ws/src/build/ti_mmwave_ros2_pkg': LD_LIBRARY_PATH=/ws/src/install/ti_mmwave_ros2_interfaces/lib:/ws/src/install/serial/lib:/opt/ros/galactic/install/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/install/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/install/lib:/usr/local/cuda/lib64 /usr/local/bin/cmake /ws/src/mmwave_ti_ros/ti_mmwave_ros2_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/src/install/ti_mmwave_ros2_pkg
+[0.210s] -- The C compiler identification is GNU 9.4.0
+[0.320s] -- The CXX compiler identification is GNU 9.4.0
+[0.364s] -- Detecting C compiler ABI info
+[0.495s] -- Detecting C compiler ABI info - done
+[0.523s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.523s] -- Detecting C compile features
+[0.524s] -- Detecting C compile features - done
+[0.553s] -- Detecting CXX compiler ABI info
+[0.700s] -- Detecting CXX compiler ABI info - done
+[0.732s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.733s] -- Detecting CXX compile features
+[0.734s] -- Detecting CXX compile features - done
+[0.740s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/install/share/ament_cmake/cmake)
+[0.749s] [33mCMake Warning (dev) at /opt/ros/galactic/install/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.749s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.749s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.750s]   the cmake_policy command to set the policy and suppress this warning.
+[0.750s] 
+[0.750s] Call Stack (most recent call first):
+[0.750s]   /opt/ros/galactic/install/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.750s]   /opt/ros/galactic/install/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.750s]   /opt/ros/galactic/install/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.750s]   /opt/ros/galactic/install/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.750s]   /opt/ros/galactic/install/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.751s]   CMakeLists.txt:19 (find_package)
+[0.751s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.751s] [0m
+[0.793s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.793s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.915s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.972s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/install/share/rosidl_default_generators/cmake)
+[0.978s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.993s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/install/share/rosidl_adapter/cmake)
+[1.210s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.282s] -- Found FastRTPS: /opt/ros/galactic/install/include  
+[1.474s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.535s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/install/share/rclcpp/cmake)
+[1.682s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/install/share/rmw_implementation_cmake/cmake)
+[1.688s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/install/share/rmw_cyclonedds_cpp/cmake)
+[1.728s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.730s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.865s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.865s] -- Looking for pthread_create in pthreads
+[1.972s] -- Looking for pthread_create in pthreads - not found
+[1.973s] -- Looking for pthread_create in pthread
+[2.103s] -- Looking for pthread_create in pthread - found
+[2.105s] -- Found Threads: TRUE  
+[2.421s] -- Found rclcpp_components: 9.2.2 (/opt/ros/galactic/install/share/rclcpp_components/cmake)
+[2.536s] -- Found composition: 0.14.4 (/opt/ros/galactic/install/share/composition/cmake)
+[2.540s] -- Found pcl_conversions: 2.3.2 (/opt/ros/galactic/install/share/pcl_conversions/cmake)
+[3.156s] -- Found visualization_msgs: 2.2.4 (/opt/ros/galactic/install/share/visualization_msgs/cmake)
+[3.288s] -- Found ti_mmwave_ros2_interfaces: 0.0.0 (/ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/cmake)
+[3.343s] -- Found serial: 1.2.1 (/ws/src/install/serial/share/serial/cmake)
+[3.372s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.65.1") found components: system filesystem 
+[3.395s] [33mCMake Warning (dev) at /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:152 (find_package):
+[3.396s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[3.396s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[3.396s]   cmake_policy command to set the policy and suppress this warning.
+[3.396s] 
+[3.396s]   CMake variable EIGEN_ROOT is set to:
+[3.396s] 
+[3.397s]     /usr/include/eigen3
+[3.397s] 
+[3.397s]   For compatibility, find_package is ignoring the variable, but code in a
+[3.397s]   .cmake module might still use it.
+[3.397s] Call Stack (most recent call first):
+[3.397s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:316 (find_eigen)
+[3.397s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:551 (find_external_library)
+[3.397s]   CMakeLists.txt:42 (find_package)
+[3.398s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.398s] [0m
+[3.404s] -- Checking for module 'eigen3'
+[3.438s] --   Found eigen3, version 3.3.7
+[3.529s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[3.529s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[3.578s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[3.581s] [33mCMake Warning (dev) at /usr/lib/aarch64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:44 (find_package):
+[3.581s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[3.581s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[3.581s]   cmake_policy command to set the policy and suppress this warning.
+[3.581s] 
+[3.581s]   CMake variable FLANN_ROOT is set to:
+[3.582s] 
+[3.582s]     /usr
+[3.582s] 
+[3.582s]   For compatibility, find_package is ignoring the variable, but code in a
+[3.582s]   .cmake module might still use it.
+[3.582s] Call Stack (most recent call first):
+[3.582s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:263 (find_package)
+[3.582s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:318 (find_flann)
+[3.583s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:551 (find_external_library)
+[3.583s]   CMakeLists.txt:42 (find_package)
+[3.583s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.583s] [0m
+[3.620s] -- Checking for module 'flann'
+[3.654s] --   Found flann, version 1.9.1
+[3.753s] -- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  
+[3.830s] -- The imported target "vtkParseOGLExt" references the file
+[3.831s]    "/usr/bin/vtkParseOGLExt-7.1"
+[3.831s] but this file does not exist.  Possible reasons include:
+[3.831s] * The file was deleted, renamed, or moved to another location.
+[3.831s] * An install or uninstall procedure did not complete successfully.
+[3.831s] * The installation package was faulty and contained
+[3.832s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[3.832s] but not all the files it references.
+[3.832s] 
+[3.832s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[3.833s]    "/usr/lib/aarch64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[3.833s] but this file does not exist.  Possible reasons include:
+[3.833s] * The file was deleted, renamed, or moved to another location.
+[3.833s] * An install or uninstall procedure did not complete successfully.
+[3.833s] * The installation package was faulty and contained
+[3.833s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[3.834s] but not all the files it references.
+[3.834s] 
+[3.834s] -- The imported target "vtk" references the file
+[3.834s]    "/usr/bin/vtk"
+[3.834s] but this file does not exist.  Possible reasons include:
+[3.834s] * The file was deleted, renamed, or moved to another location.
+[3.834s] * An install or uninstall procedure did not complete successfully.
+[3.835s] * The installation package was faulty and contained
+[3.835s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[3.835s] but not all the files it references.
+[3.835s] 
+[3.835s] -- The imported target "pvtk" references the file
+[3.835s]    "/usr/bin/pvtk"
+[3.835s] but this file does not exist.  Possible reasons include:
+[3.835s] * The file was deleted, renamed, or moved to another location.
+[3.836s] * An install or uninstall procedure did not complete successfully.
+[3.836s] * The installation package was faulty and contained
+[3.836s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[3.836s] but not all the files it references.
+[3.836s] 
+[3.880s] -- Checking for module 'libusb-1.0'
+[3.888s] --   No package 'libusb-1.0' found
+[3.896s] [33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[3.897s]   The package name passed to `find_package_handle_standard_args` (USB_10)
+[3.897s]   does not match the name of the calling package (OpenNI).  This can lead to
+[3.897s]   problems in calling code that expects `find_package` result variables
+[3.897s]   (e.g., `_FOUND`) to follow a certain pattern.
+[3.897s] Call Stack (most recent call first):
+[3.897s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+[3.898s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+[3.898s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+[3.898s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+[3.898s]   CMakeLists.txt:42 (find_package)
+[3.898s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.898s] [0m
+[3.898s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[3.898s] -- OpenNI disabled because libusb-1.0 not found.
+[3.899s] [0m** WARNING ** io features related to openni will be disabled[0m
+[3.909s] -- Checking for module 'libusb-1.0'
+[3.917s] --   No package 'libusb-1.0' found
+[3.925s] [33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[3.925s]   The package name passed to `find_package_handle_standard_args` (USB_10)
+[3.925s]   does not match the name of the calling package (OpenNI2).  This can lead to
+[3.925s]   problems in calling code that expects `find_package` result variables
+[3.926s]   (e.g., `_FOUND`) to follow a certain pattern.
+[3.926s] Call Stack (most recent call first):
+[3.926s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/Modules/FindOpenNI2.cmake:28 (find_package_handle_standard_args)
+[3.926s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:193 (find_package)
+[3.926s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_openni2)
+[3.926s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+[3.926s]   CMakeLists.txt:42 (find_package)
+[3.926s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.927s] [0m
+[3.927s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[3.927s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[3.927s] [0m** WARNING ** io features related to openni2 will be disabled[0m
+[3.927s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[3.927s] [0m** WARNING ** io features related to png will be disabled[0m
+[3.955s] [33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[3.956s]   The package name passed to `find_package_handle_standard_args` (libusb-1.0)
+[3.956s]   does not match the name of the calling package (PCL).  This can lead to
+[3.956s]   problems in calling code that expects `find_package` result variables
+[3.956s]   (e.g., `_FOUND`) to follow a certain pattern.
+[3.956s] Call Stack (most recent call first):
+[3.956s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:291 (find_package_handle_standard_args)
+[3.957s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:338 (find_libusb)
+[3.957s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+[3.957s]   CMakeLists.txt:42 (find_package)
+[3.957s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.957s] [0m
+[3.957s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[3.957s] [0m** WARNING ** io features related to libusb-1.0 will be disabled[0m
+[3.968s] -- Checking for module 'libusb-1.0'
+[3.976s] --   No package 'libusb-1.0' found
+[3.984s] [33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[3.984s]   The package name passed to `find_package_handle_standard_args` (USB_10)
+[3.984s]   does not match the name of the calling package (OpenNI).  This can lead to
+[3.984s]   problems in calling code that expects `find_package` result variables
+[3.984s]   (e.g., `_FOUND`) to follow a certain pattern.
+[3.985s] Call Stack (most recent call first):
+[3.985s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+[3.985s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+[3.985s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+[3.985s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+[3.985s]   CMakeLists.txt:42 (find_package)
+[3.985s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.985s] [0m
+[3.986s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[3.986s] -- OpenNI disabled because libusb-1.0 not found.
+[3.986s] [0m** WARNING ** visualization features related to openni will be disabled[0m
+[3.995s] -- Checking for module 'libusb-1.0'
+[4.003s] --   No package 'libusb-1.0' found
+[4.010s] [33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[4.011s]   The package name passed to `find_package_handle_standard_args` (USB_10)
+[4.011s]   does not match the name of the calling package (OpenNI2).  This can lead to
+[4.011s]   problems in calling code that expects `find_package` result variables
+[4.011s]   (e.g., `_FOUND`) to follow a certain pattern.
+[4.011s] Call Stack (most recent call first):
+[4.011s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/Modules/FindOpenNI2.cmake:28 (find_package_handle_standard_args)
+[4.012s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:193 (find_package)
+[4.012s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_openni2)
+[4.012s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+[4.012s]   CMakeLists.txt:42 (find_package)
+[4.012s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.012s] [0m
+[4.012s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[4.012s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[4.013s] [0m** WARNING ** visualization features related to openni2 will be disabled[0m
+[4.037s] [33mCMake Warning (dev) at /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:165 (find_package):
+[4.037s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[4.037s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[4.037s]   cmake_policy command to set the policy and suppress this warning.
+[4.038s] 
+[4.038s]   CMake variable QHULL_ROOT is set to:
+[4.038s] 
+[4.038s]     /usr
+[4.038s] 
+[4.038s]   For compatibility, find_package is ignoring the variable, but code in a
+[4.038s]   .cmake module might still use it.
+[4.038s] Call Stack (most recent call first):
+[4.039s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:320 (find_qhull)
+[4.039s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+[4.039s]   CMakeLists.txt:42 (find_package)
+[4.039s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.039s] [0m
+[4.064s] -- Found Qhull: optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so  
+[4.065s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so)
+[4.077s] -- Checking for module 'libusb-1.0'
+[4.084s] --   No package 'libusb-1.0' found
+[4.091s] [33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[4.092s]   The package name passed to `find_package_handle_standard_args` (USB_10)
+[4.092s]   does not match the name of the calling package (OpenNI).  This can lead to
+[4.092s]   problems in calling code that expects `find_package` result variables
+[4.092s]   (e.g., `_FOUND`) to follow a certain pattern.
+[4.092s] Call Stack (most recent call first):
+[4.093s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+[4.093s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+[4.093s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+[4.093s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+[4.093s]   CMakeLists.txt:42 (find_package)
+[4.093s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.093s] [0m
+[4.093s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[4.094s] -- OpenNI disabled because libusb-1.0 not found.
+[4.094s] [0m** WARNING ** apps features related to openni will be disabled[0m
+[4.118s] -- looking for PCL_COMMON
+[4.120s] [33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[4.120s]   The package name passed to `find_package_handle_standard_args` (PCL_COMMON)
+[4.120s]   does not match the name of the calling package (PCL).  This can lead to
+[4.121s]   problems in calling code that expects `find_package` result variables
+[4.121s]   (e.g., `_FOUND`) to follow a certain pattern.
+[4.121s] Call Stack (most recent call first):
+[4.121s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[4.121s]   CMakeLists.txt:42 (find_package)
+[4.121s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.121s] [0m
+[4.121s] -- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+[4.122s] -- looking for PCL_KDTREE
+[4.122s] [33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[4.122s]   The package name passed to `find_package_handle_standard_args` (PCL_KDTREE)
+[4.122s]   does not match the name of the calling package (PCL).  This can lead to
+[4.122s]   problems in calling code that expects `find_package` result variables
+[4.123s]   (e.g., `_FOUND`) to follow a certain pattern.
+[4.123s] Call Stack (most recent call first):
+[4.123s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[4.123s]   CMakeLists.txt:42 (find_package)
+[4.123s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.123s] [0m
+[4.123s] -- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  
+[4.123s] -- looking for PCL_OCTREE
+[4.124s] [33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[4.124s]   The package name passed to `find_package_handle_standard_args` (PCL_OCTREE)
+[4.124s]   does not match the name of the calling package (PCL).  This can lead to
+[4.125s]   problems in calling code that expects `find_package` result variables
+[4.125s]   (e.g., `_FOUND`) to follow a certain pattern.
+[4.125s] Call Stack (most recent call first):
+[4.125s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[4.125s]   CMakeLists.txt:42 (find_package)
+[4.125s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.125s] [0m
+[4.125s] -- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  
+[4.126s] -- looking for PCL_SEARCH
+[4.126s] [33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[4.126s]   The package name passed to `find_package_handle_standard_args` (PCL_SEARCH)
+[4.126s]   does not match the name of the calling package (PCL).  This can lead to
+[4.127s]   problems in calling code that expects `find_package` result variables
+[4.127s]   (e.g., `_FOUND`) to follow a certain pattern.
+[4.127s] Call Stack (most recent call first):
+[4.127s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[4.127s]   CMakeLists.txt:42 (find_package)
+[4.127s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.127s] [0m
+[4.127s] -- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  
+[4.128s] -- looking for PCL_SAMPLE_CONSENSUS
+[4.128s] [33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[4.128s]   The package name passed to `find_package_handle_standard_args`
+[4.128s]   (PCL_SAMPLE_CONSENSUS) does not match the name of the calling package
+[4.129s]   (PCL).  This can lead to problems in calling code that expects
+[4.129s]   `find_package` result variables (e.g., `_FOUND`) to follow a certain
+[4.129s]   pattern.
+[4.129s] Call Stack (most recent call first):
+[4.129s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[4.129s]   CMakeLists.txt:42 (find_package)
+[4.129s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.129s] [0m
+[4.130s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  
+[4.130s] -- looking for PCL_FILTERS
+[4.130s] [33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[4.130s]   The package name passed to `find_package_handle_standard_args`
+[4.130s]   (PCL_FILTERS) does not match the name of the calling package (PCL).  This
+[4.131s]   can lead to problems in calling code that expects `find_package` result
+[4.131s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[4.131s] Call Stack (most recent call first):
+[4.131s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[4.131s]   CMakeLists.txt:42 (find_package)
+[4.131s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.131s] [0m
+[4.132s] -- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  
+[4.132s] -- looking for PCL_2D
+[4.132s] [33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[4.132s]   The package name passed to `find_package_handle_standard_args` (PCL_2D)
+[4.132s]   does not match the name of the calling package (PCL).  This can lead to
+[4.133s]   problems in calling code that expects `find_package` result variables
+[4.133s]   (e.g., `_FOUND`) to follow a certain pattern.
+[4.133s] Call Stack (most recent call first):
+[4.133s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+[4.133s]   CMakeLists.txt:42 (find_package)
+[4.133s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.134s] [0m
+[4.134s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[4.134s] -- looking for PCL_GEOMETRY
+[4.134s] [33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[4.134s]   The package name passed to `find_package_handle_standard_args`
+[4.134s]   (PCL_GEOMETRY) does not match the name of the calling package (PCL).  This
+[4.134s]   can lead to problems in calling code that expects `find_package` result
+[4.134s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[4.135s] Call Stack (most recent call first):
+[4.135s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+[4.135s]   CMakeLists.txt:42 (find_package)
+[4.135s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.135s] [0m
+[4.135s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[4.136s] -- looking for PCL_IO
+[4.136s] [33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[4.136s]   The package name passed to `find_package_handle_standard_args` (PCL_IO)
+[4.136s]   does not match the name of the calling package (PCL).  This can lead to
+[4.136s]   problems in calling code that expects `find_package` result variables
+[4.136s]   (e.g., `_FOUND`) to follow a certain pattern.
+[4.136s] Call Stack (most recent call first):
+[4.137s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[4.137s]   CMakeLists.txt:42 (find_package)
+[4.137s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.137s] [0m
+[4.137s] -- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  
+[4.137s] -- looking for PCL_FEATURES
+[4.137s] [33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[4.138s]   The package name passed to `find_package_handle_standard_args`
+[4.138s]   (PCL_FEATURES) does not match the name of the calling package (PCL).  This
+[4.138s]   can lead to problems in calling code that expects `find_package` result
+[4.138s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[4.138s] Call Stack (most recent call first):
+[4.138s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[4.139s]   CMakeLists.txt:42 (find_package)
+[4.139s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.139s] [0m
+[4.139s] -- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  
+[4.139s] -- looking for PCL_ML
+[4.140s] [33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[4.141s]   The package name passed to `find_package_handle_standard_args` (PCL_ML)
+[4.141s]   does not match the name of the calling package (PCL).  This can lead to
+[4.141s]   problems in calling code that expects `find_package` result variables
+[4.141s]   (e.g., `_FOUND`) to follow a certain pattern.
+[4.141s] Call Stack (most recent call first):
+[4.141s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[4.142s]   CMakeLists.txt:42 (find_package)
+[4.142s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.142s] [0m
+[4.142s] -- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  
+[4.142s] -- looking for PCL_SEGMENTATION
+[4.142s] [33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[4.143s]   The package name passed to `find_package_handle_standard_args`
+[4.143s]   (PCL_SEGMENTATION) does not match the name of the calling package (PCL).
+[4.143s]   This can lead to problems in calling code that expects `find_package`
+[4.143s]   result variables (e.g., `_FOUND`) to follow a certain pattern.
+[4.143s] Call Stack (most recent call first):
+[4.143s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[4.144s]   CMakeLists.txt:42 (find_package)
+[4.144s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.144s] [0m
+[4.144s] -- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  
+[4.144s] -- looking for PCL_VISUALIZATION
+[4.145s] [33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[4.145s]   The package name passed to `find_package_handle_standard_args`
+[4.145s]   (PCL_VISUALIZATION) does not match the name of the calling package (PCL).
+[4.146s]   This can lead to problems in calling code that expects `find_package`
+[4.146s]   result variables (e.g., `_FOUND`) to follow a certain pattern.
+[4.146s] Call Stack (most recent call first):
+[4.146s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[4.146s]   CMakeLists.txt:42 (find_package)
+[4.146s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.146s] [0m
+[4.147s] -- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  
+[4.147s] -- looking for PCL_SURFACE
+[4.147s] [33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[4.148s]   The package name passed to `find_package_handle_standard_args`
+[4.148s]   (PCL_SURFACE) does not match the name of the calling package (PCL).  This
+[4.148s]   can lead to problems in calling code that expects `find_package` result
+[4.149s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[4.149s] Call Stack (most recent call first):
+[4.149s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[4.149s]   CMakeLists.txt:42 (find_package)
+[4.149s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.150s] [0m
+[4.150s] -- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  
+[4.150s] -- looking for PCL_REGISTRATION
+[4.151s] -- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  
+[4.151s] [33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[4.151s]   The package name passed to `find_package_handle_standard_args`
+[4.151s]   (PCL_REGISTRATION) does not match the name of the calling package (PCL).
+[4.152s]   This can lead to problems in calling code that expects `find_package`
+[4.152s]   result variables (e.g., `_FOUND`) to follow a certain pattern.
+[4.152s] Call Stack (most recent call first):
+[4.152s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[4.152s]   CMakeLists.txt:42 (find_package)
+[4.152s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.152s] [0m
+[4.153s] -- looking for PCL_KEYPOINTS
+[4.153s] [33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[4.153s]   The package name passed to `find_package_handle_standard_args`
+[4.154s]   (PCL_KEYPOINTS) does not match the name of the calling package (PCL).  This
+[4.154s]   can lead to problems in calling code that expects `find_package` result
+[4.154s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[4.154s] Call Stack (most recent call first):
+[4.154s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[4.154s]   CMakeLists.txt:42 (find_package)
+[4.155s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.155s] [0m
+[4.155s] -- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  
+[4.155s] -- looking for PCL_TRACKING
+[4.156s] [33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[4.156s]   The package name passed to `find_package_handle_standard_args`
+[4.156s]   (PCL_TRACKING) does not match the name of the calling package (PCL).  This
+[4.156s]   can lead to problems in calling code that expects `find_package` result
+[4.156s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[4.157s] Call Stack (most recent call first):
+[4.157s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[4.157s]   CMakeLists.txt:42 (find_package)
+[4.157s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.157s] [0m
+[4.157s] -- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  
+[4.157s] -- looking for PCL_RECOGNITION
+[4.158s] [33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[4.158s]   The package name passed to `find_package_handle_standard_args`
+[4.159s]   (PCL_RECOGNITION) does not match the name of the calling package (PCL).
+[4.159s]   This can lead to problems in calling code that expects `find_package`
+[4.159s]   result variables (e.g., `_FOUND`) to follow a certain pattern.
+[4.159s] Call Stack (most recent call first):
+[4.159s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[4.159s]   CMakeLists.txt:42 (find_package)
+[4.159s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.160s] [0m
+[4.160s] -- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  
+[4.160s] -- looking for PCL_STEREO
+[4.161s] [33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[4.161s]   The package name passed to `find_package_handle_standard_args` (PCL_STEREO)
+[4.161s]   does not match the name of the calling package (PCL).  This can lead to
+[4.161s]   problems in calling code that expects `find_package` result variables
+[4.162s]   (e.g., `_FOUND`) to follow a certain pattern.
+[4.162s] Call Stack (most recent call first):
+[4.162s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[4.162s]   CMakeLists.txt:42 (find_package)
+[4.162s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.162s] [0m
+[4.162s] -- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  
+[4.162s] -- looking for PCL_APPS
+[4.163s] [33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[4.163s]   The package name passed to `find_package_handle_standard_args` (PCL_APPS)
+[4.164s]   does not match the name of the calling package (PCL).  This can lead to
+[4.164s]   problems in calling code that expects `find_package` result variables
+[4.164s]   (e.g., `_FOUND`) to follow a certain pattern.
+[4.164s] Call Stack (most recent call first):
+[4.164s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[4.164s]   CMakeLists.txt:42 (find_package)
+[4.164s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.165s] [0m
+[4.165s] -- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  
+[4.165s] -- looking for PCL_IN_HAND_SCANNER
+[4.166s] [33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[4.167s]   The package name passed to `find_package_handle_standard_args`
+[4.167s]   (PCL_IN_HAND_SCANNER) does not match the name of the calling package (PCL).
+[4.167s]   This can lead to problems in calling code that expects `find_package`
+[4.167s]   result variables (e.g., `_FOUND`) to follow a certain pattern.
+[4.167s] Call Stack (most recent call first):
+[4.168s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+[4.168s]   CMakeLists.txt:42 (find_package)
+[4.168s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.168s] [0m
+[4.168s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[4.168s] -- looking for PCL_POINT_CLOUD_EDITOR
+[4.168s] [33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[4.169s]   The package name passed to `find_package_handle_standard_args`
+[4.169s]   (PCL_POINT_CLOUD_EDITOR) does not match the name of the calling package
+[4.169s]   (PCL).  This can lead to problems in calling code that expects
+[4.169s]   `find_package` result variables (e.g., `_FOUND`) to follow a certain
+[4.169s]   pattern.
+[4.169s] Call Stack (most recent call first):
+[4.169s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+[4.170s]   CMakeLists.txt:42 (find_package)
+[4.170s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.170s] [0m
+[4.170s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[4.170s] -- looking for PCL_OUTOFCORE
+[4.170s] [33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[4.171s]   The package name passed to `find_package_handle_standard_args`
+[4.171s]   (PCL_OUTOFCORE) does not match the name of the calling package (PCL).  This
+[4.171s]   can lead to problems in calling code that expects `find_package` result
+[4.171s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[4.171s] Call Stack (most recent call first):
+[4.171s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[4.171s]   CMakeLists.txt:42 (find_package)
+[4.172s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.172s] [0m
+[4.172s] -- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  
+[4.172s] -- looking for PCL_PEOPLE
+[4.173s] [33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[4.173s]   The package name passed to `find_package_handle_standard_args` (PCL_PEOPLE)
+[4.173s]   does not match the name of the calling package (PCL).  This can lead to
+[4.173s]   problems in calling code that expects `find_package` result variables
+[4.174s]   (e.g., `_FOUND`) to follow a certain pattern.
+[4.174s] Call Stack (most recent call first):
+[4.174s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[4.174s]   CMakeLists.txt:42 (find_package)
+[4.174s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.174s] [0m
+[4.174s] -- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  
+[4.175s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/aarch64-linux-gnu/libboost_system.so.1.71.0;/usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.71.0;/usr/lib/aarch64-linux-gnu/libboost_date_time.so;/usr/lib/aarch64-linux-gnu/libboost_iostreams.so;/usr/lib/aarch64-linux-gnu/libboost_regex.so;optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/aarch64-linux-gnu/libfreetype.so;/usr/lib/aarch64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/aarch64-linux-gnu/libjpeg.so;/usr/lib/aarch64-linux-gnu/libpng.so;/usr/lib/aarch64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/aarch64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN (Required is at least version "1.7.2") 
+[4.548s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/install/share/ament_lint_auto/cmake)
+[4.715s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.721s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.723s] -- Configured cppcheck include dirs: /ws/src/mmwave_ti_ros/ti_mmwave_ros2_pkg/include
+[4.723s] -- Configured cppcheck exclude dirs and/or files: 
+[4.729s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.729s] -- Configured cpplint exclude dirs and/or files: 
+[4.730s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.732s] -- Added test 'lint_cmake' to check CMake code style
+[4.734s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[4.739s] -- Added test 'uncrustify' to check C / C++ code style
+[4.739s] -- Configured uncrustify additional arguments: 
+[4.741s] -- Added test 'xmllint' to check XML markup files
+[4.745s] -- Configuring done (4.6s)
+[4.881s] -- Generating done (0.1s)
+[4.889s] -- Build files have been written to: /ws/src/build/ti_mmwave_ros2_pkg
+[4.940s] Invoked command in '/ws/src/build/ti_mmwave_ros2_pkg' returned '0': LD_LIBRARY_PATH=/ws/src/install/ti_mmwave_ros2_interfaces/lib:/ws/src/install/serial/lib:/opt/ros/galactic/install/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/install/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/install/lib:/usr/local/cuda/lib64 /usr/local/bin/cmake /ws/src/mmwave_ti_ros/ti_mmwave_ros2_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/src/install/ti_mmwave_ros2_pkg
+[4.946s] Invoking command in '/ws/src/build/ti_mmwave_ros2_pkg': LD_LIBRARY_PATH=/ws/src/install/ti_mmwave_ros2_interfaces/lib:/ws/src/install/serial/lib:/opt/ros/galactic/install/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/install/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/install/lib:/usr/local/cuda/lib64 /usr/local/bin/cmake --build /ws/src/build/ti_mmwave_ros2_pkg -- -j6 -l6
+[5.058s] [ 25%] [32mBuilding CXX object CMakeFiles/mmwave.dir/src/mmWaveDataHdl.cpp.o[0m
+[5.059s] [ 25%] [32mBuilding CXX object CMakeFiles/mmwave.dir/src/DataHandlerClass.cpp.o[0m
+[5.059s] [ 25%] [32mBuilding CXX object CMakeFiles/mmwave.dir/src/mmWaveCommSrv.cpp.o[0m
+[5.060s] [ 33%] [32mBuilding CXX object CMakeFiles/mmwave.dir/src/mmWaveQuickConfig.cpp.o[0m
+[5.062s] [ 41%] [32mBuilding CXX object CMakeFiles/mmwave.dir/src/ParameterParser.cpp.o[0m
+[5.063s] [ 50%] [32mBuilding CXX object CMakeFiles/mmwave_comm_srv_node.dir/src/mmWaveCommSrvNode.cpp.o[0m
+[10.000s] [01m[K/ws/src/mmwave_ti_ros/ti_mmwave_ros2_pkg/src/ParameterParser.cpp:[m[K In member function ‘[01m[Kvoid ti_mmwave_ros2_pkg::ParameterParser::callbackGlobalParam(std::shared_future<std::vector<rcl_interfaces::msg::SetParametersResult_<std::allocator<void> > > >)[m[K’:
+[10.001s] [01m[K/ws/src/mmwave_ti_ros/ti_mmwave_ros2_pkg/src/ParameterParser.cpp:188:9:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfuture[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.001s]   187 |     [01;35m[Kstd::shared_future<std::vector<rcl_interfaces::msg::SetParametersResult>>[m[K
+[10.001s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.001s]   188 | [01;35m[K        future[m[K) {
+[10.001s]       |         [01;35m[K^~~~~~[m[K
+[10.594s] In file included from [01m[K/opt/ros/galactic/install/include/rclcpp/client.hpp:40[m[K,
+[10.594s]                  from [01m[K/opt/ros/galactic/install/include/rclcpp/callback_group.hpp:23[m[K,
+[10.594s]                  from [01m[K/opt/ros/galactic/install/include/rclcpp/any_executable.hpp:20[m[K,
+[10.595s]                  from [01m[K/opt/ros/galactic/install/include/rclcpp/memory_strategy.hpp:25[m[K,
+[10.595s]                  from [01m[K/opt/ros/galactic/install/include/rclcpp/memory_strategies.hpp:18[m[K,
+[10.595s]                  from [01m[K/opt/ros/galactic/install/include/rclcpp/executor_options.hpp:20[m[K,
+[10.595s]                  from [01m[K/opt/ros/galactic/install/include/rclcpp/executor.hpp:36[m[K,
+[10.595s]                  from [01m[K/opt/ros/galactic/install/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[10.595s]                  from [01m[K/opt/ros/galactic/install/include/rclcpp/executors.hpp:21[m[K,
+[10.596s]                  from [01m[K/opt/ros/galactic/install/include/rclcpp/rclcpp.hpp:156[m[K,
+[10.596s]                  from [01m[K/ws/src/mmwave_ti_ros/ti_mmwave_ros2_pkg/src/mmWaveQuickConfig.cpp:40[m[K:
+[10.596s] [01m[K/ws/src/mmwave_ti_ros/ti_mmwave_ros2_pkg/src/mmWaveQuickConfig.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[10.596s] [01m[K/ws/src/mmwave_ti_ros/ti_mmwave_ros2_pkg/src/mmWaveQuickConfig.cpp:145:26:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kti_mmwave_ros2_interfaces::srv::MMWaveCLI_Response_<std::allocator<void> >::_resp_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K-Wformat=[m[K]
+[10.596s]   145 |                          [01;35m[K"mmWaveQuickConfig: Response: '%s'"[m[K, result->resp);
+[10.596s]       |                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.596s] [01m[K/ws/src/mmwave_ti_ros/ti_mmwave_ros2_pkg/src/mmWaveQuickConfig.cpp:145:58:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[10.597s]   145 |                          "mmWaveQuickConfig: Response: '[01;36m[K%s[m[K'", result->resp);
+[10.597s]       |                                                         [01;36m[K~^[m[K
+[10.597s]       |                                                          [01;36m[K|[m[K
+[10.597s]       |                                                          [01;36m[Kchar*[m[K
+[13.229s] [ 58%] [32m[1mLinking CXX executable mmwave_comm_srv_node[0m
+[13.618s] [ 58%] Built target mmwave_comm_srv_node
+[30.175s] [ 66%] [32m[1mLinking CXX shared library libmmwave.so[0m
+[31.190s] [ 66%] Built target mmwave
+[31.210s] [ 83%] [32mBuilding CXX object CMakeFiles/ti_mmwave_ros2_pkg.dir/src/mmWaveLoader.cpp.o[0m
+[31.210s] [ 83%] [32mBuilding CXX object CMakeFiles/mmWaveQuickConfig.dir/src/mmWaveQuickConfig.cpp.o[0m
+[35.768s] In file included from [01m[K/opt/ros/galactic/install/include/rclcpp/client.hpp:40[m[K,
+[35.768s]                  from [01m[K/opt/ros/galactic/install/include/rclcpp/callback_group.hpp:23[m[K,
+[35.768s]                  from [01m[K/opt/ros/galactic/install/include/rclcpp/any_executable.hpp:20[m[K,
+[35.769s]                  from [01m[K/opt/ros/galactic/install/include/rclcpp/memory_strategy.hpp:25[m[K,
+[35.769s]                  from [01m[K/opt/ros/galactic/install/include/rclcpp/memory_strategies.hpp:18[m[K,
+[35.769s]                  from [01m[K/opt/ros/galactic/install/include/rclcpp/executor_options.hpp:20[m[K,
+[35.769s]                  from [01m[K/opt/ros/galactic/install/include/rclcpp/executor.hpp:36[m[K,
+[35.769s]                  from [01m[K/opt/ros/galactic/install/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[35.769s]                  from [01m[K/opt/ros/galactic/install/include/rclcpp/executors.hpp:21[m[K,
+[35.769s]                  from [01m[K/opt/ros/galactic/install/include/rclcpp/rclcpp.hpp:156[m[K,
+[35.770s]                  from [01m[K/ws/src/mmwave_ti_ros/ti_mmwave_ros2_pkg/src/mmWaveQuickConfig.cpp:40[m[K:
+[35.770s] [01m[K/ws/src/mmwave_ti_ros/ti_mmwave_ros2_pkg/src/mmWaveQuickConfig.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[35.770s] [01m[K/ws/src/mmwave_ti_ros/ti_mmwave_ros2_pkg/src/mmWaveQuickConfig.cpp:145:26:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kti_mmwave_ros2_interfaces::srv::MMWaveCLI_Response_<std::allocator<void> >::_resp_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K-Wformat=[m[K]
+[35.770s]   145 |                          [01;35m[K"mmWaveQuickConfig: Response: '%s'"[m[K, result->resp);
+[35.770s]       |                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[35.770s] [01m[K/ws/src/mmwave_ti_ros/ti_mmwave_ros2_pkg/src/mmWaveQuickConfig.cpp:145:58:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[35.770s]   145 |                          "mmWaveQuickConfig: Response: '[01;36m[K%s[m[K'", result->resp);
+[35.771s]       |                                                         [01;36m[K~^[m[K
+[35.771s]       |                                                          [01;36m[K|[m[K
+[35.771s]       |                                                          [01;36m[Kchar*[m[K
+[41.394s] [ 91%] [32m[1mLinking CXX executable mmWaveQuickConfig[0m
+[42.113s] [ 91%] Built target mmWaveQuickConfig
+[47.904s] [100%] [32m[1mLinking CXX executable ti_mmwave_ros2_pkg[0m
+[48.460s] [100%] Built target ti_mmwave_ros2_pkg
+[48.479s] Invoked command in '/ws/src/build/ti_mmwave_ros2_pkg' returned '0': LD_LIBRARY_PATH=/ws/src/install/ti_mmwave_ros2_interfaces/lib:/ws/src/install/serial/lib:/opt/ros/galactic/install/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/install/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/install/lib:/usr/local/cuda/lib64 /usr/local/bin/cmake --build /ws/src/build/ti_mmwave_ros2_pkg -- -j6 -l6
+[48.687s] Invoking command in '/ws/src/build/ti_mmwave_ros2_pkg': LD_LIBRARY_PATH=/ws/src/install/ti_mmwave_ros2_interfaces/lib:/ws/src/install/serial/lib:/opt/ros/galactic/install/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/install/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/install/lib:/usr/local/cuda/lib64 /usr/local/bin/cmake --install /ws/src/build/ti_mmwave_ros2_pkg
+[48.745s] -- Install configuration: ""
+[48.746s] -- Execute custom install script
+[48.746s] -- Symlinking: /ws/src/install/ti_mmwave_ros2_pkg/lib/libmmwave.so
+[48.753s] -- Symlinking: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/launch/eloquent_composition.launch.py
+[48.758s] -- Symlinking: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/launch/eloquent_multi0_composition.launch.py
+[48.763s] -- Symlinking: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/launch/eloquent_multi1_composition.launch.py
+[48.768s] -- Symlinking: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/launch/eloquent_multi_only_rviz.py
+[48.773s] -- Symlinking: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/launch/eloquent_only_config.launch.py
+[48.779s] -- Symlinking: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/rviz/mmwave_3d_view.rviz
+[48.784s] -- Symlinking: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/rviz/mmwave_3d_view_multi.rviz
+[48.790s] -- Symlinking: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/1443_2d.cfg
+[48.795s] -- Symlinking: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/1443_3d.cfg
+[48.800s] -- Symlinking: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/1642_2d.cfg
+[48.805s] -- Symlinking: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/1843_2d.cfg
+[48.811s] -- Symlinking: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/1843_3d.cfg
+[48.819s] -- Symlinking: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/1843_3d_hw_trig.cfg
+[48.824s] -- Symlinking: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/6843AOP_2d.cfg
+[48.829s] -- Symlinking: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/6843AOP_3d.cfg
+[48.835s] -- Symlinking: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/6843ISK_3d.cfg
+[48.840s] -- Symlinking: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/6843ISK_3d_editted.cfg
+[48.847s] -- Symlinking: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/6843_2d.cfg
+[48.852s] -- Symlinking: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/6843_3d.cfg
+[48.858s] -- Symlinking: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/logitech_1080.ini
+[48.863s] -- Symlinking: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/logitech_1080.yaml
+[48.869s] -- Symlinking: /ws/src/install/ti_mmwave_ros2_pkg/lib/ti_mmwave_ros2_pkg/ti_mmwave_ros2_pkg
+[48.874s] -- Symlinking: /ws/src/install/ti_mmwave_ros2_pkg/lib/ti_mmwave_ros2_pkg/mmWaveQuickConfig
+[48.880s] -- Symlinking: /ws/src/install/ti_mmwave_ros2_pkg/lib/ti_mmwave_ros2_pkg/mmwave_comm_srv_node
+[48.886s] -- Symlinking: /ws/src/install/ti_mmwave_ros2_pkg/share/ament_index/resource_index/package_run_dependencies/ti_mmwave_ros2_pkg
+[48.891s] -- Symlinking: /ws/src/install/ti_mmwave_ros2_pkg/share/ament_index/resource_index/parent_prefix_path/ti_mmwave_ros2_pkg
+[48.897s] -- Symlinking: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/environment/ament_prefix_path.sh
+[48.903s] -- Symlinking: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/environment/ament_prefix_path.dsv
+[48.908s] -- Symlinking: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/environment/path.sh
+[48.913s] -- Symlinking: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/environment/path.dsv
+[48.918s] -- Symlinking: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/local_setup.bash
+[48.923s] -- Symlinking: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/local_setup.sh
+[48.928s] -- Symlinking: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/local_setup.zsh
+[48.934s] -- Symlinking: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/local_setup.dsv
+[48.942s] -- Symlinking: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/package.dsv
+[48.947s] -- Symlinking: /ws/src/install/ti_mmwave_ros2_pkg/share/ament_index/resource_index/packages/ti_mmwave_ros2_pkg
+[48.953s] -- Symlinking: /ws/src/install/ti_mmwave_ros2_pkg/share/ament_index/resource_index/rclcpp_components/ti_mmwave_ros2_pkg
+[48.959s] -- Symlinking: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cmake/ti_mmwave_ros2_pkgConfig.cmake
+[48.964s] -- Symlinking: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cmake/ti_mmwave_ros2_pkgConfig-version.cmake
+[48.969s] -- Symlinking: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/package.xml
+[48.992s] Invoked command in '/ws/src/build/ti_mmwave_ros2_pkg' returned '0': LD_LIBRARY_PATH=/ws/src/install/ti_mmwave_ros2_interfaces/lib:/ws/src/install/serial/lib:/opt/ros/galactic/install/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/install/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/install/lib:/usr/local/cuda/lib64 /usr/local/bin/cmake --install /ws/src/build/ti_mmwave_ros2_pkg

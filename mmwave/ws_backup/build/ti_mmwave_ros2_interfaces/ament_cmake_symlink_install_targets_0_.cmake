@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/ws/build/ti_mmwave_ros2_interfaces/libti_mmwave_ros2_interfaces__rosidl_typesupport_fastrtps_c.so" "TARGETS" "ti_mmwave_ros2_interfaces__rosidl_typesupport_fastrtps_c" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

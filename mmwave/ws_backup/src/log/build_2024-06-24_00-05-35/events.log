@@ -1,0 +1,108 @@
+[0.000000] (-) TimerEvent: {}
+[0.000656] (-) JobUnselected: {'identifier': 'ti_mmwave_ros2_examples'}
+[0.001253] (-) JobUnselected: {'identifier': 'ti_mmwave_ros2_interfaces'}
+[0.001548] (-) JobUnselected: {'identifier': 'ti_mmwave_ros2_pkg'}
+[0.002107] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.002256] (serial) JobStarted: {'identifier': 'serial'}
+[0.046046] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[0.046621] (serial) Command: {'cmd': ['/usr/local/bin/cmake', '/ws/src/mmwave_ti_ros/serial-ros2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/ws/src/install/serial'], 'cwd': '/ws/src/build/serial', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/install/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/install/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/install/lib:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('OLDPWD', '/ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/galactic/install'), ('ROS_DISTRO', 'galactic'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/galactic/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/galactic/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/galactic'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/ws/src/build/serial'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/opt/ros/galactic/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic/install')]), 'shell': False}
+[0.099411] (-) TimerEvent: {}
+[0.200088] (-) TimerEvent: {}
+[0.205321] (serial) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.300272] (-) TimerEvent: {}
+[0.316568] (serial) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.359089] (serial) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400441] (-) TimerEvent: {}
+[0.495534] (serial) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.500604] (-) TimerEvent: {}
+[0.518400] (serial) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.519100] (serial) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.520290] (serial) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.547170] (serial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600789] (-) TimerEvent: {}
+[0.701457] (-) TimerEvent: {}
+[0.708902] (serial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.731683] (serial) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.732615] (serial) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.733806] (serial) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.740428] (serial) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/install/share/ament_cmake/cmake)\n'}
+[0.749189] (serial) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/galactic/install/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):\n'}
+[0.749762] (serial) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[0.749939] (serial) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[0.750091] (serial) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[0.750236] (serial) StderrLine: {'line': b'\n'}
+[0.750380] (serial) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.750514] (serial) StderrLine: {'line': b'  /opt/ros/galactic/install/share/ament_cmake_core/cmake/core/all.cmake:53 (include)\n'}
+[0.750647] (serial) StderrLine: {'line': b'  /opt/ros/galactic/install/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.750785] (serial) StderrLine: {'line': b'  /opt/ros/galactic/install/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.750915] (serial) StderrLine: {'line': b'  /opt/ros/galactic/install/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.751045] (serial) StderrLine: {'line': b'  /opt/ros/galactic/install/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.751172] (serial) StderrLine: {'line': b'  CMakeLists.txt:6 (find_package)\n'}
+[0.751297] (serial) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.751424] (serial) StderrLine: {'line': b'\x1b[0m\n'}
+[0.801643] (-) TimerEvent: {}
+[0.803236] (serial) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.803715] (serial) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.901771] (-) TimerEvent: {}
+[0.933154] (serial) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.001930] (-) TimerEvent: {}
+[1.102583] (-) TimerEvent: {}
+[1.117868] (serial) StdoutLine: {'line': b'-- Configuring done (1.0s)\n'}
+[1.130002] (serial) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.132476] (serial) StdoutLine: {'line': b'-- Build files have been written to: /ws/src/build/serial\n'}
+[1.150296] (serial) CommandEnded: {'returncode': 0}
+[1.152290] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[1.153934] (serial) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/ws/src/build/serial', '--', '-j6', '-l6'], 'cwd': '/ws/src/build/serial', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/install/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/install/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/install/lib:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('OLDPWD', '/ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/galactic/install'), ('ROS_DISTRO', 'galactic'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/galactic/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/galactic/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/galactic'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/ws/src/build/serial'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/opt/ros/galactic/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic/install')]), 'shell': False}
+[1.202774] (-) TimerEvent: {}
+[1.255455] (serial) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o\x1b[0m\n'}
+[1.256215] (serial) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o\x1b[0m\n'}
+[1.256439] (serial) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o\x1b[0m\n'}
+[1.302966] (-) TimerEvent: {}
+[1.403661] (-) TimerEvent: {}
+[1.504374] (-) TimerEvent: {}
+[1.605057] (-) TimerEvent: {}
+[1.705740] (-) TimerEvent: {}
+[1.806426] (-) TimerEvent: {}
+[1.907104] (-) TimerEvent: {}
+[2.007933] (-) TimerEvent: {}
+[2.108615] (-) TimerEvent: {}
+[2.209326] (-) TimerEvent: {}
+[2.299718] (serial) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX static library libserial.a\x1b[0m\n'}
+[2.309503] (-) TimerEvent: {}
+[2.331615] (serial) StdoutLine: {'line': b'[100%] Built target serial\n'}
+[2.350169] (serial) CommandEnded: {'returncode': 0}
+[2.409744] (-) TimerEvent: {}
+[2.452309] (serial) JobProgress: {'identifier': 'serial', 'progress': 'install'}
+[2.509961] (-) TimerEvent: {}
+[2.519333] (serial) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/ws/src/build/serial'], 'cwd': '/ws/src/build/serial', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/install/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/install/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/install/lib:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('OLDPWD', '/ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/galactic/install'), ('ROS_DISTRO', 'galactic'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/galactic/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/galactic/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/galactic'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/ws/src/build/serial'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/opt/ros/galactic/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic/install')]), 'shell': False}
+[2.580320] (serial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.581099] (serial) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.581853] (serial) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/serial/share/serial/environment/library_path.sh\n'}
+[2.587380] (serial) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/serial/share/serial/environment/library_path.dsv\n'}
+[2.593233] (serial) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/serial/lib/libserial.a\n'}
+[2.599091] (serial) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/serial/include/serial/serial.h\n'}
+[2.603845] (serial) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/serial/include/serial/v8stdint.h\n'}
+[2.609503] (serial) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/serial/share/ament_index/resource_index/package_run_dependencies/serial\n'}
+[2.609965] (-) TimerEvent: {}
+[2.615373] (serial) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/serial/share/ament_index/resource_index/parent_prefix_path/serial\n'}
+[2.620328] (serial) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/serial/share/serial/environment/ament_prefix_path.sh\n'}
+[2.626021] (serial) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/serial/share/serial/environment/ament_prefix_path.dsv\n'}
+[2.631113] (serial) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/serial/share/serial/environment/path.sh\n'}
+[2.636263] (serial) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/serial/share/serial/environment/path.dsv\n'}
+[2.642830] (serial) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/serial/share/serial/local_setup.bash\n'}
+[2.648919] (serial) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/serial/share/serial/local_setup.sh\n'}
+[2.654588] (serial) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/serial/share/serial/local_setup.zsh\n'}
+[2.660503] (serial) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/serial/share/serial/local_setup.dsv\n'}
+[2.666893] (serial) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/serial/share/serial/package.dsv\n'}
+[2.674652] (serial) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/serial/share/ament_index/resource_index/packages/serial\n'}
+[2.681035] (serial) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.687404] (serial) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.694655] (serial) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/serial/share/serial/cmake/serialConfig.cmake\n'}
+[2.700220] (serial) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/serial/share/serial/cmake/serialConfig-version.cmake\n'}
+[2.706966] (serial) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/serial/share/serial/package.xml\n'}
+[2.710092] (-) TimerEvent: {}
+[2.724006] (serial) CommandEnded: {'returncode': 0}
+[2.810335] (-) TimerEvent: {}
+[2.914942] (-) TimerEvent: {}
+[2.932226] (serial) JobEnded: {'identifier': 'serial', 'rc': 0}
+[2.934071] (-) EventReactorShutdown: {}

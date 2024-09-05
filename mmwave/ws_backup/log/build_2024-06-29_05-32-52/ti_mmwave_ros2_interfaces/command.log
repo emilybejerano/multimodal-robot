@@ -1,0 +1,6 @@
+Invoking command in '/ws/build/ti_mmwave_ros2_interfaces': /usr/local/bin/cmake /ws/src/mmwave_ti_ros/ti_mmwave_ros2_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install/ti_mmwave_ros2_interfaces
+Invoked command in '/ws/build/ti_mmwave_ros2_interfaces' returned '0': /usr/local/bin/cmake /ws/src/mmwave_ti_ros/ti_mmwave_ros2_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install/ti_mmwave_ros2_interfaces
+Invoking command in '/ws/build/ti_mmwave_ros2_interfaces': /usr/local/bin/cmake --build /ws/build/ti_mmwave_ros2_interfaces -- -j4 -l4
+Invoked command in '/ws/build/ti_mmwave_ros2_interfaces' returned '0': /usr/local/bin/cmake --build /ws/build/ti_mmwave_ros2_interfaces -- -j4 -l4
+Invoking command in '/ws/build/ti_mmwave_ros2_interfaces': /usr/local/bin/cmake --install /ws/build/ti_mmwave_ros2_interfaces
+Invoked command in '/ws/build/ti_mmwave_ros2_interfaces' returned '0': /usr/local/bin/cmake --install /ws/build/ti_mmwave_ros2_interfaces

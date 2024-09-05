@@ -1,0 +1,1008 @@
+[0.000000] (-) TimerEvent: {}
+[0.000467] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.000843] (ti_mmwave_ros2_examples) JobQueued: {'identifier': 'ti_mmwave_ros2_examples', 'dependencies': OrderedDict()}
+[0.001088] (ti_mmwave_ros2_interfaces) JobQueued: {'identifier': 'ti_mmwave_ros2_interfaces', 'dependencies': OrderedDict()}
+[0.001714] (ti_mmwave_ros2_pkg) JobQueued: {'identifier': 'ti_mmwave_ros2_pkg', 'dependencies': OrderedDict([('ti_mmwave_ros2_interfaces', '/ws/src/install/ti_mmwave_ros2_interfaces')])}
+[0.002015] (ti_mmwave_ros2_interfaces) JobStarted: {'identifier': 'ti_mmwave_ros2_interfaces'}
+[0.052020] (serial) JobStarted: {'identifier': 'serial'}
+[0.089937] (ti_mmwave_ros2_examples) JobStarted: {'identifier': 'ti_mmwave_ros2_examples'}
+[0.099192] (-) TimerEvent: {}
+[0.131858] (ti_mmwave_ros2_interfaces) JobProgress: {'identifier': 'ti_mmwave_ros2_interfaces', 'progress': 'cmake'}
+[0.134474] (ti_mmwave_ros2_interfaces) Command: {'cmd': ['/usr/local/bin/cmake', '/ws/src/mmwave_ti_ros/ti_mmwave_ros2_interfaces', '-DCMAKE_INSTALL_PREFIX=/ws/src/install/ti_mmwave_ros2_interfaces'], 'cwd': '/ws/src/build/ti_mmwave_ros2_interfaces', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ws/src/install/ti_mmwave_ros2_pkg/lib:/ws/src/install/ti_mmwave_ros2_interfaces/lib:/ws/src/install/ti_mmwave_ros2_examples/lib:/ws/src/install/serial/lib:/opt/ros/galactic/install/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/install/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/install/lib:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ws/src/install:/opt/ros/galactic/install'), ('ROS_DISTRO', 'galactic'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/galactic/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/galactic/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/galactic'), ('AMENT_PREFIX_PATH', '/ws/src/install/ti_mmwave_ros2_pkg:/ws/src/install/ti_mmwave_ros2_interfaces:/ws/src/install/ti_mmwave_ros2_examples:/ws/src/install/serial:/opt/ros/galactic/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/ws/src/build/ti_mmwave_ros2_interfaces'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/ws/src/install/ti_mmwave_ros2_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/src/install/ti_mmwave_ros2_pkg:/ws/src/install/ti_mmwave_ros2_interfaces:/ws/src/install/ti_mmwave_ros2_examples:/ws/src/install/serial:/opt/ros/galactic/install')]), 'shell': False}
+[0.149855] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[0.151793] (serial) Command: {'cmd': ['/usr/local/bin/cmake', '/ws/src/mmwave_ti_ros/serial-ros2', '-DCMAKE_INSTALL_PREFIX=/ws/src/install/serial'], 'cwd': '/ws/src/build/serial', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ws/src/install/ti_mmwave_ros2_pkg/lib:/ws/src/install/ti_mmwave_ros2_interfaces/lib:/ws/src/install/ti_mmwave_ros2_examples/lib:/ws/src/install/serial/lib:/opt/ros/galactic/install/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/install/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/install/lib:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ws/src/install:/opt/ros/galactic/install'), ('ROS_DISTRO', 'galactic'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/galactic/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/galactic/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/galactic'), ('AMENT_PREFIX_PATH', '/ws/src/install/ti_mmwave_ros2_pkg:/ws/src/install/ti_mmwave_ros2_interfaces:/ws/src/install/ti_mmwave_ros2_examples:/ws/src/install/serial:/opt/ros/galactic/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/ws/src/build/serial'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/ws/src/install/ti_mmwave_ros2_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/src/install/ti_mmwave_ros2_pkg:/ws/src/install/ti_mmwave_ros2_interfaces:/ws/src/install/ti_mmwave_ros2_examples:/ws/src/install/serial:/opt/ros/galactic/install')]), 'shell': False}
+[0.163869] (ti_mmwave_ros2_examples) JobProgress: {'identifier': 'ti_mmwave_ros2_examples', 'progress': 'cmake'}
+[0.166390] (ti_mmwave_ros2_examples) Command: {'cmd': ['/usr/local/bin/cmake', '/ws/src/mmwave_ti_ros/ti_mmwave_ros2_examples', '-DCMAKE_INSTALL_PREFIX=/ws/src/install/ti_mmwave_ros2_examples'], 'cwd': '/ws/src/build/ti_mmwave_ros2_examples', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ws/src/install/ti_mmwave_ros2_pkg/lib:/ws/src/install/ti_mmwave_ros2_interfaces/lib:/ws/src/install/ti_mmwave_ros2_examples/lib:/ws/src/install/serial/lib:/opt/ros/galactic/install/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/install/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/install/lib:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ws/src/install:/opt/ros/galactic/install'), ('ROS_DISTRO', 'galactic'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/galactic/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/galactic/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/galactic'), ('AMENT_PREFIX_PATH', '/ws/src/install/ti_mmwave_ros2_pkg:/ws/src/install/ti_mmwave_ros2_interfaces:/ws/src/install/ti_mmwave_ros2_examples:/ws/src/install/serial:/opt/ros/galactic/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/ws/src/build/ti_mmwave_ros2_examples'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/ws/src/install/ti_mmwave_ros2_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/src/install/ti_mmwave_ros2_pkg:/ws/src/install/ti_mmwave_ros2_interfaces:/ws/src/install/ti_mmwave_ros2_examples:/ws/src/install/serial:/opt/ros/galactic/install')]), 'shell': False}
+[0.199416] (-) TimerEvent: {}
+[0.225030] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/install/share/ament_cmake/cmake)\n'}
+[0.229130] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/galactic/install/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):\n'}
+[0.229772] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[0.229966] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[0.230121] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[0.230262] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'\n'}
+[0.230395] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.230522] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'  /opt/ros/galactic/install/share/ament_cmake_core/cmake/core/all.cmake:53 (include)\n'}
+[0.230722] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'  /opt/ros/galactic/install/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.230857] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'  /opt/ros/galactic/install/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.230983] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'  /opt/ros/galactic/install/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.231122] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'  /opt/ros/galactic/install/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.231252] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'  CMakeLists.txt:19 (find_package)\n'}
+[0.231375] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.231497] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[0.231618] (serial) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/install/share/ament_cmake/cmake)\n'}
+[0.234480] (serial) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/galactic/install/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):\n'}
+[0.234841] (serial) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[0.234990] (serial) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[0.235124] (serial) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[0.235252] (serial) StderrLine: {'line': b'\n'}
+[0.235378] (serial) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.235504] (serial) StderrLine: {'line': b'  /opt/ros/galactic/install/share/ament_cmake_core/cmake/core/all.cmake:53 (include)\n'}
+[0.235628] (serial) StderrLine: {'line': b'  /opt/ros/galactic/install/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.235749] (serial) StderrLine: {'line': b'  /opt/ros/galactic/install/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.235869] (serial) StderrLine: {'line': b'  /opt/ros/galactic/install/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.235990] (serial) StderrLine: {'line': b'  /opt/ros/galactic/install/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.236111] (serial) StderrLine: {'line': b'  CMakeLists.txt:6 (find_package)\n'}
+[0.236231] (serial) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.236350] (serial) StderrLine: {'line': b'\x1b[0m\n'}
+[0.247529] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/install/share/ament_cmake/cmake)\n'}
+[0.251066] (ti_mmwave_ros2_examples) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/galactic/install/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):\n'}
+[0.251382] (ti_mmwave_ros2_examples) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[0.251530] (ti_mmwave_ros2_examples) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[0.251682] (ti_mmwave_ros2_examples) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[0.251814] (ti_mmwave_ros2_examples) StderrLine: {'line': b'\n'}
+[0.251941] (ti_mmwave_ros2_examples) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.252069] (ti_mmwave_ros2_examples) StderrLine: {'line': b'  /opt/ros/galactic/install/share/ament_cmake_core/cmake/core/all.cmake:53 (include)\n'}
+[0.252196] (ti_mmwave_ros2_examples) StderrLine: {'line': b'  /opt/ros/galactic/install/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.252325] (ti_mmwave_ros2_examples) StderrLine: {'line': b'  /opt/ros/galactic/install/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.252451] (ti_mmwave_ros2_examples) StderrLine: {'line': b'  /opt/ros/galactic/install/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.252575] (ti_mmwave_ros2_examples) StderrLine: {'line': b'  /opt/ros/galactic/install/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.252697] (ti_mmwave_ros2_examples) StderrLine: {'line': b'  CMakeLists.txt:19 (find_package)\n'}
+[0.252817] (ti_mmwave_ros2_examples) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.252938] (ti_mmwave_ros2_examples) StderrLine: {'line': b'\x1b[0m\n'}
+[0.277367] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.277845] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.282604] (serial) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.299555] (-) TimerEvent: {}
+[0.300309] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.399711] (-) TimerEvent: {}
+[0.411417] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.415401] (serial) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.432964] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/install/share/rosidl_default_generators/cmake)\n'}
+[0.436221] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.438244] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.448053] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/install/share/rosidl_adapter/cmake)\n'}
+[0.457066] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Found laser_geometry: 2.2.1 (/opt/ros/galactic/install/share/laser_geometry/cmake)\n'}
+[0.469218] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Found message_filters: 3.2.6 (/opt/ros/galactic/install/share/message_filters/cmake)\n'}
+[0.499857] (-) TimerEvent: {}
+[0.554150] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.562419] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/install/share/rosidl_adapter/cmake)\n'}
+[0.600060] (-) TimerEvent: {}
+[0.600742] (serial) StdoutLine: {'line': b'-- Configuring done (0.4s)\n'}
+[0.615032] (serial) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.617194] (serial) StdoutLine: {'line': b'-- Build files have been written to: /ws/src/build/serial\n'}
+[0.631625] (serial) CommandEnded: {'returncode': 0}
+[0.632880] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[0.634924] (serial) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/ws/src/build/serial', '--', '-j6', '-l6'], 'cwd': '/ws/src/build/serial', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ws/src/install/ti_mmwave_ros2_pkg/lib:/ws/src/install/ti_mmwave_ros2_interfaces/lib:/ws/src/install/ti_mmwave_ros2_examples/lib:/ws/src/install/serial/lib:/opt/ros/galactic/install/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/install/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/install/lib:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ws/src/install:/opt/ros/galactic/install'), ('ROS_DISTRO', 'galactic'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/galactic/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/galactic/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/galactic'), ('AMENT_PREFIX_PATH', '/ws/src/install/ti_mmwave_ros2_pkg:/ws/src/install/ti_mmwave_ros2_interfaces:/ws/src/install/ti_mmwave_ros2_examples:/ws/src/install/serial:/opt/ros/galactic/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/ws/src/build/serial'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/ws/src/install/ti_mmwave_ros2_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/src/install/ti_mmwave_ros2_pkg:/ws/src/install/ti_mmwave_ros2_interfaces:/ws/src/install/ti_mmwave_ros2_examples:/ws/src/install/serial:/opt/ros/galactic/install')]), 'shell': False}
+[0.700268] (-) TimerEvent: {}
+[0.754555] (serial) StdoutLine: {'line': b'[100%] Built target serial\n'}
+[0.772251] (serial) CommandEnded: {'returncode': 0}
+[0.800462] (-) TimerEvent: {}
+[0.811543] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.863873] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 2.2.4 (/opt/ros/galactic/install/share/std_msgs/cmake)\n'}
+[0.875590] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.887972] (serial) JobProgress: {'identifier': 'serial', 'progress': 'install'}
+[0.900671] (-) TimerEvent: {}
+[0.929971] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/install/share/ament_lint_auto/cmake)\n'}
+[0.966918] (serial) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/ws/src/build/serial'], 'cwd': '/ws/src/build/serial', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ws/src/install/ti_mmwave_ros2_pkg/lib:/ws/src/install/ti_mmwave_ros2_interfaces/lib:/ws/src/install/ti_mmwave_ros2_examples/lib:/ws/src/install/serial/lib:/opt/ros/galactic/install/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/install/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/install/lib:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ws/src/install:/opt/ros/galactic/install'), ('ROS_DISTRO', 'galactic'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/galactic/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/galactic/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/galactic'), ('AMENT_PREFIX_PATH', '/ws/src/install/ti_mmwave_ros2_pkg:/ws/src/install/ti_mmwave_ros2_interfaces:/ws/src/install/ti_mmwave_ros2_examples:/ws/src/install/serial:/opt/ros/galactic/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/ws/src/build/serial'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/ws/src/install/ti_mmwave_ros2_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/src/install/ti_mmwave_ros2_pkg:/ws/src/install/ti_mmwave_ros2_interfaces:/ws/src/install/ti_mmwave_ros2_examples:/ws/src/install/serial:/opt/ros/galactic/install')]), 'shell': False}
+[0.985810] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/install/share/rmw_implementation_cmake/cmake)\n'}
+[0.989670] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/install/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.000774] (-) TimerEvent: {}
+[1.026218] (ti_mmwave_ros2_examples) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.033377] (serial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.034369] (serial) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.035003] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/serial/share/serial/environment/library_path.sh\n'}
+[1.035419] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/serial/share/serial/environment/library_path.dsv\n'}
+[1.035986] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/serial/lib/libserial.a\n'}
+[1.036569] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/serial/include/serial/serial.h\n'}
+[1.036990] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/serial/include/serial/v8stdint.h\n'}
+[1.037333] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/serial/share/ament_index/resource_index/package_run_dependencies/serial\n'}
+[1.037896] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/serial/share/ament_index/resource_index/parent_prefix_path/serial\n'}
+[1.038350] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/serial/share/serial/environment/ament_prefix_path.sh\n'}
+[1.038823] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/serial/share/serial/environment/ament_prefix_path.dsv\n'}
+[1.039301] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/serial/share/serial/environment/path.sh\n'}
+[1.039731] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/serial/share/serial/environment/path.dsv\n'}
+[1.040075] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/serial/share/serial/local_setup.bash\n'}
+[1.040582] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/serial/share/serial/local_setup.sh\n'}
+[1.041306] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/serial/share/serial/local_setup.zsh\n'}
+[1.042257] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/serial/share/serial/local_setup.dsv\n'}
+[1.042578] (serial) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/serial/share/serial/package.dsv\n'}
+[1.051351] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/serial/share/ament_index/resource_index/packages/serial\n'}
+[1.051863] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.052130] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.052465] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/serial/share/serial/cmake/serialConfig.cmake\n'}
+[1.052758] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/serial/share/serial/cmake/serialConfig-version.cmake\n'}
+[1.053180] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/serial/share/serial/package.xml\n'}
+[1.066760] (serial) CommandEnded: {'returncode': 0}
+[1.093254] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/galactic/install/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:40 (find_package):\n'}
+[1.093731] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[1.094731] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[1.094962] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[1.095107] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'\n'}
+[1.095272] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.095520] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'  /opt/ros/galactic/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[1.096096] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'  CMakeLists.txt:39 (rosidl_generate_interfaces)\n'}
+[1.096338] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.096928] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[1.102853] (-) TimerEvent: {}
+[1.138430] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.203031] (-) TimerEvent: {}
+[1.282833] (serial) JobEnded: {'identifier': 'serial', 'rc': 0}
+[1.303197] (-) TimerEvent: {}
+[1.332086] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Found rclcpp_components: 9.2.2 (/opt/ros/galactic/install/share/rclcpp_components/cmake)\n'}
+[1.363404] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/install/share/ament_cmake_ros/cmake)\n'}
+[1.403362] (-) TimerEvent: {}
+[1.432218] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/install/share/sensor_msgs/cmake)\n'}
+[1.503554] (-) TimerEvent: {}
+[1.604249] (-) TimerEvent: {}
+[1.647707] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Found tf2: 0.17.5 (/opt/ros/galactic/install/share/tf2/cmake)\n'}
+[1.664814] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Found tf2_ros: 0.17.5 (/opt/ros/galactic/install/share/tf2_ros/cmake)\n'}
+[1.704358] (-) TimerEvent: {}
+[1.804950] (-) TimerEvent: {}
+[1.809311] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.905123] (-) TimerEvent: {}
+[1.950827] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.959415] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/galactic/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):\n'}
+[1.959766] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[1.959949] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[1.960100] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[1.960244] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'\n'}
+[1.960381] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.960515] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'  /opt/ros/galactic/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[1.960645] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'  /opt/ros/galactic/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[1.960804] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'  CMakeLists.txt:39 (rosidl_generate_interfaces)\n'}
+[1.960937] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.961062] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[2.004861] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.005258] (-) TimerEvent: {}
+[2.005759] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/install/share/python_cmake_module/cmake)\n'}
+[2.006871] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/galactic/install/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:45 (find_package):\n'}
+[2.007252] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[2.007418] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[2.007585] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[2.007727] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'\n'}
+[2.007861] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.007991] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'  /opt/ros/galactic/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[2.008117] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'  /opt/ros/galactic/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.008241] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'  /opt/ros/galactic/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[2.008362] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'  CMakeLists.txt:39 (rosidl_generate_interfaces)\n'}
+[2.008482] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.008601] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[2.055906] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/galactic/install/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:133 (find_package):\n'}
+[2.056425] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[2.056594] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[2.056739] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[2.056875] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'\n'}
+[2.057006] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.057132] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'  /opt/ros/galactic/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[2.057277] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'  /opt/ros/galactic/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.057415] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'  /opt/ros/galactic/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[2.057541] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'  CMakeLists.txt:39 (rosidl_generate_interfaces)\n'}
+[2.057663] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.057832] (ti_mmwave_ros2_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[2.060094] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.060335] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[2.060476] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[2.105387] (-) TimerEvent: {}
+[2.163519] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Found tf2_sensor_msgs: 0.17.5 (/opt/ros/galactic/install/share/tf2_sensor_msgs/cmake)\n'}
+[2.205657] (-) TimerEvent: {}
+[2.234162] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/install/share/ament_lint_auto/cmake)\n'}
+[2.305826] (-) TimerEvent: {}
+[2.362639] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Using numpy include directory: /usr/local/lib/python3.8/dist-packages/numpy/core/include\n'}
+[2.404987] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.405748] (ti_mmwave_ros2_examples) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.405963] (-) TimerEvent: {}
+[2.408906] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.410536] (ti_mmwave_ros2_examples) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.411033] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.411257] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /ws/src/mmwave_ti_ros/ti_mmwave_ros2_examples/include\n'}
+[2.411407] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.414935] (ti_mmwave_ros2_examples) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.415152] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.415982] (ti_mmwave_ros2_examples) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.417361] (ti_mmwave_ros2_examples) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.418314] (ti_mmwave_ros2_examples) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[2.422040] (ti_mmwave_ros2_examples) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.422240] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.423040] (ti_mmwave_ros2_examples) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.429112] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Configuring done (2.2s)\n'}
+[2.439322] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Configuring done (2.2s)\n'}
+[2.482666] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.487260] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Build files have been written to: /ws/src/build/ti_mmwave_ros2_examples\n'}
+[2.506114] (-) TimerEvent: {}
+[2.514635] (ti_mmwave_ros2_examples) CommandEnded: {'returncode': 0}
+[2.515862] (ti_mmwave_ros2_examples) JobProgress: {'identifier': 'ti_mmwave_ros2_examples', 'progress': 'build'}
+[2.516471] (ti_mmwave_ros2_examples) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/ws/src/build/ti_mmwave_ros2_examples', '--', '-j6', '-l6'], 'cwd': '/ws/src/build/ti_mmwave_ros2_examples', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ws/src/install/ti_mmwave_ros2_pkg/lib:/ws/src/install/ti_mmwave_ros2_interfaces/lib:/ws/src/install/ti_mmwave_ros2_examples/lib:/ws/src/install/serial/lib:/opt/ros/galactic/install/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/install/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/install/lib:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ws/src/install:/opt/ros/galactic/install'), ('ROS_DISTRO', 'galactic'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/galactic/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/galactic/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/galactic'), ('AMENT_PREFIX_PATH', '/ws/src/install/ti_mmwave_ros2_pkg:/ws/src/install/ti_mmwave_ros2_interfaces:/ws/src/install/ti_mmwave_ros2_examples:/ws/src/install/serial:/opt/ros/galactic/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/ws/src/build/ti_mmwave_ros2_examples'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/ws/src/install/ti_mmwave_ros2_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/src/install/ti_mmwave_ros2_pkg:/ws/src/install/ti_mmwave_ros2_interfaces:/ws/src/install/ti_mmwave_ros2_examples:/ws/src/install/serial:/opt/ros/galactic/install')]), 'shell': False}
+[2.556042] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[2.563180] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /ws/src/build/ti_mmwave_ros2_interfaces\n'}
+[2.588673] (ti_mmwave_ros2_interfaces) CommandEnded: {'returncode': 0}
+[2.590028] (ti_mmwave_ros2_interfaces) JobProgress: {'identifier': 'ti_mmwave_ros2_interfaces', 'progress': 'build'}
+[2.590709] (ti_mmwave_ros2_interfaces) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/ws/src/build/ti_mmwave_ros2_interfaces', '--', '-j6', '-l6'], 'cwd': '/ws/src/build/ti_mmwave_ros2_interfaces', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ws/src/install/ti_mmwave_ros2_pkg/lib:/ws/src/install/ti_mmwave_ros2_interfaces/lib:/ws/src/install/ti_mmwave_ros2_examples/lib:/ws/src/install/serial/lib:/opt/ros/galactic/install/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/install/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/install/lib:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ws/src/install:/opt/ros/galactic/install'), ('ROS_DISTRO', 'galactic'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/galactic/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/galactic/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/galactic'), ('AMENT_PREFIX_PATH', '/ws/src/install/ti_mmwave_ros2_pkg:/ws/src/install/ti_mmwave_ros2_interfaces:/ws/src/install/ti_mmwave_ros2_examples:/ws/src/install/serial:/opt/ros/galactic/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/ws/src/build/ti_mmwave_ros2_interfaces'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/ws/src/install/ti_mmwave_ros2_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/src/install/ti_mmwave_ros2_pkg:/ws/src/install/ti_mmwave_ros2_interfaces:/ws/src/install/ti_mmwave_ros2_examples:/ws/src/install/serial:/opt/ros/galactic/install')]), 'shell': False}
+[2.606300] (-) TimerEvent: {}
+[2.659594] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'[ 66%] Built target pointcloud_to_laserscan_node\n'}
+[2.660206] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'[ 66%] Built target dummy_pointcloud_publisher\n'}
+[2.664779] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'[100%] Built target pointcloud_to_laserscan\n'}
+[2.682596] (ti_mmwave_ros2_examples) CommandEnded: {'returncode': 0}
+[2.706531] (-) TimerEvent: {}
+[2.709411] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'[  2%] Built target ti_mmwave_ros2_interfaces__cpp\n'}
+[2.714257] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'[ 12%] Built target ti_mmwave_ros2_interfaces__rosidl_generator_c\n'}
+[2.745611] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'[ 33%] Built target ti_mmwave_ros2_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[2.746389] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'[ 33%] Built target ti_mmwave_ros2_interfaces__rosidl_typesupport_c\n'}
+[2.750624] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'[ 56%] Built target ti_mmwave_ros2_interfaces__rosidl_typesupport_introspection_c\n'}
+[2.751163] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'[ 64%] Built target ti_mmwave_ros2_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[2.751350] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'[ 64%] Built target ti_mmwave_ros2_interfaces__rosidl_typesupport_cpp\n'}
+[2.784626] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'[ 74%] Built target ti_mmwave_ros2_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[2.805222] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'[ 74%] Built target ti_mmwave_ros2_interfaces\n'}
+[2.806693] (-) TimerEvent: {}
+[2.808302] (ti_mmwave_ros2_examples) JobProgress: {'identifier': 'ti_mmwave_ros2_examples', 'progress': 'install'}
+[2.809530] (ti_mmwave_ros2_examples) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/ws/src/build/ti_mmwave_ros2_examples'], 'cwd': '/ws/src/build/ti_mmwave_ros2_examples', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ws/src/install/ti_mmwave_ros2_pkg/lib:/ws/src/install/ti_mmwave_ros2_interfaces/lib:/ws/src/install/ti_mmwave_ros2_examples/lib:/ws/src/install/serial/lib:/opt/ros/galactic/install/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/install/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/install/lib:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ws/src/install:/opt/ros/galactic/install'), ('ROS_DISTRO', 'galactic'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/galactic/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/galactic/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/galactic'), ('AMENT_PREFIX_PATH', '/ws/src/install/ti_mmwave_ros2_pkg:/ws/src/install/ti_mmwave_ros2_interfaces:/ws/src/install/ti_mmwave_ros2_examples:/ws/src/install/serial:/opt/ros/galactic/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/ws/src/build/ti_mmwave_ros2_examples'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/ws/src/install/ti_mmwave_ros2_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/src/install/ti_mmwave_ros2_pkg:/ws/src/install/ti_mmwave_ros2_interfaces:/ws/src/install/ti_mmwave_ros2_examples:/ws/src/install/serial:/opt/ros/galactic/install')]), 'shell': False}
+[2.826905] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'[ 76%] Built target ti_mmwave_ros2_interfaces__py\n'}
+[2.858680] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'[ 84%] Built target ti_mmwave_ros2_interfaces__python\n'}
+[2.883735] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.884725] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.885512] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/lib/ti_mmwave_ros2_examples/pointcloud_to_laserscan_node\n'}
+[2.886146] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/lib/libpointcloud_to_laserscan.so\n'}
+[2.886767] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/lib/ti_mmwave_ros2_examples/dummy_pointcloud_publisher\n'}
+[2.887866] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/launch/bringup_launch.py\n'}
+[2.888225] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/launch/fake_nav_launch.py\n'}
+[2.888537] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/launch/lidar_nav.launch.py\n'}
+[2.888864] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/launch/localization_launch.py\n'}
+[2.889193] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/launch/navigation_launch.py\n'}
+[2.890583] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/launch/pointcloud_to_laserscan.launch.py\n'}
+[2.890898] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/launch/rviz_view_launch.py\n'}
+[2.891066] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/param/go1_params.yaml\n'}
+[2.891254] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/param/navigate_w_replanning_and_recovery.xml\n'}
+[2.891394] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/param/neuronbot_params.yaml\n'}
+[2.891727] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/rviz/laser_scan.rviz\n'}
+[2.891997] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/rviz/nav2.rviz\n'}
+[2.892197] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'[ 89%] Built target ti_mmwave_ros2_interfaces__rosidl_typesupport_c__pyext\n'}
+[2.892464] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/rviz/nav2_default_view.rviz\n'}
+[2.892703] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'[100%] Built target ti_mmwave_ros2_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.892855] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'[100%] Built target ti_mmwave_ros2_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[2.892996] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/rviz/nav2_namespaced_view.rviz\n'}
+[2.893460] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/map/hy_map_editted.pgm\n'}
+[2.893738] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/map/hy_map_editted.yaml\n'}
+[2.893980] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/map/mememan.pgm\n'}
+[2.894178] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/map/mememan.yaml\n'}
+[2.894589] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ament_index/resource_index/package_run_dependencies/ti_mmwave_ros2_examples\n'}
+[2.895098] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ament_index/resource_index/parent_prefix_path/ti_mmwave_ros2_examples\n'}
+[2.895531] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/environment/ament_prefix_path.sh\n'}
+[2.895896] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/environment/ament_prefix_path.dsv\n'}
+[2.896310] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/environment/path.sh\n'}
+[2.896680] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/environment/path.dsv\n'}
+[2.897052] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/local_setup.bash\n'}
+[2.897574] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/local_setup.sh\n'}
+[2.897951] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/local_setup.zsh\n'}
+[2.898312] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/local_setup.dsv\n'}
+[2.898576] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/package.dsv\n'}
+[2.905779] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ament_index/resource_index/packages/ti_mmwave_ros2_examples\n'}
+[2.906172] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ament_index/resource_index/rclcpp_components/ti_mmwave_ros2_examples\n'}
+[2.906471] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/cmake/ti_mmwave_ros2_examplesConfig.cmake\n'}
+[2.906739] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/cmake/ti_mmwave_ros2_examplesConfig-version.cmake\n'}
+[2.906901] (-) TimerEvent: {}
+[2.907349] (ti_mmwave_ros2_examples) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/package.xml\n'}
+[2.914438] (ti_mmwave_ros2_interfaces) CommandEnded: {'returncode': 0}
+[2.924899] (ti_mmwave_ros2_examples) CommandEnded: {'returncode': 0}
+[3.007147] (-) TimerEvent: {}
+[3.107894] (-) TimerEvent: {}
+[3.138980] (ti_mmwave_ros2_examples) JobEnded: {'identifier': 'ti_mmwave_ros2_examples', 'rc': 0}
+[3.148057] (ti_mmwave_ros2_interfaces) JobProgress: {'identifier': 'ti_mmwave_ros2_interfaces', 'progress': 'install'}
+[3.148314] (ti_mmwave_ros2_interfaces) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/ws/src/build/ti_mmwave_ros2_interfaces'], 'cwd': '/ws/src/build/ti_mmwave_ros2_interfaces', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ws/src/install/ti_mmwave_ros2_pkg/lib:/ws/src/install/ti_mmwave_ros2_interfaces/lib:/ws/src/install/ti_mmwave_ros2_examples/lib:/ws/src/install/serial/lib:/opt/ros/galactic/install/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/install/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/install/lib:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ws/src/install:/opt/ros/galactic/install'), ('ROS_DISTRO', 'galactic'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/galactic/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/galactic/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/galactic'), ('AMENT_PREFIX_PATH', '/ws/src/install/ti_mmwave_ros2_pkg:/ws/src/install/ti_mmwave_ros2_interfaces:/ws/src/install/ti_mmwave_ros2_examples:/ws/src/install/serial:/opt/ros/galactic/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/ws/src/build/ti_mmwave_ros2_interfaces'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/ws/src/install/ti_mmwave_ros2_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/src/install/ti_mmwave_ros2_pkg:/ws/src/install/ti_mmwave_ros2_interfaces:/ws/src/install/ti_mmwave_ros2_examples:/ws/src/install/serial:/opt/ros/galactic/install')]), 'shell': False}
+[3.207885] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.208388] (-) TimerEvent: {}
+[3.209023] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.209982] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/share/ament_index/resource_index/rosidl_interfaces/ti_mmwave_ros2_interfaces\n'}
+[3.211237] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/include/ti_mmwave_ros2_interfaces/msg/detail/radar_scan__functions.h\n'}
+[3.211542] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/include/ti_mmwave_ros2_interfaces/msg/detail/radar_scan__struct.h\n'}
+[3.211855] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/include/ti_mmwave_ros2_interfaces/msg/detail/radar_scan__type_support.h\n'}
+[3.212151] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/include/ti_mmwave_ros2_interfaces/msg/radar_scan.h\n'}
+[3.212451] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/include/ti_mmwave_ros2_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.212781] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/include/ti_mmwave_ros2_interfaces/srv/detail/mm_wave_cli__functions.h\n'}
+[3.213095] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/include/ti_mmwave_ros2_interfaces/srv/detail/mm_wave_cli__struct.h\n'}
+[3.213461] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/include/ti_mmwave_ros2_interfaces/srv/detail/mm_wave_cli__type_support.h\n'}
+[3.213725] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/include/ti_mmwave_ros2_interfaces/srv/mm_wave_cli.h\n'}
+[3.214189] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/environment/library_path.sh\n'}
+[3.214565] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/environment/library_path.dsv\n'}
+[3.215867] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/include/ti_mmwave_ros2_interfaces/msg/detail/radar_scan__rosidl_typesupport_fastrtps_c.h\n'}
+[3.216172] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/include/ti_mmwave_ros2_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.216486] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/include/ti_mmwave_ros2_interfaces/srv/detail/mm_wave_cli__rosidl_typesupport_fastrtps_c.h\n'}
+[3.217065] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/lib/libti_mmwave_ros2_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[3.218536] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/include/ti_mmwave_ros2_interfaces/msg/detail/radar_scan__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.218800] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/include/ti_mmwave_ros2_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.219108] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/include/ti_mmwave_ros2_interfaces/srv/detail/mm_wave_cli__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.219694] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/lib/libti_mmwave_ros2_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.220633] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/include/ti_mmwave_ros2_interfaces/msg/detail/radar_scan__rosidl_typesupport_introspection_c.h\n'}
+[3.220930] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/include/ti_mmwave_ros2_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.221262] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/include/ti_mmwave_ros2_interfaces/srv/detail/mm_wave_cli__rosidl_typesupport_introspection_c.h\n'}
+[3.222244] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/include/ti_mmwave_ros2_interfaces/msg/detail/radar_scan__builder.hpp\n'}
+[3.222556] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/include/ti_mmwave_ros2_interfaces/msg/detail/radar_scan__struct.hpp\n'}
+[3.222866] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/include/ti_mmwave_ros2_interfaces/msg/detail/radar_scan__traits.hpp\n'}
+[3.223163] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/include/ti_mmwave_ros2_interfaces/msg/radar_scan.hpp\n'}
+[3.223474] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/include/ti_mmwave_ros2_interfaces/srv/detail/mm_wave_cli__builder.hpp\n'}
+[3.223837] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/include/ti_mmwave_ros2_interfaces/srv/detail/mm_wave_cli__struct.hpp\n'}
+[3.224192] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/include/ti_mmwave_ros2_interfaces/srv/detail/mm_wave_cli__traits.hpp\n'}
+[3.224598] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/include/ti_mmwave_ros2_interfaces/srv/mm_wave_cli.hpp\n'}
+[3.225318] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/include/ti_mmwave_ros2_interfaces/msg/detail/radar_scan__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.225647] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/include/ti_mmwave_ros2_interfaces/srv/detail/mm_wave_cli__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.226040] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/environment/pythonpath.sh\n'}
+[3.226417] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/environment/pythonpath.dsv\n'}
+[3.226940] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/lib/python3.8/site-packages/ti_mmwave_ros2_interfaces/__init__.py\n'}
+[3.227623] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/lib/python3.8/site-packages/ti_mmwave_ros2_interfaces/msg/__init__.py\n'}
+[3.227911] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/lib/python3.8/site-packages/ti_mmwave_ros2_interfaces/msg/_radar_scan.py\n'}
+[3.228611] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/lib/python3.8/site-packages/ti_mmwave_ros2_interfaces/srv/__init__.py\n'}
+[3.228924] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/lib/python3.8/site-packages/ti_mmwave_ros2_interfaces/srv/_mm_wave_cli.py\n'}
+[3.229561] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/lib/python3.8/site-packages/ti_mmwave_ros2_interfaces/ti_mmwave_ros2_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[3.230146] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/lib/python3.8/site-packages/ti_mmwave_ros2_interfaces/ti_mmwave_ros2_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[3.230738] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/lib/python3.8/site-packages/ti_mmwave_ros2_interfaces/ti_mmwave_ros2_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[3.231295] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/lib/libti_mmwave_ros2_interfaces__python.so\n'}
+[3.231741] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/msg/RadarScan.idl\n'}
+[3.232204] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/srv/MMWaveCLI.idl\n'}
+[3.232579] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/msg/RadarScan.msg\n'}
+[3.232975] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/srv/MMWaveCLI.srv\n'}
+[3.233386] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/srv/MMWaveCLI_Request.msg\n'}
+[3.233772] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/srv/MMWaveCLI_Response.msg\n'}
+[3.234279] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/share/ament_index/resource_index/package_run_dependencies/ti_mmwave_ros2_interfaces\n'}
+[3.234703] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/share/ament_index/resource_index/parent_prefix_path/ti_mmwave_ros2_interfaces\n'}
+[3.235134] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/environment/ament_prefix_path.sh\n'}
+[3.235910] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/environment/ament_prefix_path.dsv\n'}
+[3.236119] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/environment/path.sh\n'}
+[3.236316] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/environment/path.dsv\n'}
+[3.236708] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/local_setup.bash\n'}
+[3.237034] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/local_setup.sh\n'}
+[3.237462] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/local_setup.zsh\n'}
+[3.237795] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/local_setup.dsv\n'}
+[3.238051] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/package.dsv\n'}
+[3.249471] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/share/ament_index/resource_index/packages/ti_mmwave_ros2_interfaces\n'}
+[3.250483] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[3.250818] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.251094] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.251325] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.252272] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.252685] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.252856] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.253066] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/cmake/ti_mmwave_ros2_interfacesConfig.cmake\n'}
+[3.253289] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/cmake/ti_mmwave_ros2_interfacesConfig-version.cmake\n'}
+[3.253693] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/package.xml\n'}
+[3.254256] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/src/install/ti_mmwave_ros2_interfaces/lib/libti_mmwave_ros2_interfaces__rosidl_generator_c.so\n'}
+[3.258029] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/src/install/ti_mmwave_ros2_interfaces/lib/libti_mmwave_ros2_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[3.259324] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/src/install/ti_mmwave_ros2_interfaces/lib/libti_mmwave_ros2_interfaces__rosidl_typesupport_c.so\n'}
+[3.260677] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/src/install/ti_mmwave_ros2_interfaces/lib/libti_mmwave_ros2_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[3.262380] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/src/install/ti_mmwave_ros2_interfaces/lib/libti_mmwave_ros2_interfaces__rosidl_typesupport_cpp.so\n'}
+[3.308518] (-) TimerEvent: {}
+[3.327374] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b"Compiling '/ws/src/install/ti_mmwave_ros2_interfaces/lib/python3.8/site-packages/ti_mmwave_ros2_interfaces/__init__.py'...\n"}
+[3.337688] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/cmake/ti_mmwave_ros2_interfaces__rosidl_generator_cExport.cmake\n'}
+[3.339458] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/cmake/ti_mmwave_ros2_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.341561] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/cmake/ti_mmwave_ros2_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.343328] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/cmake/ti_mmwave_ros2_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.344808] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/cmake/ti_mmwave_ros2_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[3.346494] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/cmake/ti_mmwave_ros2_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.347990] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/cmake/ti_mmwave_ros2_interfaces__rosidl_generator_cppExport.cmake\n'}
+[3.349141] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/cmake/ti_mmwave_ros2_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.350202] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/cmake/ti_mmwave_ros2_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.351612] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/cmake/ti_mmwave_ros2_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[3.352582] (ti_mmwave_ros2_interfaces) StdoutLine: {'line': b'-- Up-to-date: /ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/cmake/ti_mmwave_ros2_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.366667] (ti_mmwave_ros2_interfaces) CommandEnded: {'returncode': 0}
+[3.412616] (-) TimerEvent: {}
+[3.513349] (-) TimerEvent: {}
+[3.614033] (-) TimerEvent: {}
+[3.697187] (ti_mmwave_ros2_interfaces) JobEnded: {'identifier': 'ti_mmwave_ros2_interfaces', 'rc': 0}
+[3.706204] (ti_mmwave_ros2_pkg) JobStarted: {'identifier': 'ti_mmwave_ros2_pkg'}
+[3.714118] (-) TimerEvent: {}
+[3.749675] (ti_mmwave_ros2_pkg) JobProgress: {'identifier': 'ti_mmwave_ros2_pkg', 'progress': 'cmake'}
+[3.752681] (ti_mmwave_ros2_pkg) Command: {'cmd': ['/usr/local/bin/cmake', '/ws/src/mmwave_ti_ros/ti_mmwave_ros2_pkg', '-DCMAKE_INSTALL_PREFIX=/ws/src/install/ti_mmwave_ros2_pkg'], 'cwd': '/ws/src/build/ti_mmwave_ros2_pkg', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ws/src/install/ti_mmwave_ros2_interfaces/lib:/ws/src/install/ti_mmwave_ros2_pkg/lib:/ws/src/install/ti_mmwave_ros2_examples/lib:/ws/src/install/serial/lib:/opt/ros/galactic/install/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/install/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/install/lib:/usr/local/cuda/lib64'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ws/src/install:/opt/ros/galactic/install'), ('ROS_DISTRO', 'galactic'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/galactic/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/galactic/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/galactic'), ('AMENT_PREFIX_PATH', '/ws/src/install/ti_mmwave_ros2_pkg:/ws/src/install/ti_mmwave_ros2_interfaces:/ws/src/install/ti_mmwave_ros2_examples:/ws/src/install/serial:/opt/ros/galactic/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/ws/src/build/ti_mmwave_ros2_pkg'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/ws/src/install/ti_mmwave_ros2_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/src/install/ti_mmwave_ros2_interfaces:/ws/src/install/ti_mmwave_ros2_pkg:/ws/src/install/ti_mmwave_ros2_examples:/ws/src/install/serial:/opt/ros/galactic/install')]), 'shell': False}
+[3.814320] (-) TimerEvent: {}
+[3.829731] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/install/share/ament_cmake/cmake)\n'}
+[3.833284] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/galactic/install/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):\n'}
+[3.833703] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[3.833878] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[3.834026] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[3.834166] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\n'}
+[3.834299] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.834425] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /opt/ros/galactic/install/share/ament_cmake_core/cmake/core/all.cmake:53 (include)\n'}
+[3.834548] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /opt/ros/galactic/install/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[3.834671] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /opt/ros/galactic/install/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[3.834791] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /opt/ros/galactic/install/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[3.834916] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /opt/ros/galactic/install/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[3.835033] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  CMakeLists.txt:19 (find_package)\n'}
+[3.835151] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[3.835269] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[3.883438] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.914425] (-) TimerEvent: {}
+[4.012348] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.014508] (-) TimerEvent: {}
+[4.036184] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/install/share/rosidl_default_generators/cmake)\n'}
+[4.042384] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.050701] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/install/share/rosidl_adapter/cmake)\n'}
+[4.114717] (-) TimerEvent: {}
+[4.215392] (-) TimerEvent: {}
+[4.316071] (-) TimerEvent: {}
+[4.393342] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.416149] (-) TimerEvent: {}
+[4.442301] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/install/share/rclcpp/cmake)\n'}
+[4.516358] (-) TimerEvent: {}
+[4.554153] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/install/share/rmw_implementation_cmake/cmake)\n'}
+[4.558051] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/install/share/rmw_cyclonedds_cpp/cmake)\n'}
+[4.594492] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[4.616528] (-) TimerEvent: {}
+[4.717203] (-) TimerEvent: {}
+[4.817892] (-) TimerEvent: {}
+[4.870820] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Found rclcpp_components: 9.2.2 (/opt/ros/galactic/install/share/rclcpp_components/cmake)\n'}
+[4.918031] (-) TimerEvent: {}
+[4.970181] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Found composition: 0.14.4 (/opt/ros/galactic/install/share/composition/cmake)\n'}
+[4.970721] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Found pcl_conversions: 2.3.2 (/opt/ros/galactic/install/share/pcl_conversions/cmake)\n'}
+[5.018185] (-) TimerEvent: {}
+[5.118810] (-) TimerEvent: {}
+[5.219492] (-) TimerEvent: {}
+[5.320189] (-) TimerEvent: {}
+[5.420872] (-) TimerEvent: {}
+[5.521583] (-) TimerEvent: {}
+[5.563526] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Found visualization_msgs: 2.2.4 (/opt/ros/galactic/install/share/visualization_msgs/cmake)\n'}
+[5.621754] (-) TimerEvent: {}
+[5.696890] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Found ti_mmwave_ros2_interfaces: 0.0.0 (/ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/cmake)\n'}
+[5.721830] (-) TimerEvent: {}
+[5.752245] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Found serial: 1.2.1 (/ws/src/install/serial/share/serial/cmake)\n'}
+[5.769463] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.65.1") found components: system filesystem \n'}
+[5.790020] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:152 (find_package):\n'}
+[5.790493] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n'}
+[5.790666] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the\n'}
+[5.790816] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[5.790955] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\n'}
+[5.791086] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  CMake variable EIGEN_ROOT is set to:\n'}
+[5.791212] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\n'}
+[5.791370] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'    /usr/include/eigen3\n'}
+[5.791497] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\n'}
+[5.791618] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  For compatibility, find_package is ignoring the variable, but code in a\n'}
+[5.791740] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  .cmake module might still use it.\n'}
+[5.791863] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[5.791986] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:316 (find_eigen)\n'}
+[5.792105] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:551 (find_external_library)\n'}
+[5.792228] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  CMakeLists.txt:42 (find_package)\n'}
+[5.792488] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[5.792615] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[5.801027] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)\n'}
+[5.818548] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex \n'}
+[5.820890] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/aarch64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:44 (find_package):\n'}
+[5.821130] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n'}
+[5.821307] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the\n'}
+[5.821454] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[5.821587] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\n'}
+[5.821714] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  CMake variable FLANN_ROOT is set to:\n'}
+[5.821835] (-) TimerEvent: {}
+[5.822091] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\n'}
+[5.822246] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'    /usr\n'}
+[5.822378] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\n'}
+[5.822505] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  For compatibility, find_package is ignoring the variable, but code in a\n'}
+[5.822654] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  .cmake module might still use it.\n'}
+[5.822779] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[5.822900] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:263 (find_package)\n'}
+[5.823022] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:318 (find_flann)\n'}
+[5.823144] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:551 (find_external_library)\n'}
+[5.823265] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  CMakeLists.txt:42 (find_package)\n'}
+[5.823384] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[5.823501] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[5.922048] (-) TimerEvent: {}
+[5.946679] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- The imported target "vtkParseOGLExt" references the file\n'}
+[5.947106] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'   "/usr/bin/vtkParseOGLExt-7.1"\n'}
+[5.947271] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[5.947420] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[5.947561] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[5.947832] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[5.947973] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[5.948104] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'but not all the files it references.\n'}
+[5.948231] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'\n'}
+[5.948477] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- The imported target "vtkRenderingPythonTkWidgets" references the file\n'}
+[5.948722] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'   "/usr/lib/aarch64-linux-gnu/libvtkRenderingPythonTkWidgets.so"\n'}
+[5.948855] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[5.948985] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[5.949109] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[5.949251] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[5.949388] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[5.949511] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'but not all the files it references.\n'}
+[5.949632] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'\n'}
+[5.949753] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- The imported target "vtk" references the file\n'}
+[5.949874] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'   "/usr/bin/vtk"\n'}
+[5.949996] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[5.950118] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[5.950284] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[5.950409] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[5.950532] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[5.950653] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'but not all the files it references.\n'}
+[5.950772] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'\n'}
+[5.950891] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- The imported target "pvtk" references the file\n'}
+[5.951010] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'   "/usr/bin/pvtk"\n'}
+[5.951128] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[5.951245] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[5.951363] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[5.951481] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[5.951599] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[5.951718] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'but not all the files it references.\n'}
+[5.951835] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'\n'}
+[5.992018] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[6.002040] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[6.009605] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[6.009960] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (USB_10)\n'}
+[6.010156] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  does not match the name of the calling package (OpenNI).  This can lead to\n'}
+[6.010382] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[6.010523] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[6.010654] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.010780] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)\n'}
+[6.010906] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)\n'}
+[6.011029] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)\n'}
+[6.011149] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)\n'}
+[6.011271] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  CMakeLists.txt:42 (find_package)\n'}
+[6.011389] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.011509] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[6.011625] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[6.011757] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- OpenNI disabled because libusb-1.0 not found.\n'}
+[6.011882] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to openni will be disabled\x1b[0m\n'}
+[6.021022] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[6.022089] (-) TimerEvent: {}
+[6.028858] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[6.035635] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[6.035974] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (USB_10)\n'}
+[6.036123] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  does not match the name of the calling package (OpenNI2).  This can lead to\n'}
+[6.036352] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[6.036544] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[6.036723] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.036853] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/Modules/FindOpenNI2.cmake:28 (find_package_handle_standard_args)\n'}
+[6.037000] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:193 (find_package)\n'}
+[6.037126] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_openni2)\n'}
+[6.037272] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)\n'}
+[6.037428] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  CMakeLists.txt:42 (find_package)\n'}
+[6.037553] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.037675] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[6.037795] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[6.037926] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- OpenNI 2 disabled because libusb-1.0 not found.\n'}
+[6.038051] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to openni2 will be disabled\x1b[0m\n'}
+[6.038173] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[6.038292] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to png will be disabled\x1b[0m\n'}
+[6.065819] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[6.066446] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (libusb-1.0)\n'}
+[6.066607] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[6.066743] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[6.066873] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[6.066998] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.067120] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:291 (find_package_handle_standard_args)\n'}
+[6.067243] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:338 (find_libusb)\n'}
+[6.067361] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)\n'}
+[6.067481] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  CMakeLists.txt:42 (find_package)\n'}
+[6.067602] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.067723] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[6.067839] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) \n'}
+[6.067980] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to libusb-1.0 will be disabled\x1b[0m\n'}
+[6.076788] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[6.083574] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[6.089907] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[6.090103] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (USB_10)\n'}
+[6.090675] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  does not match the name of the calling package (OpenNI).  This can lead to\n'}
+[6.091208] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[6.091479] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[6.091814] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.092840] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)\n'}
+[6.093001] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)\n'}
+[6.093136] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)\n'}
+[6.093306] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)\n'}
+[6.093446] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  CMakeLists.txt:42 (find_package)\n'}
+[6.093572] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.093699] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[6.093887] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[6.094077] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- OpenNI disabled because libusb-1.0 not found.\n'}
+[6.094211] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[0m** WARNING ** visualization features related to openni will be disabled\x1b[0m\n'}
+[6.102065] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[6.109060] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[6.115374] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[6.115775] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (USB_10)\n'}
+[6.115928] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  does not match the name of the calling package (OpenNI2).  This can lead to\n'}
+[6.116110] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[6.116243] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[6.116370] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.116492] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/Modules/FindOpenNI2.cmake:28 (find_package_handle_standard_args)\n'}
+[6.116616] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:193 (find_package)\n'}
+[6.116740] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_openni2)\n'}
+[6.116860] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)\n'}
+[6.116980] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  CMakeLists.txt:42 (find_package)\n'}
+[6.117097] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.117213] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[6.117352] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[6.117520] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- OpenNI 2 disabled because libusb-1.0 not found.\n'}
+[6.117647] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[0m** WARNING ** visualization features related to openni2 will be disabled\x1b[0m\n'}
+[6.122170] (-) TimerEvent: {}
+[6.141341] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:165 (find_package):\n'}
+[6.141712] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n'}
+[6.141866] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the\n'}
+[6.141998] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[6.142156] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\n'}
+[6.142281] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  CMake variable QHULL_ROOT is set to:\n'}
+[6.142404] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\n'}
+[6.142527] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'    /usr\n'}
+[6.142649] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\n'}
+[6.142767] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  For compatibility, find_package is ignoring the variable, but code in a\n'}
+[6.142886] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  .cmake module might still use it.\n'}
+[6.143005] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.143122] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:320 (find_qhull)\n'}
+[6.143258] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)\n'}
+[6.143379] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  CMakeLists.txt:42 (find_package)\n'}
+[6.143498] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.143617] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[6.143829] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so)\n'}
+[6.154221] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[6.166163] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[6.173919] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[6.174346] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (USB_10)\n'}
+[6.174507] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  does not match the name of the calling package (OpenNI).  This can lead to\n'}
+[6.174715] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[6.174847] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[6.174973] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.175097] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)\n'}
+[6.175222] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)\n'}
+[6.175344] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)\n'}
+[6.175503] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)\n'}
+[6.175629] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  CMakeLists.txt:42 (find_package)\n'}
+[6.175747] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.175886] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[6.176008] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[6.176149] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- OpenNI disabled because libusb-1.0 not found.\n'}
+[6.176274] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[0m** WARNING ** apps features related to openni will be disabled\x1b[0m\n'}
+[6.199141] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[6.199571] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[6.199739] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_COMMON)\n'}
+[6.199875] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[6.200006] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[6.200134] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[6.200322] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.200449] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)\n'}
+[6.200696] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  CMakeLists.txt:42 (find_package)\n'}
+[6.200824] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.200948] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[6.201070] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[6.201268] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[6.201406] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_KDTREE)\n'}
+[6.201639] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[6.201765] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[6.201887] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[6.202056] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.202183] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)\n'}
+[6.202409] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  CMakeLists.txt:42 (find_package)\n'}
+[6.202540] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.202663] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[6.202785] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[6.202913] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[6.203090] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_OCTREE)\n'}
+[6.203218] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[6.203484] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[6.203611] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[6.203732] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.203859] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)\n'}
+[6.204060] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  CMakeLists.txt:42 (find_package)\n'}
+[6.204290] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.204420] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[6.204542] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[6.204669] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[6.204849] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_SEARCH)\n'}
+[6.205000] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[6.205200] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[6.205354] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[6.205480] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.205602] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)\n'}
+[6.205778] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  CMakeLists.txt:42 (find_package)\n'}
+[6.205911] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.206197] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[6.206324] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[6.206455] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[6.206644] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[6.206799] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  (PCL_SAMPLE_CONSENSUS) does not match the name of the calling package\n'}
+[6.207094] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  (PCL).  This can lead to problems in calling code that expects\n'}
+[6.207232] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  `find_package` result variables (e.g., `_FOUND`) to follow a certain\n'}
+[6.207375] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  pattern.\n'}
+[6.207506] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.207704] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)\n'}
+[6.207834] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  CMakeLists.txt:42 (find_package)\n'}
+[6.208056] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.208183] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[6.208305] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[6.208432] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[6.208556] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[6.208731] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  (PCL_FILTERS) does not match the name of the calling package (PCL).  This\n'}
+[6.208856] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  can lead to problems in calling code that expects `find_package` result\n'}
+[6.209065] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[6.209191] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.209360] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)\n'}
+[6.209489] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  CMakeLists.txt:42 (find_package)\n'}
+[6.209611] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.209795] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[6.209933] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[6.210204] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[6.210335] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_2D)\n'}
+[6.210458] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[6.210580] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[6.210703] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[6.210886] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.211012] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)\n'}
+[6.211440] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  CMakeLists.txt:42 (find_package)\n'}
+[6.211648] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.211801] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[6.211939] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[6.212126] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[6.212270] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[6.212497] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  (PCL_GEOMETRY) does not match the name of the calling package (PCL).  This\n'}
+[6.212630] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  can lead to problems in calling code that expects `find_package` result\n'}
+[6.212757] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[6.212882] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.213004] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)\n'}
+[6.213153] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  CMakeLists.txt:42 (find_package)\n'}
+[6.213295] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.213519] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[6.213647] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[6.213780] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[6.213907] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_IO)\n'}
+[6.214029] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[6.214150] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[6.214310] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[6.214438] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.214636] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)\n'}
+[6.214793] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  CMakeLists.txt:42 (find_package)\n'}
+[6.214917] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.215039] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[6.215158] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[6.215283] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[6.215460] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[6.215588] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  (PCL_FEATURES) does not match the name of the calling package (PCL).  This\n'}
+[6.215796] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  can lead to problems in calling code that expects `find_package` result\n'}
+[6.215922] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[6.216044] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.216163] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)\n'}
+[6.216295] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  CMakeLists.txt:42 (find_package)\n'}
+[6.216447] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.216572] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[6.216768] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[6.216905] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[6.217033] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_ML)\n'}
+[6.217155] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[6.217302] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[6.217445] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[6.217566] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.217708] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)\n'}
+[6.217838] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  CMakeLists.txt:42 (find_package)\n'}
+[6.217959] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.218164] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[6.218286] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[6.218413] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[6.218537] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[6.218656] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  (PCL_SEGMENTATION) does not match the name of the calling package (PCL).\n'}
+[6.218816] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  This can lead to problems in calling code that expects `find_package`\n'}
+[6.218941] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  result variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[6.219145] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.219270] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)\n'}
+[6.219419] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  CMakeLists.txt:42 (find_package)\n'}
+[6.219542] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.219662] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[6.219781] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[6.219905] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[6.220028] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[6.220148] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  (PCL_VISUALIZATION) does not match the name of the calling package (PCL).\n'}
+[6.220268] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  This can lead to problems in calling code that expects `find_package`\n'}
+[6.220386] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  result variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[6.220504] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.220632] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)\n'}
+[6.221019] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  CMakeLists.txt:42 (find_package)\n'}
+[6.221150] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.221300] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[6.221445] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[6.221659] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[6.221918] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[6.222049] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  (PCL_SURFACE) does not match the name of the calling package (PCL).  This\n'}
+[6.222172] (-) TimerEvent: {}
+[6.222579] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  can lead to problems in calling code that expects `find_package` result\n'}
+[6.222867] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[6.223282] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.223510] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)\n'}
+[6.224134] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  CMakeLists.txt:42 (find_package)\n'}
+[6.224613] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.224877] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[6.225113] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[6.225380] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[6.225626] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[6.225870] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  (PCL_REGISTRATION) does not match the name of the calling package (PCL).\n'}
+[6.226197] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  This can lead to problems in calling code that expects `find_package`\n'}
+[6.226441] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  result variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[6.226591] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.226724] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)\n'}
+[6.226897] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  CMakeLists.txt:42 (find_package)\n'}
+[6.227035] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.227163] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[6.227291] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[6.227457] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[6.227593] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[6.227721] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  (PCL_KEYPOINTS) does not match the name of the calling package (PCL).  This\n'}
+[6.227843] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  can lead to problems in calling code that expects `find_package` result\n'}
+[6.227964] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[6.228086] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.228203] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)\n'}
+[6.228322] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  CMakeLists.txt:42 (find_package)\n'}
+[6.228444] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.228566] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[6.228685] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[6.228812] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[6.228937] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[6.229056] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  (PCL_TRACKING) does not match the name of the calling package (PCL).  This\n'}
+[6.229174] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  can lead to problems in calling code that expects `find_package` result\n'}
+[6.229322] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[6.229465] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.229585] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)\n'}
+[6.229705] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  CMakeLists.txt:42 (find_package)\n'}
+[6.229821] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.229938] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[6.230056] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[6.230180] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[6.230304] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[6.230425] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  (PCL_RECOGNITION) does not match the name of the calling package (PCL).\n'}
+[6.230545] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  This can lead to problems in calling code that expects `find_package`\n'}
+[6.230662] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  result variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[6.230781] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.230899] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)\n'}
+[6.231035] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  CMakeLists.txt:42 (find_package)\n'}
+[6.231176] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.231297] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[6.231412] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[6.231533] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[6.231653] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_STEREO)\n'}
+[6.231773] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[6.231893] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[6.232010] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[6.232125] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.232244] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)\n'}
+[6.232364] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  CMakeLists.txt:42 (find_package)\n'}
+[6.232482] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.232600] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[6.232718] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[6.232839] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[6.232961] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_APPS)\n'}
+[6.233080] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[6.233197] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[6.233345] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[6.233467] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.233584] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)\n'}
+[6.233701] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  CMakeLists.txt:42 (find_package)\n'}
+[6.233816] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.233954] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[6.234075] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[6.234197] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[6.234319] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[6.234438] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  (PCL_IN_HAND_SCANNER) does not match the name of the calling package (PCL).\n'}
+[6.234557] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  This can lead to problems in calling code that expects `find_package`\n'}
+[6.234676] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  result variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[6.234794] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.234910] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)\n'}
+[6.235040] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  CMakeLists.txt:42 (find_package)\n'}
+[6.235169] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.235286] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[6.235403] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[6.235521] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[6.235642] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[6.235758] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  (PCL_POINT_CLOUD_EDITOR) does not match the name of the calling package\n'}
+[6.235875] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  (PCL).  This can lead to problems in calling code that expects\n'}
+[6.235992] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  `find_package` result variables (e.g., `_FOUND`) to follow a certain\n'}
+[6.236109] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  pattern.\n'}
+[6.236225] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.236340] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)\n'}
+[6.236456] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  CMakeLists.txt:42 (find_package)\n'}
+[6.236571] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.236687] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[6.236803] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[6.236922] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[6.237040] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[6.237155] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  (PCL_OUTOFCORE) does not match the name of the calling package (PCL).  This\n'}
+[6.237472] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  can lead to problems in calling code that expects `find_package` result\n'}
+[6.237633] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[6.237766] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.237909] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)\n'}
+[6.238036] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  CMakeLists.txt:42 (find_package)\n'}
+[6.238157] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.238278] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[6.238397] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[6.238525] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/local/lib/python3.8/dist-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[6.238651] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_PEOPLE)\n'}
+[6.238770] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[6.238889] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[6.239007] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[6.239123] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.239239] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)\n'}
+[6.239374] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'  CMakeLists.txt:42 (find_package)\n'}
+[6.239492] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.239610] (ti_mmwave_ros2_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[6.322392] (-) TimerEvent: {}
+[6.423074] (-) TimerEvent: {}
+[6.523786] (-) TimerEvent: {}
+[6.603430] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/install/share/ament_lint_auto/cmake)\n'}
+[6.623941] (-) TimerEvent: {}
+[6.724614] (-) TimerEvent: {}
+[6.775360] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[6.782377] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.785360] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /ws/src/mmwave_ti_ros/ti_mmwave_ros2_pkg/include\n'}
+[6.785829] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.790810] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[6.791040] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[6.792185] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[6.794428] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.795715] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[6.800860] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.801366] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.802098] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.809389] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Configuring done (3.0s)\n'}
+[6.824803] (-) TimerEvent: {}
+[6.925534] (-) TimerEvent: {}
+[6.940319] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[6.946022] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Build files have been written to: /ws/src/build/ti_mmwave_ros2_pkg\n'}
+[6.987658] (ti_mmwave_ros2_pkg) CommandEnded: {'returncode': 0}
+[6.989178] (ti_mmwave_ros2_pkg) JobProgress: {'identifier': 'ti_mmwave_ros2_pkg', 'progress': 'build'}
+[6.990007] (ti_mmwave_ros2_pkg) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/ws/src/build/ti_mmwave_ros2_pkg', '--', '-j6', '-l6'], 'cwd': '/ws/src/build/ti_mmwave_ros2_pkg', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ws/src/install/ti_mmwave_ros2_interfaces/lib:/ws/src/install/ti_mmwave_ros2_pkg/lib:/ws/src/install/ti_mmwave_ros2_examples/lib:/ws/src/install/serial/lib:/opt/ros/galactic/install/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/install/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/install/lib:/usr/local/cuda/lib64'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ws/src/install:/opt/ros/galactic/install'), ('ROS_DISTRO', 'galactic'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/galactic/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/galactic/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/galactic'), ('AMENT_PREFIX_PATH', '/ws/src/install/ti_mmwave_ros2_pkg:/ws/src/install/ti_mmwave_ros2_interfaces:/ws/src/install/ti_mmwave_ros2_examples:/ws/src/install/serial:/opt/ros/galactic/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/ws/src/build/ti_mmwave_ros2_pkg'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/ws/src/install/ti_mmwave_ros2_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/src/install/ti_mmwave_ros2_interfaces:/ws/src/install/ti_mmwave_ros2_pkg:/ws/src/install/ti_mmwave_ros2_examples:/ws/src/install/serial:/opt/ros/galactic/install')]), 'shell': False}
+[7.025742] (-) TimerEvent: {}
+[7.123821] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'[ 16%] Built target mmwave_comm_srv_node\n'}
+[7.125801] (-) TimerEvent: {}
+[7.209096] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'[ 66%] Built target mmwave\n'}
+[7.226009] (-) TimerEvent: {}
+[7.247685] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'[ 83%] Built target mmWaveQuickConfig\n'}
+[7.286683] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'[100%] Built target ti_mmwave_ros2_pkg\n'}
+[7.305773] (ti_mmwave_ros2_pkg) CommandEnded: {'returncode': 0}
+[7.326219] (-) TimerEvent: {}
+[7.427012] (-) TimerEvent: {}
+[7.452433] (ti_mmwave_ros2_pkg) JobProgress: {'identifier': 'ti_mmwave_ros2_pkg', 'progress': 'install'}
+[7.453795] (ti_mmwave_ros2_pkg) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/ws/src/build/ti_mmwave_ros2_pkg'], 'cwd': '/ws/src/build/ti_mmwave_ros2_pkg', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ws/src/install/ti_mmwave_ros2_interfaces/lib:/ws/src/install/ti_mmwave_ros2_pkg/lib:/ws/src/install/ti_mmwave_ros2_examples/lib:/ws/src/install/serial/lib:/opt/ros/galactic/install/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/install/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/install/lib:/usr/local/cuda/lib64'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ws/src/install:/opt/ros/galactic/install'), ('ROS_DISTRO', 'galactic'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/galactic/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/galactic/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/galactic'), ('AMENT_PREFIX_PATH', '/ws/src/install/ti_mmwave_ros2_pkg:/ws/src/install/ti_mmwave_ros2_interfaces:/ws/src/install/ti_mmwave_ros2_examples:/ws/src/install/serial:/opt/ros/galactic/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/ws/src/build/ti_mmwave_ros2_pkg'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/ws/src/install/ti_mmwave_ros2_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/src/install/ti_mmwave_ros2_interfaces:/ws/src/install/ti_mmwave_ros2_pkg:/ws/src/install/ti_mmwave_ros2_examples:/ws/src/install/serial:/opt/ros/galactic/install')]), 'shell': False}
+[7.521130] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.522072] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.522708] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_pkg/lib/libmmwave.so\n'}
+[7.523675] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/launch/eloquent_composition.launch.py\n'}
+[7.523949] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/launch/eloquent_multi0_composition.launch.py\n'}
+[7.524190] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/launch/eloquent_multi1_composition.launch.py\n'}
+[7.524465] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/launch/eloquent_multi_only_rviz.py\n'}
+[7.524739] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/launch/eloquent_only_config.launch.py\n'}
+[7.525333] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/rviz/mmwave_3d_view.rviz\n'}
+[7.525611] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/rviz/mmwave_3d_view_multi.rviz\n'}
+[7.526369] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/1443_2d.cfg\n'}
+[7.526642] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/1443_3d.cfg\n'}
+[7.526912] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/1642_2d.cfg\n'}
+[7.527051] (-) TimerEvent: {}
+[7.527398] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/1843_2d.cfg\n'}
+[7.527625] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/1843_3d.cfg\n'}
+[7.527957] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/1843_3d_hw_trig.cfg\n'}
+[7.528199] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/6843AOP_2d.cfg\n'}
+[7.528425] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/6843AOP_3d.cfg\n'}
+[7.528715] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/6843ISK_3d.cfg\n'}
+[7.529077] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/6843ISK_3d_editted.cfg\n'}
+[7.529367] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/6843_2d.cfg\n'}
+[7.529576] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/6843_3d.cfg\n'}
+[7.529789] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/logitech_1080.ini\n'}
+[7.529965] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cfg/logitech_1080.yaml\n'}
+[7.530581] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_pkg/lib/ti_mmwave_ros2_pkg/ti_mmwave_ros2_pkg\n'}
+[7.530938] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_pkg/lib/ti_mmwave_ros2_pkg/mmWaveQuickConfig\n'}
+[7.531291] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_pkg/lib/ti_mmwave_ros2_pkg/mmwave_comm_srv_node\n'}
+[7.531778] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_pkg/share/ament_index/resource_index/package_run_dependencies/ti_mmwave_ros2_pkg\n'}
+[7.532225] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_pkg/share/ament_index/resource_index/parent_prefix_path/ti_mmwave_ros2_pkg\n'}
+[7.532660] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/environment/ament_prefix_path.sh\n'}
+[7.533038] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/environment/ament_prefix_path.dsv\n'}
+[7.533472] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/environment/path.sh\n'}
+[7.533834] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/environment/path.dsv\n'}
+[7.534200] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/local_setup.bash\n'}
+[7.534565] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/local_setup.sh\n'}
+[7.534923] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/local_setup.zsh\n'}
+[7.535274] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/local_setup.dsv\n'}
+[7.535535] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Symlinking: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/package.dsv\n'}
+[7.542514] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_pkg/share/ament_index/resource_index/packages/ti_mmwave_ros2_pkg\n'}
+[7.542927] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_pkg/share/ament_index/resource_index/rclcpp_components/ti_mmwave_ros2_pkg\n'}
+[7.543342] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cmake/ti_mmwave_ros2_pkgConfig.cmake\n'}
+[7.543631] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/cmake/ti_mmwave_ros2_pkgConfig-version.cmake\n'}
+[7.544002] (ti_mmwave_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_pkg/share/ti_mmwave_ros2_pkg/package.xml\n'}
+[7.555375] (ti_mmwave_ros2_pkg) CommandEnded: {'returncode': 0}
+[7.627258] (-) TimerEvent: {}
+[7.727888] (-) TimerEvent: {}
+[7.808932] (ti_mmwave_ros2_pkg) JobEnded: {'identifier': 'ti_mmwave_ros2_pkg', 'rc': 0}
+[7.811473] (-) EventReactorShutdown: {}

@@ -1,0 +1,68 @@
+[0.046s] Invoking command in '/ws/src/build/serial': /usr/local/bin/cmake /ws/src/mmwave_ti_ros/serial-ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/src/install/serial
+[0.203s] -- The C compiler identification is GNU 9.4.0
+[0.315s] -- The CXX compiler identification is GNU 9.4.0
+[0.357s] -- Detecting C compiler ABI info
+[0.494s] -- Detecting C compiler ABI info - done
+[0.517s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.517s] -- Detecting C compile features
+[0.518s] -- Detecting C compile features - done
+[0.545s] -- Detecting CXX compiler ABI info
+[0.707s] -- Detecting CXX compiler ABI info - done
+[0.730s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.730s] -- Detecting CXX compile features
+[0.732s] -- Detecting CXX compile features - done
+[0.738s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/install/share/ament_cmake/cmake)
+[0.747s] [33mCMake Warning (dev) at /opt/ros/galactic/install/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.748s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.748s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.748s]   the cmake_policy command to set the policy and suppress this warning.
+[0.748s] 
+[0.748s] Call Stack (most recent call first):
+[0.748s]   /opt/ros/galactic/install/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.748s]   /opt/ros/galactic/install/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.749s]   /opt/ros/galactic/install/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.749s]   /opt/ros/galactic/install/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.749s]   /opt/ros/galactic/install/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.749s]   CMakeLists.txt:6 (find_package)
+[0.749s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.749s] [0m
+[0.801s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.802s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.931s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.116s] -- Configuring done (1.0s)
+[1.128s] -- Generating done (0.0s)
+[1.130s] -- Build files have been written to: /ws/src/build/serial
+[1.149s] Invoked command in '/ws/src/build/serial' returned '0': /usr/local/bin/cmake /ws/src/mmwave_ti_ros/serial-ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/src/install/serial
+[1.156s] Invoking command in '/ws/src/build/serial': /usr/local/bin/cmake --build /ws/src/build/serial -- -j6 -l6
+[1.254s] [ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[1.254s] [ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[1.254s] [ 75%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[2.298s] [100%] [32m[1mLinking CXX static library libserial.a[0m
+[2.330s] [100%] Built target serial
+[2.349s] Invoked command in '/ws/src/build/serial' returned '0': /usr/local/bin/cmake --build /ws/src/build/serial -- -j6 -l6
+[2.522s] Invoking command in '/ws/src/build/serial': /usr/local/bin/cmake --install /ws/src/build/serial
+[2.578s] -- Install configuration: ""
+[2.579s] -- Execute custom install script
+[2.580s] -- Symlinking: /ws/src/install/serial/share/serial/environment/library_path.sh
+[2.585s] -- Symlinking: /ws/src/install/serial/share/serial/environment/library_path.dsv
+[2.591s] -- Symlinking: /ws/src/install/serial/lib/libserial.a
+[2.597s] -- Symlinking: /ws/src/install/serial/include/serial/serial.h
+[2.602s] -- Symlinking: /ws/src/install/serial/include/serial/v8stdint.h
+[2.607s] -- Symlinking: /ws/src/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[2.613s] -- Symlinking: /ws/src/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[2.618s] -- Symlinking: /ws/src/install/serial/share/serial/environment/ament_prefix_path.sh
+[2.624s] -- Symlinking: /ws/src/install/serial/share/serial/environment/ament_prefix_path.dsv
+[2.629s] -- Symlinking: /ws/src/install/serial/share/serial/environment/path.sh
+[2.634s] -- Symlinking: /ws/src/install/serial/share/serial/environment/path.dsv
+[2.641s] -- Symlinking: /ws/src/install/serial/share/serial/local_setup.bash
+[2.647s] -- Symlinking: /ws/src/install/serial/share/serial/local_setup.sh
+[2.652s] -- Symlinking: /ws/src/install/serial/share/serial/local_setup.zsh
+[2.658s] -- Symlinking: /ws/src/install/serial/share/serial/local_setup.dsv
+[2.665s] -- Symlinking: /ws/src/install/serial/share/serial/package.dsv
+[2.673s] -- Symlinking: /ws/src/install/serial/share/ament_index/resource_index/packages/serial
+[2.679s] -- Symlinking: /ws/src/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.685s] -- Symlinking: /ws/src/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[2.693s] -- Symlinking: /ws/src/install/serial/share/serial/cmake/serialConfig.cmake
+[2.698s] -- Symlinking: /ws/src/install/serial/share/serial/cmake/serialConfig-version.cmake
+[2.705s] -- Symlinking: /ws/src/install/serial/share/serial/package.xml
+[2.725s] Invoked command in '/ws/src/build/serial' returned '0': /usr/local/bin/cmake --install /ws/src/build/serial

@@ -1,0 +1,46 @@
+[0.096s] Invoking command in '/ws/build/ti_mmwave_ros2_examples': /usr/local/bin/cmake --build /ws/build/ti_mmwave_ros2_examples -- -j4 -l4
+[0.406s] [ 33%] Built target pointcloud_to_laserscan_node
+[0.418s] [ 66%] Built target dummy_pointcloud_publisher
+[0.419s] [100%] Built target pointcloud_to_laserscan
+[0.459s] Invoked command in '/ws/build/ti_mmwave_ros2_examples' returned '0': /usr/local/bin/cmake --build /ws/build/ti_mmwave_ros2_examples -- -j4 -l4
+[0.764s] Invoking command in '/ws/build/ti_mmwave_ros2_examples': /usr/local/bin/cmake --install /ws/build/ti_mmwave_ros2_examples
+[0.862s] -- Install configuration: ""
+[0.863s] -- Execute custom install script
+[0.864s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_examples/lib/ti_mmwave_ros2_examples/pointcloud_to_laserscan_node
+[0.865s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_examples/lib/libpointcloud_to_laserscan.so
+[0.866s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_examples/lib/ti_mmwave_ros2_examples/dummy_pointcloud_publisher
+[0.867s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/launch/bringup_launch.py
+[0.868s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/launch/fake_nav_launch.py
+[0.868s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/launch/lidar_nav.launch.py
+[0.869s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/launch/localization_launch.py
+[0.869s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/launch/navigation_launch.py
+[0.870s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/launch/pointcloud_to_laserscan.launch.py
+[0.871s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/launch/rviz_view_launch.py
+[0.872s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/param/go1_params.yaml
+[0.872s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/param/navigate_w_replanning_and_recovery.xml
+[0.873s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/param/neuronbot_params.yaml
+[0.873s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/rviz/laser_scan.rviz
+[0.874s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/rviz/nav2.rviz
+[0.874s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/rviz/nav2_default_view.rviz
+[0.874s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/rviz/nav2_namespaced_view.rviz
+[0.875s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/map/hy_map_editted.pgm
+[0.875s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/map/hy_map_editted.yaml
+[0.875s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/map/mememan.pgm
+[0.876s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/map/mememan.yaml
+[0.877s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_examples/share/ament_index/resource_index/package_run_dependencies/ti_mmwave_ros2_examples
+[0.877s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_examples/share/ament_index/resource_index/parent_prefix_path/ti_mmwave_ros2_examples
+[0.881s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/environment/ament_prefix_path.sh
+[0.881s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/environment/ament_prefix_path.dsv
+[0.881s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/environment/path.sh
+[0.882s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/environment/path.dsv
+[0.882s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/local_setup.bash
+[0.882s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/local_setup.sh
+[0.883s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/local_setup.zsh
+[0.883s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/local_setup.dsv
+[0.883s] -- Symlinking: /ws/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/package.dsv
+[0.894s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_examples/share/ament_index/resource_index/packages/ti_mmwave_ros2_examples
+[0.895s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_examples/share/ament_index/resource_index/rclcpp_components/ti_mmwave_ros2_examples
+[0.895s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/cmake/ti_mmwave_ros2_examplesConfig.cmake
+[0.896s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/cmake/ti_mmwave_ros2_examplesConfig-version.cmake
+[0.897s] -- Up-to-date symlink: /ws/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/package.xml
+[0.940s] Invoked command in '/ws/build/ti_mmwave_ros2_examples' returned '0': /usr/local/bin/cmake --install /ws/build/ti_mmwave_ros2_examples

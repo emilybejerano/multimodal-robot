@@ -1,0 +1,4 @@
+Invoking command in '/ws/build/ti_mmwave_ros2_examples': /usr/local/bin/cmake --build /ws/build/ti_mmwave_ros2_examples -- -j4 -l4
+Invoked command in '/ws/build/ti_mmwave_ros2_examples' returned '0': /usr/local/bin/cmake --build /ws/build/ti_mmwave_ros2_examples -- -j4 -l4
+Invoking command in '/ws/build/ti_mmwave_ros2_examples': /usr/local/bin/cmake --install /ws/build/ti_mmwave_ros2_examples
+Invoked command in '/ws/build/ti_mmwave_ros2_examples' returned '0': /usr/local/bin/cmake --install /ws/build/ti_mmwave_ros2_examples

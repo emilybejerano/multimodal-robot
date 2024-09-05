@@ -1,0 +1,11 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/ti_mmwave_ros2_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ti_mmwave_ros2_interfaces/_ti_mmwave_ros2_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o"
+  "CMakeFiles/ti_mmwave_ros2_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ti_mmwave_ros2_interfaces/_ti_mmwave_ros2_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o.d"
+  "rosidl_generator_py/ti_mmwave_ros2_interfaces/ti_mmwave_ros2_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.pdb"
+  "rosidl_generator_py/ti_mmwave_ros2_interfaces/ti_mmwave_ros2_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/ti_mmwave_ros2_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

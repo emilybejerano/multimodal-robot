@@ -1,0 +1,4 @@
+Invoking command in '/ws/src/build/serial': /usr/local/bin/cmake --build /ws/src/build/serial -- -j6 -l6
+Invoked command in '/ws/src/build/serial' returned '0': /usr/local/bin/cmake --build /ws/src/build/serial -- -j6 -l6
+Invoking command in '/ws/src/build/serial': /usr/local/bin/cmake --install /ws/src/build/serial
+Invoked command in '/ws/src/build/serial' returned '0': /usr/local/bin/cmake --install /ws/src/build/serial

@@ -1,0 +1,2 @@
+/ws/src/build/ti_mmwave_ros2_interfaces/rosidl_adapter/ti_mmwave_ros2_interfaces:msg/RadarScan.idl
+/ws/src/build/ti_mmwave_ros2_interfaces/rosidl_adapter/ti_mmwave_ros2_interfaces:srv/MMWaveCLI.idl

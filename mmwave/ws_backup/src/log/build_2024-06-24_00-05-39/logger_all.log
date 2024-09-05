@@ -1,0 +1,217 @@
+[0.621s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'ti_mmwave_ros2_interfaces']
+[0.621s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb54ae910>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['ti_mmwave_ros2_interfaces'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb54ae910>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb544c340>)
+[0.716s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.716s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.716s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.716s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.717s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.717s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.717s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/ws/src'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros) by extension 'ignore'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros) by extension 'ignore_ament_install'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros) by extensions ['colcon_pkg']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros) by extension 'colcon_pkg'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros) by extensions ['colcon_meta']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros) by extension 'colcon_meta'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros) by extensions ['ros']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros) by extension 'ros'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros) by extensions ['cmake', 'python']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros) by extension 'cmake'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros) by extension 'python'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros) by extensions ['python_setup_py']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros) by extension 'python_setup_py'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/CAD) by extensions ['ignore', 'ignore_ament_install']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/CAD) by extension 'ignore'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/CAD) by extension 'ignore_ament_install'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/CAD) by extensions ['colcon_pkg']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/CAD) by extension 'colcon_pkg'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/CAD) by extensions ['colcon_meta']
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/CAD) by extension 'colcon_meta'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/CAD) by extensions ['ros']
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/CAD) by extension 'ros'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/CAD) by extensions ['cmake', 'python']
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/CAD) by extension 'cmake'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/CAD) by extension 'python'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/CAD) by extensions ['python_setup_py']
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/CAD) by extension 'python_setup_py'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/img) by extensions ['ignore', 'ignore_ament_install']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/img) by extension 'ignore'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/img) by extension 'ignore_ament_install'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/img) by extensions ['colcon_pkg']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/img) by extension 'colcon_pkg'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/img) by extensions ['colcon_meta']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/img) by extension 'colcon_meta'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/img) by extensions ['ros']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/img) by extension 'ros'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/img) by extensions ['cmake', 'python']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/img) by extension 'cmake'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/img) by extension 'python'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/img) by extensions ['python_setup_py']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/img) by extension 'python_setup_py'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/serial-ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/serial-ros2) by extension 'ignore'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/serial-ros2) by extension 'ignore_ament_install'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/serial-ros2) by extensions ['colcon_pkg']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/serial-ros2) by extension 'colcon_pkg'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/serial-ros2) by extensions ['colcon_meta']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/serial-ros2) by extension 'colcon_meta'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/serial-ros2) by extensions ['ros']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/serial-ros2) by extension 'ros'
+[0.761s] DEBUG:colcon.colcon_core.package_identification:Package 'mmwave_ti_ros/serial-ros2' with type 'ros.ament_cmake' and name 'serial'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/ti_mmwave_ros2_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/ti_mmwave_ros2_examples) by extension 'ignore'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/ti_mmwave_ros2_examples) by extension 'ignore_ament_install'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/ti_mmwave_ros2_examples) by extensions ['colcon_pkg']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/ti_mmwave_ros2_examples) by extension 'colcon_pkg'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/ti_mmwave_ros2_examples) by extensions ['colcon_meta']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/ti_mmwave_ros2_examples) by extension 'colcon_meta'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/ti_mmwave_ros2_examples) by extensions ['ros']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/ti_mmwave_ros2_examples) by extension 'ros'
+[0.763s] DEBUG:colcon.colcon_core.package_identification:Package 'mmwave_ti_ros/ti_mmwave_ros2_examples' with type 'ros.ament_cmake' and name 'ti_mmwave_ros2_examples'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/ti_mmwave_ros2_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/ti_mmwave_ros2_interfaces) by extension 'ignore'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/ti_mmwave_ros2_interfaces) by extension 'ignore_ament_install'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/ti_mmwave_ros2_interfaces) by extensions ['colcon_pkg']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/ti_mmwave_ros2_interfaces) by extension 'colcon_pkg'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/ti_mmwave_ros2_interfaces) by extensions ['colcon_meta']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/ti_mmwave_ros2_interfaces) by extension 'colcon_meta'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/ti_mmwave_ros2_interfaces) by extensions ['ros']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/ti_mmwave_ros2_interfaces) by extension 'ros'
+[0.766s] DEBUG:colcon.colcon_core.package_identification:Package 'mmwave_ti_ros/ti_mmwave_ros2_interfaces' with type 'ros.ament_cmake' and name 'ti_mmwave_ros2_interfaces'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/ti_mmwave_ros2_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/ti_mmwave_ros2_pkg) by extension 'ignore'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/ti_mmwave_ros2_pkg) by extension 'ignore_ament_install'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/ti_mmwave_ros2_pkg) by extensions ['colcon_pkg']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/ti_mmwave_ros2_pkg) by extension 'colcon_pkg'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/ti_mmwave_ros2_pkg) by extensions ['colcon_meta']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/ti_mmwave_ros2_pkg) by extension 'colcon_meta'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/ti_mmwave_ros2_pkg) by extensions ['ros']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(mmwave_ti_ros/ti_mmwave_ros2_pkg) by extension 'ros'
+[0.768s] DEBUG:colcon.colcon_core.package_identification:Package 'mmwave_ti_ros/ti_mmwave_ros2_pkg' with type 'ros.ament_cmake' and name 'ti_mmwave_ros2_pkg'
+[0.769s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.769s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.769s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.769s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.769s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.825s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'serial' in 'mmwave_ti_ros/serial-ros2'
+[0.825s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ti_mmwave_ros2_examples' in 'mmwave_ti_ros/ti_mmwave_ros2_examples'
+[0.825s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ti_mmwave_ros2_pkg' in 'mmwave_ti_ros/ti_mmwave_ros2_pkg'
+[0.828s] Level 5:colcon.colcon_core.verb:set package 'ti_mmwave_ros2_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.828s] Level 5:colcon.colcon_core.verb:set package 'ti_mmwave_ros2_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.829s] Level 5:colcon.colcon_core.verb:set package 'ti_mmwave_ros2_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.829s] Level 5:colcon.colcon_core.verb:set package 'ti_mmwave_ros2_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.829s] Level 5:colcon.colcon_core.verb:set package 'ti_mmwave_ros2_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.829s] Level 5:colcon.colcon_core.verb:set package 'ti_mmwave_ros2_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.829s] Level 5:colcon.colcon_core.verb:set package 'ti_mmwave_ros2_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.829s] Level 5:colcon.colcon_core.verb:set package 'ti_mmwave_ros2_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.829s] Level 5:colcon.colcon_core.verb:set package 'ti_mmwave_ros2_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.829s] DEBUG:colcon.colcon_core.verb:Building package 'ti_mmwave_ros2_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/ws/src/build/ti_mmwave_ros2_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/ws/src/install/ti_mmwave_ros2_interfaces', 'merge_install': False, 'path': '/ws/src/mmwave_ti_ros/ti_mmwave_ros2_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.832s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.845s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.845s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/ws/src/mmwave_ti_ros/ti_mmwave_ros2_interfaces' with build type 'ament_cmake'
+[0.846s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/ws/src/mmwave_ti_ros/ti_mmwave_ros2_interfaces'
+[0.857s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.857s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.858s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.900s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ws/src/build/ti_mmwave_ros2_interfaces': /usr/local/bin/cmake /ws/src/mmwave_ti_ros/ti_mmwave_ros2_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/src/install/ti_mmwave_ros2_interfaces
+[4.299s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ws/src/build/ti_mmwave_ros2_interfaces' returned '0': /usr/local/bin/cmake /ws/src/mmwave_ti_ros/ti_mmwave_ros2_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/src/install/ti_mmwave_ros2_interfaces
+[4.306s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ws/src/build/ti_mmwave_ros2_interfaces': /usr/local/bin/cmake --build /ws/src/build/ti_mmwave_ros2_interfaces -- -j6 -l6
+[9.935s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ws/src/build/ti_mmwave_ros2_interfaces' returned '0': /usr/local/bin/cmake --build /ws/src/build/ti_mmwave_ros2_interfaces -- -j6 -l6
+[10.217s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ws/src/build/ti_mmwave_ros2_interfaces': /usr/local/bin/cmake --install /ws/src/build/ti_mmwave_ros2_interfaces
+[10.843s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ti_mmwave_ros2_interfaces)
+[10.848s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ws/src/build/ti_mmwave_ros2_interfaces' returned '0': /usr/local/bin/cmake --install /ws/src/build/ti_mmwave_ros2_interfaces
+[10.863s] Level 1:colcon.colcon_core.environment:checking '/ws/src/install/ti_mmwave_ros2_interfaces' for CMake module files
+[10.865s] Level 1:colcon.colcon_core.environment:checking '/ws/src/install/ti_mmwave_ros2_interfaces' for CMake config files
+[10.866s] Level 1:colcon.colcon_core.shell:create_environment_hook('ti_mmwave_ros2_interfaces', 'cmake_prefix_path')
+[10.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/hook/cmake_prefix_path.ps1'
+[10.876s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/hook/cmake_prefix_path.dsv'
+[10.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/hook/cmake_prefix_path.sh'
+[10.879s] Level 1:colcon.colcon_core.environment:checking '/ws/src/install/ti_mmwave_ros2_interfaces/lib'
+[10.879s] Level 1:colcon.colcon_core.shell:create_environment_hook('ti_mmwave_ros2_interfaces', 'ld_library_path_lib')
+[10.885s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/hook/ld_library_path_lib.ps1'
+[10.887s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/hook/ld_library_path_lib.dsv'
+[10.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/hook/ld_library_path_lib.sh'
+[10.889s] Level 1:colcon.colcon_core.environment:checking '/ws/src/install/ti_mmwave_ros2_interfaces/bin'
+[10.889s] Level 1:colcon.colcon_core.environment:checking '/ws/src/install/ti_mmwave_ros2_interfaces/lib/pkgconfig/ti_mmwave_ros2_interfaces.pc'
+[10.892s] Level 1:colcon.colcon_core.environment:checking '/ws/src/install/ti_mmwave_ros2_interfaces/lib/python3.8/site-packages'
+[10.892s] Level 1:colcon.colcon_core.shell:create_environment_hook('ti_mmwave_ros2_interfaces', 'pythonpath')
+[10.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/hook/pythonpath.ps1'
+[10.899s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/hook/pythonpath.dsv'
+[10.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/hook/pythonpath.sh'
+[10.901s] Level 1:colcon.colcon_core.environment:checking '/ws/src/install/ti_mmwave_ros2_interfaces/bin'
+[10.907s] INFO:colcon.colcon_core.shell:Creating package script '/ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/package.ps1'
+[10.909s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/package.dsv'
+[10.910s] INFO:colcon.colcon_core.shell:Creating package script '/ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/package.sh'
+[10.912s] INFO:colcon.colcon_core.shell:Creating package script '/ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/package.bash'
+[10.913s] INFO:colcon.colcon_core.shell:Creating package script '/ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/package.zsh'
+[10.915s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ws/src/install/ti_mmwave_ros2_interfaces/share/colcon-core/packages/ti_mmwave_ros2_interfaces)
+[11.136s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ti_mmwave_ros2_interfaces)
+[11.147s] Level 1:colcon.colcon_core.environment:checking '/ws/src/install/ti_mmwave_ros2_interfaces' for CMake module files
+[11.149s] Level 1:colcon.colcon_core.environment:checking '/ws/src/install/ti_mmwave_ros2_interfaces' for CMake config files
+[11.151s] Level 1:colcon.colcon_core.shell:create_environment_hook('ti_mmwave_ros2_interfaces', 'cmake_prefix_path')
+[11.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/hook/cmake_prefix_path.ps1'
+[11.160s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/hook/cmake_prefix_path.dsv'
+[11.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/hook/cmake_prefix_path.sh'
+[11.163s] Level 1:colcon.colcon_core.environment:checking '/ws/src/install/ti_mmwave_ros2_interfaces/lib'
+[11.163s] Level 1:colcon.colcon_core.shell:create_environment_hook('ti_mmwave_ros2_interfaces', 'ld_library_path_lib')
+[11.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/hook/ld_library_path_lib.ps1'
+[11.171s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/hook/ld_library_path_lib.dsv'
+[11.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/hook/ld_library_path_lib.sh'
+[11.174s] Level 1:colcon.colcon_core.environment:checking '/ws/src/install/ti_mmwave_ros2_interfaces/bin'
+[11.174s] Level 1:colcon.colcon_core.environment:checking '/ws/src/install/ti_mmwave_ros2_interfaces/lib/pkgconfig/ti_mmwave_ros2_interfaces.pc'
+[11.174s] Level 1:colcon.colcon_core.environment:checking '/ws/src/install/ti_mmwave_ros2_interfaces/lib/python3.8/site-packages'
+[11.175s] Level 1:colcon.colcon_core.shell:create_environment_hook('ti_mmwave_ros2_interfaces', 'pythonpath')
+[11.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/hook/pythonpath.ps1'
+[11.182s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/hook/pythonpath.dsv'
+[11.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/hook/pythonpath.sh'
+[11.185s] Level 1:colcon.colcon_core.environment:checking '/ws/src/install/ti_mmwave_ros2_interfaces/bin'
+[11.192s] INFO:colcon.colcon_core.shell:Creating package script '/ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/package.ps1'
+[11.194s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/package.dsv'
+[11.196s] INFO:colcon.colcon_core.shell:Creating package script '/ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/package.sh'
+[11.197s] INFO:colcon.colcon_core.shell:Creating package script '/ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/package.bash'
+[11.198s] INFO:colcon.colcon_core.shell:Creating package script '/ws/src/install/ti_mmwave_ros2_interfaces/share/ti_mmwave_ros2_interfaces/package.zsh'
+[11.199s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ws/src/install/ti_mmwave_ros2_interfaces/share/colcon-core/packages/ti_mmwave_ros2_interfaces)
+[11.200s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.201s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.201s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.202s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.214s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[11.214s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.215s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.215s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.230s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[11.231s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.238s] INFO:colcon.colcon_core.shell:Creating prefix script '/ws/src/install/local_setup.ps1'
+[11.241s] INFO:colcon.colcon_core.shell:Creating prefix util module '/ws/src/install/_local_setup_util_ps1.py'
+[11.243s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ws/src/install/setup.ps1'
+[11.247s] INFO:colcon.colcon_core.shell:Creating prefix script '/ws/src/install/local_setup.sh'
+[11.248s] INFO:colcon.colcon_core.shell:Creating prefix util module '/ws/src/install/_local_setup_util_sh.py'
+[11.249s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ws/src/install/setup.sh'
+[11.253s] INFO:colcon.colcon_core.shell:Creating prefix script '/ws/src/install/local_setup.bash'
+[11.254s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ws/src/install/setup.bash'
+[11.257s] INFO:colcon.colcon_core.shell:Creating prefix script '/ws/src/install/local_setup.zsh'
+[11.258s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ws/src/install/setup.zsh'

@@ -1,0 +1,94 @@
+[0.127s] Invoking command in '/ws/src/build/ti_mmwave_ros2_examples': /usr/local/bin/cmake /ws/src/mmwave_ti_ros/ti_mmwave_ros2_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/src/install/ti_mmwave_ros2_examples
+[0.352s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/install/share/ament_cmake/cmake)
+[0.363s] [33mCMake Warning (dev) at /opt/ros/galactic/install/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.363s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.364s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.364s]   the cmake_policy command to set the policy and suppress this warning.
+[0.364s] 
+[0.364s] Call Stack (most recent call first):
+[0.365s]   /opt/ros/galactic/install/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.365s]   /opt/ros/galactic/install/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.365s]   /opt/ros/galactic/install/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.365s]   /opt/ros/galactic/install/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.365s]   /opt/ros/galactic/install/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.365s]   CMakeLists.txt:19 (find_package)
+[0.366s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.366s] [0m
+[0.518s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.763s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.847s] -- Found laser_geometry: 2.2.1 (/opt/ros/galactic/install/share/laser_geometry/cmake)
+[0.871s] -- Found message_filters: 3.2.6 (/opt/ros/galactic/install/share/message_filters/cmake)
+[1.187s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.213s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/install/share/rosidl_adapter/cmake)
+[2.035s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.557s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/install/share/rmw_implementation_cmake/cmake)
+[2.591s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/install/share/rmw_cyclonedds_cpp/cmake)
+[2.679s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.443s] -- Found rclcpp_components: 9.2.2 (/opt/ros/galactic/install/share/rclcpp_components/cmake)
+[3.695s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/install/share/sensor_msgs/cmake)
+[4.172s] -- Found tf2: 0.17.5 (/opt/ros/galactic/install/share/tf2/cmake)
+[4.223s] -- Found tf2_ros: 0.17.5 (/opt/ros/galactic/install/share/tf2_ros/cmake)
+[5.367s] -- Found tf2_sensor_msgs: 0.17.5 (/opt/ros/galactic/install/share/tf2_sensor_msgs/cmake)
+[5.532s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/install/share/ament_lint_auto/cmake)
+[5.862s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.883s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.883s] -- Configured cppcheck include dirs: /ws/src/mmwave_ti_ros/ti_mmwave_ros2_examples/include
+[5.884s] -- Configured cppcheck exclude dirs and/or files: 
+[5.890s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.890s] -- Configured cpplint exclude dirs and/or files: 
+[5.892s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.894s] -- Added test 'lint_cmake' to check CMake code style
+[5.895s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[5.907s] -- Added test 'uncrustify' to check C / C++ code style
+[5.908s] -- Configured uncrustify additional arguments: 
+[5.908s] -- Added test 'xmllint' to check XML markup files
+[5.930s] -- Configuring done (5.6s)
+[6.065s] -- Generating done (0.1s)
+[6.082s] -- Build files have been written to: /ws/src/build/ti_mmwave_ros2_examples
+[6.150s] Invoked command in '/ws/src/build/ti_mmwave_ros2_examples' returned '0': /usr/local/bin/cmake /ws/src/mmwave_ti_ros/ti_mmwave_ros2_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/src/install/ti_mmwave_ros2_examples
+[6.152s] Invoking command in '/ws/src/build/ti_mmwave_ros2_examples': /usr/local/bin/cmake --build /ws/src/build/ti_mmwave_ros2_examples -- -j4 -l4
+[6.440s] [ 33%] Built target pointcloud_to_laserscan
+[6.511s] [ 66%] Built target dummy_pointcloud_publisher
+[6.612s] [100%] Built target pointcloud_to_laserscan_node
+[6.658s] Invoked command in '/ws/src/build/ti_mmwave_ros2_examples' returned '0': /usr/local/bin/cmake --build /ws/src/build/ti_mmwave_ros2_examples -- -j4 -l4
+[6.996s] Invoking command in '/ws/src/build/ti_mmwave_ros2_examples': /usr/local/bin/cmake --install /ws/src/build/ti_mmwave_ros2_examples
+[7.137s] -- Install configuration: ""
+[7.139s] -- Execute custom install script
+[7.149s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/lib/ti_mmwave_ros2_examples/pointcloud_to_laserscan_node
+[7.149s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/lib/libpointcloud_to_laserscan.so
+[7.150s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/lib/ti_mmwave_ros2_examples/dummy_pointcloud_publisher
+[7.150s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/launch/bringup_launch.py
+[7.150s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/launch/fake_nav_launch.py
+[7.162s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/launch/lidar_nav.launch.py
+[7.163s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/launch/localization_launch.py
+[7.163s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/launch/navigation_launch.py
+[7.163s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/launch/pointcloud_to_laserscan.launch.py
+[7.163s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/launch/rviz_view_launch.py
+[7.164s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/param/go1_params.yaml
+[7.164s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/param/navigate_w_replanning_and_recovery.xml
+[7.164s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/param/neuronbot_params.yaml
+[7.164s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/rviz/laser_scan.rviz
+[7.165s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/rviz/nav2.rviz
+[7.165s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/rviz/nav2_default_view.rviz
+[7.165s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/rviz/nav2_namespaced_view.rviz
+[7.165s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/map/hy_map_editted.pgm
+[7.165s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/map/hy_map_editted.yaml
+[7.166s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/map/mememan.pgm
+[7.166s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/map/mememan.yaml
+[7.166s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ament_index/resource_index/package_run_dependencies/ti_mmwave_ros2_examples
+[7.166s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ament_index/resource_index/parent_prefix_path/ti_mmwave_ros2_examples
+[7.167s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/environment/ament_prefix_path.sh
+[7.167s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/environment/ament_prefix_path.dsv
+[7.167s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/environment/path.sh
+[7.167s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/environment/path.dsv
+[7.167s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/local_setup.bash
+[7.168s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/local_setup.sh
+[7.168s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/local_setup.zsh
+[7.168s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/local_setup.dsv
+[7.168s] -- Symlinking: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/package.dsv
+[7.174s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ament_index/resource_index/packages/ti_mmwave_ros2_examples
+[7.174s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ament_index/resource_index/rclcpp_components/ti_mmwave_ros2_examples
+[7.183s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/cmake/ti_mmwave_ros2_examplesConfig.cmake
+[7.183s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/cmake/ti_mmwave_ros2_examplesConfig-version.cmake
+[7.183s] -- Up-to-date symlink: /ws/src/install/ti_mmwave_ros2_examples/share/ti_mmwave_ros2_examples/package.xml
+[7.217s] Invoked command in '/ws/src/build/ti_mmwave_ros2_examples' returned '0': /usr/local/bin/cmake --install /ws/src/build/ti_mmwave_ros2_examples

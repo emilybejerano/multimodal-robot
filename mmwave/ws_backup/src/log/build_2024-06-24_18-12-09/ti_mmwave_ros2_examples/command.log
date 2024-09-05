@@ -1,0 +1,6 @@
+Invoking command in '/ws/src/build/ti_mmwave_ros2_examples': /usr/local/bin/cmake /ws/src/mmwave_ti_ros/ti_mmwave_ros2_examples -DCMAKE_INSTALL_PREFIX=/ws/src/install/ti_mmwave_ros2_examples
+Invoked command in '/ws/src/build/ti_mmwave_ros2_examples' returned '0': /usr/local/bin/cmake /ws/src/mmwave_ti_ros/ti_mmwave_ros2_examples -DCMAKE_INSTALL_PREFIX=/ws/src/install/ti_mmwave_ros2_examples
+Invoking command in '/ws/src/build/ti_mmwave_ros2_examples': /usr/local/bin/cmake --build /ws/src/build/ti_mmwave_ros2_examples -- -j6 -l6
+Invoked command in '/ws/src/build/ti_mmwave_ros2_examples' returned '0': /usr/local/bin/cmake --build /ws/src/build/ti_mmwave_ros2_examples -- -j6 -l6
+Invoking command in '/ws/src/build/ti_mmwave_ros2_examples': /usr/local/bin/cmake --install /ws/src/build/ti_mmwave_ros2_examples
+Invoked command in '/ws/src/build/ti_mmwave_ros2_examples' returned '0': /usr/local/bin/cmake --install /ws/src/build/ti_mmwave_ros2_examples

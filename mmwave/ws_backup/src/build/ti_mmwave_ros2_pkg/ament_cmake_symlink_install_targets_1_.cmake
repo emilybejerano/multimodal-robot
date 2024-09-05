@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/ws/src/build/ti_mmwave_ros2_pkg/ti_mmwave_ros2_pkg" "/ws/src/build/ti_mmwave_ros2_pkg/mmWaveQuickConfig" "/ws/src/build/ti_mmwave_ros2_pkg/mmwave_comm_srv_node" "TARGETS" "ti_mmwave_ros2_pkg" "mmWaveQuickConfig" "mmwave_comm_srv_node" "DESTINATION" "lib/ti_mmwave_ros2_pkg")

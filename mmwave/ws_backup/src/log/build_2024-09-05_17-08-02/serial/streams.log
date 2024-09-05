@@ -1,0 +1,51 @@
+[0.117s] Invoking command in '/ws/src/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/local/bin/cmake /ws/src/mmwave_ti_ros/serial-ros2 -DCMAKE_INSTALL_PREFIX=/ws/src/install/serial
+[0.283s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/install/share/ament_cmake/cmake)
+[0.293s] [33mCMake Warning (dev) at /opt/ros/galactic/install/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.294s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.294s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.295s]   the cmake_policy command to set the policy and suppress this warning.
+[0.295s] 
+[0.295s] Call Stack (most recent call first):
+[0.295s]   /opt/ros/galactic/install/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.295s]   /opt/ros/galactic/install/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.296s]   /opt/ros/galactic/install/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.296s]   /opt/ros/galactic/install/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.296s]   /opt/ros/galactic/install/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.296s]   CMakeLists.txt:6 (find_package)
+[0.296s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.297s] [0m
+[0.368s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.595s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.918s] -- Configuring done (0.7s)
+[0.960s] -- Generating done (0.0s)
+[0.965s] -- Build files have been written to: /ws/src/build/serial
+[0.986s] Invoked command in '/ws/src/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/local/bin/cmake /ws/src/mmwave_ti_ros/serial-ros2 -DCMAKE_INSTALL_PREFIX=/ws/src/install/serial
+[0.995s] Invoking command in '/ws/src/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/local/bin/cmake --build /ws/src/build/serial -- -j4 -l4
+[1.209s] [100%] Built target serial
+[1.237s] Invoked command in '/ws/src/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/local/bin/cmake --build /ws/src/build/serial -- -j4 -l4
+[1.607s] Invoking command in '/ws/src/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/local/bin/cmake --install /ws/src/build/serial
+[1.714s] -- Install configuration: ""
+[1.715s] -- Execute custom install script
+[1.717s] -- Symlinking: /ws/src/install/serial/share/serial/environment/library_path.sh
+[1.729s] -- Up-to-date symlink: /ws/src/install/serial/share/serial/environment/library_path.dsv
+[1.730s] -- Up-to-date symlink: /ws/src/install/serial/lib/libserial.a
+[1.731s] -- Up-to-date symlink: /ws/src/install/serial/include/serial/serial.h
+[1.731s] -- Up-to-date symlink: /ws/src/install/serial/include/serial/v8stdint.h
+[1.732s] -- Up-to-date symlink: /ws/src/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[1.734s] -- Up-to-date symlink: /ws/src/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[1.736s] -- Up-to-date symlink: /ws/src/install/serial/share/serial/environment/ament_prefix_path.sh
+[1.736s] -- Up-to-date symlink: /ws/src/install/serial/share/serial/environment/ament_prefix_path.dsv
+[1.738s] -- Up-to-date symlink: /ws/src/install/serial/share/serial/environment/path.sh
+[1.738s] -- Up-to-date symlink: /ws/src/install/serial/share/serial/environment/path.dsv
+[1.740s] -- Up-to-date symlink: /ws/src/install/serial/share/serial/local_setup.bash
+[1.741s] -- Up-to-date symlink: /ws/src/install/serial/share/serial/local_setup.sh
+[1.742s] -- Up-to-date symlink: /ws/src/install/serial/share/serial/local_setup.zsh
+[1.742s] -- Up-to-date symlink: /ws/src/install/serial/share/serial/local_setup.dsv
+[1.743s] -- Symlinking: /ws/src/install/serial/share/serial/package.dsv
+[1.758s] -- Up-to-date symlink: /ws/src/install/serial/share/ament_index/resource_index/packages/serial
+[1.760s] -- Up-to-date symlink: /ws/src/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.761s] -- Up-to-date symlink: /ws/src/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[1.762s] -- Up-to-date symlink: /ws/src/install/serial/share/serial/cmake/serialConfig.cmake
+[1.762s] -- Up-to-date symlink: /ws/src/install/serial/share/serial/cmake/serialConfig-version.cmake
+[1.763s] -- Up-to-date symlink: /ws/src/install/serial/share/serial/package.xml
+[1.782s] Invoked command in '/ws/src/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/local/bin/cmake --install /ws/src/build/serial
